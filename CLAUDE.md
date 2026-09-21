@@ -205,11 +205,23 @@ renumbering after an insert changes URLs. Prefer appending.
 
 ## Deploy
 
-Cloudflare Pages, same as site-the-filter. Repo is
-`github.com/kayembahamid/site-books`, branch `main`.
+Cloudflare Pages, the same as every other Hamcodes site. Repo is
+`github.com/kayembahamid/site-books`, branch `main`, Pages project
+`books-hamcodes`.
 
-Project settings: no build command, output directory `/`, production branch
-`main`. Every push to `main` redeploys.
+Two ways to publish, matching the rest of the family:
+
+    ./deploy.sh          # direct upload, goes live in about a minute
+
+or connect the repo in the Cloudflare dashboard for push-to-deploy. Project
+settings: no build command, output directory `/`, production branch `main`.
+
+`deploy.sh` is the same script netizen, hacker and higarten use, with the
+project name changed. The first run opens a browser to log into Cloudflare.
+
+The naming convention across the family is `<subdomain>-hamcodes` for the
+Pages project: netizen-hamcodes, hacker-hamcodes, higarten-hamcodes, and now
+books-hamcodes.
 
 `_headers` carries the security headers and the cache rules. `_redirects`
 carries the one legacy route. Both are Cloudflare Pages files and are ignored
