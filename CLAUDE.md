@@ -189,6 +189,25 @@ renumbering after an insert changes URLs. Prefer appending.
 5. On netizen: strip everything that now lives here, and point its
    "Books ↗" link at this site. That is Prompt 2 in the split spec.
 
+## Deploy
+
+Cloudflare Pages, same as site-the-filter. Repo is
+`github.com/kayembahamid/site-books`, branch `main`.
+
+Project settings: no build command, output directory `/`, production branch
+`main`. Every push to `main` redeploys.
+
+`_headers` carries the security headers and the cache rules. `_redirects`
+carries the one legacy route. Both are Cloudflare Pages files and are ignored
+by the local `python3 -m http.server` preview.
+
+One Pages behaviour to know: it serves `foo.html` at both `/foo` and
+`/foo.html`, and redirects the `.html` form to the extensionless one. Internal
+links here are written with `.html`, so each takes one extra hop. Dropping the
+extensions would break the local preview server, which does not do
+extensionless routing, so the hop was left in. If it ever matters, change the
+links and preview with a server that resolves extensionless paths.
+
 ## Accessibility note: the red
 
 Two constraints in the split spec pull against each other. The palette is
