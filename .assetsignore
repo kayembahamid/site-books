@@ -1,0 +1,6 @@
+# Cloudflare Pages: everything listed here stays out of the deployment.
+# The build tooling and the notes on the repo are for the repo, not the site.
+scripts
+CLAUDE.md
+deploy.sh
+.assetsignore

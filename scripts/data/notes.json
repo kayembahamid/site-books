@@ -1,0 +1,4190 @@
+[
+ {
+  "n": 1,
+  "part": "Introduction",
+  "title": "Ham, Can I Ask You Something?",
+  "kicker": "",
+  "words": 261,
+  "blocks": [
+   {
+    "t": "h",
+    "x": "Why This Book Exists"
+   },
+   {
+    "t": "p",
+    "x": "I didn't set out to write a book about life. It never crossed my mind."
+   },
+   {
+    "t": "p",
+    "x": "People who know me know I talk more easily about technology. Security. Programming. Systems. Projects. That's the stuff I can hand over without thinking about it."
+   },
+   {
+    "t": "p",
+    "x": "Life is different. I only talk about life when someone closes the door and asks."
+   },
+   {
+    "t": "p",
+    "x": "That's how this started. Conversations after class, in hallways, beside my desk, on the stairs. Messages from students years after they'd graduated."
+   },
+   {
+    "t": "p",
+    "x": "One question turned into another, and slowly I noticed the same ones kept coming back."
+   },
+   {
+    "t": "p",
+    "x": "\"Ham, I'm stuck.\""
+   },
+   {
+    "t": "p",
+    "x": "\"I don't know what to do.\""
+   },
+   {
+    "t": "p",
+    "x": "\"I'm working, but I'm still broke.\""
+   },
+   {
+    "t": "p",
+    "x": "\"I chose this path, but I don't know if it's right.\""
+   },
+   {
+    "t": "p",
+    "x": "\"Ham, I'm lost.\""
+   },
+   {
+    "t": "p",
+    "x": "I never had perfect answers. Most of the time I was still working it out myself. But I listened, and I told them what I'd seen. What I'd got wrong. What I wish someone had explained to me earlier."
+   },
+   {
+    "t": "p",
+    "x": "That's all this is. Some of the stories are mine. Some came from students. Some came from failing at something. A few only made sense years afterwards."
+   },
+   {
+    "t": "p",
+    "x": "If it saves you one bad decision, one wasted year, or one regret you didn't need to carry, it was worth writing."
+   },
+   {
+    "t": "p",
+    "x": "And maybe one day my son or daughter will find these pages. Maybe by then I won't be around to explain any of it myself. But the pages can stay."
+   },
+   {
+    "t": "p",
+    "x": "So if you're lost right now. Confused. Or just sitting there wondering what comes next."
+   },
+   {
+    "t": "p",
+    "x": "Pull up a chair."
+   },
+   {
+    "t": "p",
+    "x": "Let's talk."
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "part": "Introduction",
+  "title": "Read in Your Preferred language",
+  "kicker": "",
+  "words": 97,
+  "blocks": [
+   {
+    "t": "h",
+    "x": "Read This Book In The Language You Understand Best"
+   },
+   {
+    "t": "p",
+    "x": "Before you start reading, As you opened the link in your browser."
+   },
+   {
+    "t": "p",
+    "x": "If English is not the language you understand best, use the browser translation tool."
+   },
+   {
+    "t": "p",
+    "x": "The goal is not to struggle through English."
+   },
+   {
+    "t": "p",
+    "x": "The goal is to understand the lessons."
+   },
+   {
+    "t": "h2",
+    "x": "iPhone"
+   },
+   {
+    "t": "p",
+    "x": "Open the Book link in Safari."
+   },
+   {
+    "t": "p",
+    "x": "Tap the **aA** button in the address bar."
+   },
+   {
+    "t": "p",
+    "x": "Tap Translate Website."
+   },
+   {
+    "t": "p",
+    "x": "Choose the language you understand best."
+   },
+   {
+    "t": "h2",
+    "x": "Android"
+   },
+   {
+    "t": "p",
+    "x": "Open the Book link in Chrome."
+   },
+   {
+    "t": "p",
+    "x": "Tap the three dots ... in the top-right corner."
+   },
+   {
+    "t": "p",
+    "x": "Tap Translate."
+   },
+   {
+    "t": "p",
+    "x": "Choose the language you understand best."
+   },
+   {
+    "t": "p",
+    "x": "Read this book in the language that reaches you clearly."
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "part": "Introduction",
+  "title": "Table of Contents",
+  "kicker": "",
+  "words": 99,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Keep This Book With You\n\nWhy This Book Exists"
+   },
+   {
+    "t": "h",
+    "x": "PART 1"
+   },
+   {
+    "t": "h",
+    "x": "Start With Yourself"
+   },
+   {
+    "t": "p",
+    "x": "Chapter 1\n\nYou Don’t Need To Know Everything Yet"
+   },
+   {
+    "t": "p",
+    "x": "Chapter 2\n\nPick A Direction, Not A Lifetime"
+   },
+   {
+    "t": "p",
+    "x": "Chapter 3\n\nKeep Learning After School Ends"
+   },
+   {
+    "t": "h",
+    "x": "PART 2"
+   },
+   {
+    "t": "h",
+    "x": "Find Your Way Into The Real World"
+   },
+   {
+    "t": "p",
+    "x": "Chapter 4\n\nPut Yourself Where Opportunity Can See You"
+   },
+   {
+    "t": "p",
+    "x": "Chapter 5\n\nYour First Job Will Probably Suck"
+   },
+   {
+    "t": "p",
+    "x": "Chapter 6\n\nThe Problems Never Stops, They Change"
+   },
+   {
+    "t": "h",
+    "x": "PART 3"
+   },
+   {
+    "t": "h",
+    "x": "Learn What Money Is Really Doing"
+   },
+   {
+    "t": "p",
+    "x": "Chapter 7\n\nWhere Did My Money Go?"
+   },
+   {
+    "t": "p",
+    "x": "Chapter 8\n\nPeople Pay To Make Problems Go Away"
+   },
+   {
+    "t": "h",
+    "x": "PART 4"
+   },
+   {
+    "t": "h",
+    "x": "Learn How To Deal With People"
+   },
+   {
+    "t": "p",
+    "x": "Chapter 9\n\nPeople Want To Feel Heard"
+   },
+   {
+    "t": "p",
+    "x": "Chapter 10\n\nLove Is Not A Life Plan"
+   },
+   {
+    "t": "h",
+    "x": "PART 5"
+   },
+   {
+    "t": "h",
+    "x": "Become Someone You Respect"
+   },
+   {
+    "t": "p",
+    "x": "Who Are You Becoming?"
+   },
+   {
+    "t": "p",
+    "x": "Character is what remains&#x20;"
+   },
+   {
+    "t": "p",
+    "x": "Final Letter<br>"
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "part": "Start With Yourself",
+  "title": "You Don't Need To Know Everything Yet",
+  "kicker": "Direction (Goal Setting)",
+  "words": 264,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"Ham, can I ask you something?\""
+   },
+   {
+    "t": "p",
+    "x": "I'm at my desk trying to finish my lesson notes so I can finally get to lunch. Everyone else has gone. He's still standing there."
+   },
+   {
+    "t": "p",
+    "x": "\"Sure.\""
+   },
+   {
+    "t": "p",
+    "x": "He pulls up a chair. Then he asks the question I've heard a hundred times."
+   },
+   {
+    "t": "p",
+    "x": "\"Ham, what am I supposed to do after school?\""
+   },
+   {
+    "t": "p",
+    "x": "At first I think he means graduation. University. A job."
+   },
+   {
+    "t": "p",
+    "x": "But the longer we talk, the more I realize he isn't asking about school at all."
+   },
+   {
+    "t": "p",
+    "x": "He's asking about life."
+   },
+   {
+    "t": "p",
+    "x": "What should I do? What if I choose wrong? What if everyone else works it out before me?"
+   },
+   {
+    "t": "p",
+    "x": "Some students ask it straight. Others bury it inside a different question. Underneath it's the same fear every time."
+   },
+   {
+    "t": "p",
+    "x": "And school doesn't prepare anyone for it. School teaches you to pass tests, write essays, solve equations. No one sits you down and explains how to build a life."
+   },
+   {
+    "t": "p",
+    "x": "You get: \"Work hard.\" \"Get good grades.\" \"Be successful.\""
+   },
+   {
+    "t": "p",
+    "x": "Successful according to who? Your parents? Your friends? The person online making their life look perfect?"
+   },
+   {
+    "t": "p",
+    "x": "You can spend years chasing somebody else's version of success and only notice at the end that you're living a life you never chose."
+   },
+   {
+    "t": "p",
+    "x": "So direction matters. Not a perfect plan, there isn't one. Just knowing roughly what kind of person you're trying to become."
+   },
+   {
+    "t": "p",
+    "x": "I'm not going to tell you what to do. I can't. No one can."
+   },
+   {
+    "t": "p",
+    "x": "You don't need to know everything yet. You just need to start paying attention to where you're pointed."
+   },
+   {
+    "t": "p",
+    "x": "And trust me. Almost no one has it figured out."
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "part": "Start With Yourself",
+  "title": "Find The Next Step",
+  "kicker": "Identifying Goals",
+  "words": 107,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "A big goal feels like standing at the bottom of a staircase you can't see the top of."
+   },
+   {
+    "t": "p",
+    "x": "You look up and take it all in at once. The skills. The job. The money. The competition. The years."
+   },
+   {
+    "t": "p",
+    "x": "And you're tired before you've started."
+   },
+   {
+    "t": "p",
+    "x": "That's not laziness. That's trying to carry the whole future in your head at the same time."
+   },
+   {
+    "t": "p",
+    "x": "But you don't climb a staircase by staring at the top."
+   },
+   {
+    "t": "p",
+    "x": "You climb it by finding the next step."
+   },
+   {
+    "t": "p",
+    "x": "One tutorial. One chapter. One hour of practice. One honest attempt."
+   },
+   {
+    "t": "p",
+    "x": "That's where direction begins. Not by knowing everything. By taking the step in front of you."
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "part": "Start With Yourself",
+  "title": "You Can't Carry Everything At Once",
+  "kicker": "(Based on Setting Priorities)",
+  "words": 115,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Become fluent in English. Learn coding. Go to the gym. Get top grades. See friends more. Sleep eight hours. Start an online business."
+   },
+   {
+    "t": "p",
+    "x": "That's the plan a student hands me one afternoon. All of it. In one week."
+   },
+   {
+    "t": "p",
+    "x": "I laugh, because I've written that exact list for myself before."
+   },
+   {
+    "t": "p",
+    "x": "He doesn't have a time problem. He has a priority problem."
+   },
+   {
+    "t": "p",
+    "x": "Some goals are for now. Some are for later. Some can wait a year and lose nothing."
+   },
+   {
+    "t": "p",
+    "x": "So I ask him one question."
+   },
+   {
+    "t": "p",
+    "x": "\"What's the one thing you absolutely have to get done today?\""
+   },
+   {
+    "t": "p",
+    "x": "Not ten things. One. Start there, then worry about tomorrow."
+   },
+   {
+    "t": "p",
+    "x": "He didn't need a better plan. He needed a shorter one."
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "part": "Start With Yourself",
+  "title": "Don't Let One Obstacle Become The Whole Story",
+  "kicker": "Resources",
+  "words": 202,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"I can't afford it.\""
+   },
+   {
+    "t": "p",
+    "x": "That sentence has ended more dreams than it should have."
+   },
+   {
+    "t": "p",
+    "x": "Money is a real problem. I'm not pretending otherwise. But we reach for that sentence early. Before looking for anything free. Before asking anyone. Before checking whether the thing is actually blocked or just expensive on the first route we found."
+   },
+   {
+    "t": "p",
+    "x": "A student told me that after trying to learn cybersecurity. He'd found some paid courses, couldn't afford them, stopped."
+   },
+   {
+    "t": "p",
+    "x": "That was it. Not because cybersecurity was out of reach. Because the first door he tried had a price on it."
+   },
+   {
+    "t": "p",
+    "x": "No free resources. No PDF books. No communities. He never asked anyone."
+   },
+   {
+    "t": "p",
+    "x": "Just: \"I can't afford it.\""
+   },
+   {
+    "t": "p",
+    "x": "So he quit."
+   },
+   {
+    "t": "p",
+    "x": "You hit one obstacle and start treating it like the end of the road. Usually it isn't. You just stopped looking."
+   },
+   {
+    "t": "p",
+    "x": "And the fastest way past most obstacles is asking."
+   },
+   {
+    "t": "p",
+    "x": "No one figures it out alone. I certainly didn't. Most of what I know came from other people. Teachers. Books. Mentors. Friends. People online I've never met."
+   },
+   {
+    "t": "p",
+    "x": "Ask when you're confused. Ask when you're stuck. Ask when you don't know where to start."
+   },
+   {
+    "t": "p",
+    "x": "You'll stay stuck far longer than you need to if you stop asking."
+   },
+   {
+    "t": "p",
+    "x": "Don't."
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "part": "Start With Yourself",
+  "title": "Confidence Is Not Loud",
+  "kicker": "Confidence",
+  "words": 246,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "For a long time I confused confidence with volume."
+   },
+   {
+    "t": "p",
+    "x": "Loud voice, so they must be sure of themselves. An answer for everything, so they must be ready. Never admits doubt, so they must be strong."
+   },
+   {
+    "t": "p",
+    "x": "Work took that apart slowly."
+   },
+   {
+    "t": "p",
+    "x": "I started meeting people I actually respected. Experienced teachers. Business owners. Managers."
+   },
+   {
+    "t": "p",
+    "x": "Most of them were quiet. They listened more than they talked. They didn't need the room's attention. They didn't need to prove anything to anyone."
+   },
+   {
+    "t": "p",
+    "x": "Sometimes confidence is just being able to say:"
+   },
+   {
+    "t": "p",
+    "x": "\"I don't know.\""
+   },
+   {
+    "t": "p",
+    "x": "\"I was wrong.\""
+   },
+   {
+    "t": "p",
+    "x": "\"I need help.\""
+   },
+   {
+    "t": "p",
+    "x": "\"I disagree.\""
+   },
+   {
+    "t": "p",
+    "x": "And still be fine with who you are."
+   },
+   {
+    "t": "p",
+    "x": "A student told me once: \"Ham, I wish somebody would just tell me what to do.\""
+   },
+   {
+    "t": "p",
+    "x": "I've felt that. Life would be easier if someone handed you a map."
+   },
+   {
+    "t": "p",
+    "x": "But eventually the decisions are yours. Not perfectly. Just consistently. One choice, one step, one day at a time. That's how confidence actually grows."
+   },
+   {
+    "t": "p",
+    "x": "Before you turn the page, three questions. Not for me. For you."
+   },
+   {
+    "t": "p",
+    "x": "What's one goal you want to work toward this year?"
+   },
+   {
+    "t": "p",
+    "x": "What's one step you could take this week?"
+   },
+   {
+    "t": "p",
+    "x": "Who could help you move?"
+   },
+   {
+    "t": "p",
+    "x": "Then do one thing. Not ten. One."
+   },
+   {
+    "t": "p",
+    "x": "It's easy to spend your early twenties reacting to life instead of choosing a direction. But if you can stop long enough to pick one, you give yourself a better chance."
+   },
+   {
+    "t": "p",
+    "x": "Not a perfect life. Not a guaranteed one. But a life you're actually helping to build."
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "part": "Start With Yourself",
+  "title": "Pick A Direction, Not A Lifetime",
+  "kicker": "Decisions : (Education, career paths, university, trade school)",
+  "words": 205,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"Ham, what if I pick the wrong path?\""
+   },
+   {
+    "t": "p",
+    "x": "He asks me that at the gym one evening. We've been talking about training, school, what he wants to do next."
+   },
+   {
+    "t": "p",
+    "x": "But the question isn't about university."
+   },
+   {
+    "t": "p",
+    "x": "It's about life. Career. Direction. The fear that one wrong turn ruins everything."
+   },
+   {
+    "t": "p",
+    "x": "Most of us have asked it in some form."
+   },
+   {
+    "t": "p",
+    "x": "When you're young it feels like there's one perfect path. One perfect degree. One perfect career. Miss it and you're done."
+   },
+   {
+    "t": "p",
+    "x": "That's how the pressure feels from the inside."
+   },
+   {
+    "t": "p",
+    "x": "I used to think adults had it all worked out. Then I started working, and started meeting them properly. Teachers, business owners, engineers, managers, parents."
+   },
+   {
+    "t": "p",
+    "x": "Most of them were still figuring it out too."
+   },
+   {
+    "t": "p",
+    "x": "They weren't following one perfect plan. They made the best call they could at the time, then adjusted when life moved."
+   },
+   {
+    "t": "p",
+    "x": "And life moves. Your interests change. Your opportunities change. Your responsibilities change. Sometimes even your idea of success changes."
+   },
+   {
+    "t": "p",
+    "x": "So the goal isn't finding the perfect path. The goal is choosing a direction and moving."
+   },
+   {
+    "t": "p",
+    "x": "You learn more from ten steps forward than from two years of standing still trying to get the decision perfect."
+   },
+   {
+    "t": "p",
+    "x": "The path usually gets clearer once you're walking it."
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "part": "Start With Yourself",
+  "title": "What Is Actually Wrong?",
+  "kicker": "Defining the real issue",
+  "words": 327,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"I want to quit.\""
+   },
+   {
+    "t": "p",
+    "x": "Not change courses. Not take a break. Quit. Completely."
+   },
+   {
+    "t": "p",
+    "x": "I taught him for almost two years. Smart kid. Every week he'd turn up with some new technology to tell me about. He went on to study software engineering and I was proud of him."
+   },
+   {
+    "t": "p",
+    "x": "Then the AI boom happened."
+   },
+   {
+    "t": "p",
+    "x": "One day a message arrives. \"Ham, do you have time to chat?\""
+   },
+   {
+    "t": "p",
+    "x": "\"Sure.\""
+   },
+   {
+    "t": "p",
+    "x": "A few minutes later: \"Ham, I want to quit university. I don't think this degree is worth it anymore.\""
+   },
+   {
+    "t": "p",
+    "x": "So instead of giving advice, I ask questions."
+   },
+   {
+    "t": "p",
+    "x": "\"What exactly is bothering you?\""
+   },
+   {
+    "t": "p",
+    "x": "We talk for a while. About AI. Jobs. The future."
+   },
+   {
+    "t": "p",
+    "x": "And slowly the real problem comes up."
+   },
+   {
+    "t": "p",
+    "x": "He isn't tired of university. He isn't tired of programming. He isn't even tired of software engineering."
+   },
+   {
+    "t": "p",
+    "x": "He's scared. Scared that AI is going to make everything he's learning useless."
+   },
+   {
+    "t": "p",
+    "x": "Those are very different problems."
+   },
+   {
+    "t": "p",
+    "x": "I'd done the same thing years earlier. One of my first sales jobs, and I'd decided I hated it. Then I slowed down and noticed I didn't hate talking to people, or learning sales, or working hard. I hated the pressure, the rejection, and not knowing what I was doing."
+   },
+   {
+    "t": "p",
+    "x": "The job wasn't the problem. It was just the nearest thing to blame."
+   },
+   {
+    "t": "p",
+    "x": "It's easy to make a huge decision before you understand what's actually bothering you."
+   },
+   {
+    "t": "p",
+    "x": "You think: \"I hate my degree.\" You're afraid."
+   },
+   {
+    "t": "p",
+    "x": "You think: \"I chose the wrong career.\" You're frustrated."
+   },
+   {
+    "t": "p",
+    "x": "You think: \"This path isn't for me.\" You've hit a hard stretch."
+   },
+   {
+    "t": "p",
+    "x": "So pause before you change everything, and ask: what is actually wrong? Am I tired? Am I scared? Am I comparing myself to someone?"
+   },
+   {
+    "t": "p",
+    "x": "Sometimes you do need to change direction. But often the path isn't the problem. The fear is. The pressure is."
+   },
+   {
+    "t": "p",
+    "x": "We didn't sort out his whole future that day. He just stopped talking about quitting. He needed to name the real fear before he could face it."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "part": "Start With Yourself",
+  "title": "Big Decisions Need Better Information",
+  "kicker": "gathering information",
+  "words": 204,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "It's funny how careful we get about buying a phone."
+   },
+   {
+    "t": "p",
+    "x": "We watch reviews. Compare prices. Read comments from strangers. Check the camera, the battery, the storage, the color."
+   },
+   {
+    "t": "p",
+    "x": "Then we pick a university. A career. A whole direction for a life."
+   },
+   {
+    "t": "p",
+    "x": "On less research than we gave the phone."
+   },
+   {
+    "t": "p",
+    "x": "That never made sense to me. The bigger the decision, the more information you need. Not less."
+   },
+   {
+    "t": "p",
+    "x": "Before you choose a path, talk to someone already walking it. Ask questions. Look at what their life actually looks like, not what social media makes it look like."
+   },
+   {
+    "t": "p",
+    "x": "I've lost count of the students who wanted a certain career right up until they spoke to somebody doing it every day. Some came away more interested. Some changed their mind completely."
+   },
+   {
+    "t": "p",
+    "x": "Both are useful. Better to change your mind after a conversation than after five years."
+   },
+   {
+    "t": "p",
+    "x": "You won't get perfect information. Nobody does. You just need enough to stop guessing."
+   },
+   {
+    "t": "p",
+    "x": "Ask what the work actually feels like. What they enjoy. What's hard. What they wish they'd known before they started. What a normal Tuesday looks like."
+   },
+   {
+    "t": "p",
+    "x": "Most bad decisions come from missing information, not from being stupid."
+   },
+   {
+    "t": "p",
+    "x": "One honest conversation can save you years walking the wrong way."
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "part": "Start With Yourself",
+  "title": "There Is Usually Another Option",
+  "kicker": "Exploring alternatives",
+  "words": 233,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"Ham, I'm the older brother. I have to be an example.\""
+   },
+   {
+    "t": "p",
+    "x": "He says it quietly. Not showing off. More like he's carrying something heavy and trying not to complain about it."
+   },
+   {
+    "t": "p",
+    "x": "He isn't only choosing for himself. He's choosing with his siblings in the room. His family. Everyone watching him."
+   },
+   {
+    "t": "p",
+    "x": "And when responsibility sits that heavy, life starts to look very small."
+   },
+   {
+    "t": "p",
+    "x": "Then he says the thing that stayed with me."
+   },
+   {
+    "t": "p",
+    "x": "\"I feel like I only have one real option.\""
+   },
+   {
+    "t": "p",
+    "x": "University. Good degree. Don't mess it up."
+   },
+   {
+    "t": "p",
+    "x": "That was the whole plan."
+   },
+   {
+    "t": "p",
+    "x": "University can be a good path. It just isn't the only one, and that's the part I wish more students understood."
+   },
+   {
+    "t": "p",
+    "x": "Pressure shrinks your world. You start seeing two choices. Win or fail. University or nothing. This path or shame."
+   },
+   {
+    "t": "p",
+    "x": "Life usually has more than that."
+   },
+   {
+    "t": "p",
+    "x": "Work first and study later. Take online courses. Learn a skill. Find an apprenticeship. Build something small. Try one path and adjust. Combine two."
+   },
+   {
+    "t": "p",
+    "x": "The more options you can see, the less trapped you feel."
+   },
+   {
+    "t": "p",
+    "x": "It's like a restaurant where the waiter offers you two dishes. Of course it feels stressful. Then you see the full menu and you settle. You can compare. Think. Pick what suits you."
+   },
+   {
+    "t": "p",
+    "x": "The first option is rarely the only one. And it's rarely the best one."
+   },
+   {
+    "t": "p",
+    "x": "Before you panic, look around. There's probably a path you haven't spotted yet."
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "part": "Start With Yourself",
+  "title": "Every Choice Costs Something",
+  "kicker": "Trade-offs",
+  "words": 223,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Social media shows you the reward."
+   },
+   {
+    "t": "p",
+    "x": "Not the receipt."
+   },
+   {
+    "t": "p",
+    "x": "You see the channel with a million subscribers. You don't see the hundreds of videos nobody watched. You see the business working, not the years it took. You see the result, not the sacrifice."
+   },
+   {
+    "t": "p",
+    "x": "And if you're not careful you start wanting the reward without ever pricing it."
+   },
+   {
+    "t": "p",
+    "x": "I've fallen into that myself. When I started writing books I spent a lot of time picturing the finished thing. Holding it. My name on the cover. Helping someone. Making something that might outlast me."
+   },
+   {
+    "t": "p",
+    "x": "What I didn't picture was the cost. The late nights. The weekends. The self-doubt. The easier things I could have been doing instead."
+   },
+   {
+    "t": "p",
+    "x": "Nobody posts that part."
+   },
+   {
+    "t": "p",
+    "x": "A colleague once told me he was thinking of starting a business. So I asked him: \"What are you willing to give up?\""
+   },
+   {
+    "t": "p",
+    "x": "He looked confused. Nobody had asked him that."
+   },
+   {
+    "t": "p",
+    "x": "We all think about what we want to gain. Almost none of us think about what it takes."
+   },
+   {
+    "t": "p",
+    "x": "Every path costs something. Time. Comfort. Sometimes relationships."
+   },
+   {
+    "t": "p",
+    "x": "That doesn't make the path wrong. It just means it has a price."
+   },
+   {
+    "t": "p",
+    "x": "Choosing a direction isn't only asking \"what do I get?\" It's asking \"what am I willing to pay?\""
+   },
+   {
+    "t": "p",
+    "x": "Because every choice costs something. Even doing nothing."
+   },
+   {
+    "t": "p",
+    "x": "And doing nothing sends you a bill later."
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "part": "Start With Yourself",
+  "title": "Eventually You Have To Choose",
+  "kicker": "Making decisions",
+  "words": 257,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "At some point research stops being research and turns into hiding."
+   },
+   {
+    "t": "p",
+    "x": "I watched that happen to a guy at university. He kept saying he was still deciding what to study. After a while it stopped looking like deciding."
+   },
+   {
+    "t": "p",
+    "x": "It looked like fear wearing the clothes of preparation."
+   },
+   {
+    "t": "p",
+    "x": "He spent almost two years on it. Not two months. Two years. Every time he'd nearly decided he found another option. Another video. Another reason to doubt himself. Comparing, changing his mind, starting again."
+   },
+   {
+    "t": "p",
+    "x": "I remember thinking: how much longer is this going to go on?"
+   },
+   {
+    "t": "p",
+    "x": "He wasn't getting closer to a decision. He was getting better at avoiding one."
+   },
+   {
+    "t": "p",
+    "x": "There's no perfect choice. No perfect degree. No perfect career. A decision is usually just the best call you can make with what you know today."
+   },
+   {
+    "t": "p",
+    "x": "And sometimes that has to be enough."
+   },
+   {
+    "t": "p",
+    "x": "We assume clarity comes first, then action. Most of the time it runs the other way. You choose. Then you learn. Then you adjust. Some lessons only show up once you're moving."
+   },
+   {
+    "t": "p",
+    "x": "So I tell students to stop trying to get it perfect. Pick a direction. Move. Learn. Adjust."
+   },
+   {
+    "t": "p",
+    "x": "Someone moving in the wrong direction can correct. Someone standing still can't."
+   },
+   {
+    "t": "p",
+    "x": "Before a big decision, four questions."
+   },
+   {
+    "t": "p",
+    "x": "Do I understand the real problem?"
+   },
+   {
+    "t": "p",
+    "x": "Have I gathered enough information?"
+   },
+   {
+    "t": "p",
+    "x": "Have I looked at enough options?"
+   },
+   {
+    "t": "p",
+    "x": "Do I understand what this will cost me?"
+   },
+   {
+    "t": "p",
+    "x": "If the answers are yes, stop researching and start moving."
+   },
+   {
+    "t": "p",
+    "x": "Perfect decisions don't exist. Progress does. And progress starts when you stop waiting for certainty."
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "part": "Start With Yourself",
+  "title": "Keep Learning After School Ends",
+  "kicker": "(Learning system)",
+  "words": 242,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"Mr Ham, just be honest with me.\""
+   },
+   {
+    "t": "p",
+    "x": "The mother looks serious, so I nod."
+   },
+   {
+    "t": "p",
+    "x": "\"Do you think my son is naturally stupid?\""
+   },
+   {
+    "t": "p",
+    "x": "I nearly laugh. Not because it's funny. Because I know exactly which student she means."
+   },
+   {
+    "t": "p",
+    "x": "And no. He isn't stupid. He learns differently. I won't say his name. He finished in the top ten of my class."
+   },
+   {
+    "t": "p",
+    "x": "That's why I'm careful when a student tells me: \"Ham, I'm not smart.\""
+   },
+   {
+    "t": "p",
+    "x": "I've heard that hundreds of times, and most of the time the student isn't stupid. They're frustrated."
+   },
+   {
+    "t": "p",
+    "x": "We don't all learn the same way. Some by writing it down. Some by teaching it to someone else. Some need silence, some need music, some need to go round the same thing ten times before it sticks."
+   },
+   {
+    "t": "p",
+    "x": "Plenty of people think they're bad at learning when really they haven't worked out how their own brain does it."
+   },
+   {
+    "t": "p",
+    "x": "So stop asking \"am I smart?\" and start asking \"how do I learn best?\""
+   },
+   {
+    "t": "p",
+    "x": "I've seen average students turn excellent and talented ones stay exactly where they started. The difference usually wasn't talent. It was what they did after class. How they practiced. How they handled being wrong."
+   },
+   {
+    "t": "p",
+    "x": "When you understand how you learn, you stop fighting your brain and start working with it."
+   },
+   {
+    "t": "p",
+    "x": "Which matters, because learning doesn't stop when school does. That's when it starts."
+   },
+   {
+    "t": "p",
+    "x": "Who you are in ten years gets decided by what you choose to learn once the homework stops."
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "part": "Start With Yourself",
+  "title": "Your Brain Is Listening To You",
+  "kicker": "(Based on Developing A Positive Attitude)",
+  "words": 233,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"I already know I failed.\""
+   },
+   {
+    "t": "p",
+    "x": "He says it before I've even shown him the score."
+   },
+   {
+    "t": "p",
+    "x": "That's the part that stayed with me. Not the test. Not the mistakes. The sentence."
+   },
+   {
+    "t": "p",
+    "x": "He was one of my weakest students, failing almost every practice test I set. That wasn't unusual. What was unusual was that another weak student was improving every single week, and eventually overtook him."
+   },
+   {
+    "t": "p",
+    "x": "Both of them struggled. Both made mistakes. Both started in roughly the same place."
+   },
+   {
+    "t": "p",
+    "x": "So one day I call him over."
+   },
+   {
+    "t": "p",
+    "x": "\"I'm not here to talk about your score. I want to know what's going through your head while you're taking the test.\""
+   },
+   {
+    "t": "p",
+    "x": "He looks confused. Then he starts answering."
+   },
+   {
+    "t": "p",
+    "x": "\"I'm bad at English.\""
+   },
+   {
+    "t": "p",
+    "x": "\"I'll probably get this wrong.\""
+   },
+   {
+    "t": "p",
+    "x": "\"I always mess these up.\""
+   },
+   {
+    "t": "p",
+    "x": "And there it is. Before he's read a single question, he's already decided how the story ends."
+   },
+   {
+    "t": "p",
+    "x": "The test wasn't his biggest problem. The story he kept telling himself was."
+   },
+   {
+    "t": "p",
+    "x": "Your brain is listening. Keep telling it you can't do this, you're not smart enough, people like you don't succeed, and eventually those stop sounding like opinions. They start sounding like facts. And facts change how you behave."
+   },
+   {
+    "t": "p",
+    "x": "The people who come back from failure refuse to let one bad day become who they are."
+   },
+   {
+    "t": "p",
+    "x": "Fail the test. Learn the lesson. Try again."
+   },
+   {
+    "t": "p",
+    "x": "Just don't turn one moment into a story about who you are."
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "part": "Start With Yourself",
+  "title": "Passing Isn't The Same As Understanding",
+  "kicker": "Learning Styles",
+  "words": 139,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "I've passed tests I didn't understand."
+   },
+   {
+    "t": "p",
+    "x": "I knew enough to answer the questions. Enough to sound prepared. Enough to get through the room."
+   },
+   {
+    "t": "p",
+    "x": "Ask me to explain the same idea a month later and I'd have struggled."
+   },
+   {
+    "t": "p",
+    "x": "That's the gap school never quite shows you. Passing and understanding look identical on paper. They're nothing alike in real life."
+   },
+   {
+    "t": "p",
+    "x": "You've done it. Study, memorize, pass, forget it all a few weeks later."
+   },
+   {
+    "t": "p",
+    "x": "School rewards memorization. Life rewards understanding."
+   },
+   {
+    "t": "p",
+    "x": "Life doesn't care how much you can repeat. It cares whether you can use it. Explain it. Apply it. Fix something with it."
+   },
+   {
+    "t": "p",
+    "x": "The lessons that stay are the ones you understood. The conversation that changed how you think. The mistake you never forgot. The moment something finally clicked."
+   },
+   {
+    "t": "p",
+    "x": "Memorization gets you through the test. Understanding lets you use what you know."
+   }
+  ]
+ },
+ {
+  "n": 18,
+  "part": "Start With Yourself",
+  "title": "Write It Down Before It Disappears",
+  "kicker": "Read, Listen and Note Taking",
+  "words": 235,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "A good idea disappears faster than you'd think."
+   },
+   {
+    "t": "p",
+    "x": "You hear something useful. You get it. It feels important. You tell yourself you'll remember."
+   },
+   {
+    "t": "p",
+    "x": "A few days later it's gone. Not because the idea was weak. Because you gave it nowhere to live."
+   },
+   {
+    "t": "p",
+    "x": "I learned that the hard way. A few years ago I assumed I'd remember every good idea I had."
+   },
+   {
+    "t": "p",
+    "x": "I didn't."
+   },
+   {
+    "t": "p",
+    "x": "So I started writing things down. Messy at first. Ideas. Things students said. Mistakes I'd made. Questions I couldn't answer."
+   },
+   {
+    "t": "p",
+    "x": "Years later some of those notes turned into books. Some turned into lessons. Some turned into solutions to problems I hadn't hit yet."
+   },
+   {
+    "t": "p",
+    "x": "That changed what notes are to me. They stopped being reminders. They're a conversation with whoever I'm going to be later."
+   },
+   {
+    "t": "p",
+    "x": "A student once told me he'd spent hours watching educational videos. I asked what he'd learned."
+   },
+   {
+    "t": "p",
+    "x": "He paused. \"I don't know.\""
+   },
+   {
+    "t": "p",
+    "x": "We all do it. Videos. Podcasts. Articles. Almost none of it stays. Not because the information is bad. Because we never gave it somewhere to live."
+   },
+   {
+    "t": "p",
+    "x": "Learning doesn't happen when you hear something useful. It happens when you stop long enough to think about it."
+   },
+   {
+    "t": "p",
+    "x": "Write it down. Question it. Come back to it later."
+   },
+   {
+    "t": "p",
+    "x": "I trust my memory less than I used to. Memory fades. Good notes don't."
+   },
+   {
+    "t": "p",
+    "x": "Some ideas are useless today and exactly what you need in two years."
+   },
+   {
+    "t": "p",
+    "x": "You'll be glad it's there."
+   }
+  ]
+ },
+ {
+  "n": 19,
+  "part": "Start With Yourself",
+  "title": "Busy Isn't The Same As Progress",
+  "kicker": "Protect your time",
+  "words": 185,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Some days disappear without leaving anything behind."
+   },
+   {
+    "t": "p",
+    "x": "You were busy. Answered messages. Watched a few videos. Scrolled. Did some small tasks. Moved from one thing to the next."
+   },
+   {
+    "t": "p",
+    "x": "Then it's night and you're asking yourself what you actually did today."
+   },
+   {
+    "t": "p",
+    "x": "\"Teacher, I didn't have time.\" I've heard that hundreds of times."
+   },
+   {
+    "t": "p",
+    "x": "So one day I ask a student to walk me through his yesterday. A little social media. A few videos. Some gaming. Messages. More scrolling. A few more videos."
+   },
+   {
+    "t": "p",
+    "x": "Hours, gone."
+   },
+   {
+    "t": "p",
+    "x": "He was busy the entire day. Busy with things that mattered to nobody, including him."
+   },
+   {
+    "t": "p",
+    "x": "I've caught myself doing the same. Days where I'm teaching, writing, learning, answering emails, working on projects, and I'm wrecked by the evening. And I still hadn't touched the thing that mattered most."
+   },
+   {
+    "t": "p",
+    "x": "Busy and productive aren't the same. We all get twenty-four hours. The difference is what we point them at."
+   },
+   {
+    "t": "p",
+    "x": "So now I ask myself one question: what's the most important thing I need to do in the next hour?"
+   },
+   {
+    "t": "p",
+    "x": "Not five things. Not ten. One. Start there."
+   },
+   {
+    "t": "p",
+    "x": "What you spend time on becomes your life."
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "part": "Start With Yourself",
+  "title": "Confidence Looks Different Up Close",
+  "kicker": "Prepare before you perform.",
+  "words": 228,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Confidence looks simple from a distance."
+   },
+   {
+    "t": "p",
+    "x": "Someone walks into a room. Speaks clearly. Answers the questions. Handles the pressure. And you think: they're just confident."
+   },
+   {
+    "t": "p",
+    "x": "You're seeing the last five minutes. Not the preparation that made them possible."
+   },
+   {
+    "t": "p",
+    "x": "A student once told me: \"Ham, you're always confident when you teach.\""
+   },
+   {
+    "t": "p",
+    "x": "I laughed, because confidence had very little to do with it."
+   },
+   {
+    "t": "p",
+    "x": "What he didn't see were the hours before class. Planning. Swapping activities around. Working out how to explain the hard part. Guessing what they'd ask."
+   },
+   {
+    "t": "p",
+    "x": "By the time I walk into that classroom I'm not running on confidence. I'm running on preparation."
+   },
+   {
+    "t": "p",
+    "x": "Same thing everywhere. The student who stays calm in an exam. The person who interviews well. The presenter who looks comfortable on stage."
+   },
+   {
+    "t": "p",
+    "x": "From far away it looks like confidence. Up close it's almost always preparation."
+   },
+   {
+    "t": "p",
+    "x": "Most of us do it backwards. We wait for the pressure to arrive. The night before the exam. The week before the interview. The day before the deadline."
+   },
+   {
+    "t": "p",
+    "x": "Then we panic, because we're trying to prepare and perform at the same time. That rarely goes well."
+   },
+   {
+    "t": "p",
+    "x": "Confidence is usually preparation in disguise. The work got done long before anybody noticed it."
+   },
+   {
+    "t": "p",
+    "x": "So learn things before you need them. Opportunities have a habit of turning up without warning."
+   },
+   {
+    "t": "p",
+    "x": "And it's much easier to answer the door when you're already dressed."
+   }
+  ]
+ },
+ {
+  "n": 21,
+  "part": "Start With Yourself",
+  "title": "The Real Test Starts After School",
+  "kicker": "Building a learning system.",
+  "words": 248,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "The tests don't stop after school. They just stop looking like tests."
+   },
+   {
+    "t": "p",
+    "x": "No one hands you a paper or tells you what to study. Nothing gets announced as \"this will be on the final.\""
+   },
+   {
+    "t": "p",
+    "x": "But life keeps asking."
+   },
+   {
+    "t": "p",
+    "x": "Can you solve problems? Can you explain yourself? Can you learn when nobody's making you? Can you adjust when things move?"
+   },
+   {
+    "t": "p",
+    "x": "That's the surprise waiting on the other side. We think learning ends when the exams do. It just changes shape."
+   },
+   {
+    "t": "p",
+    "x": "The world moves fast. Technology moves. Jobs move. Whole industries move. The people who keep learning adjust faster than the people who stopped."
+   },
+   {
+    "t": "p",
+    "x": "Whenever I use ChatGPT in class, someone says: \"Ham, AI is cheating.\""
+   },
+   {
+    "t": "p",
+    "x": "I laugh. The calculator didn't replace mathematicians. Google didn't replace knowing things. AI won't replace learning."
+   },
+   {
+    "t": "p",
+    "x": "But the people who work out how to use a new tool move faster than the people who pretend it isn't there."
+   },
+   {
+    "t": "p",
+    "x": "So the learning after school is the part that counts. The books you read. The skills you build. The questions you ask. The notes you keep."
+   },
+   {
+    "t": "p",
+    "x": "It compounds. Not in a day. Not in a week. Slowly, quietly, until you look up and you're not the person you were."
+   },
+   {
+    "t": "p",
+    "x": "That's where this chapter ends."
+   },
+   {
+    "t": "p",
+    "x": "Learning matters. But learning on its own isn't enough. Plenty of young people study, prepare, build skills, then sit back and wait."
+   },
+   {
+    "t": "p",
+    "x": "The world rarely works that way."
+   },
+   {
+    "t": "p",
+    "x": "Which brings us to the next problem. No one knows who you are yet."
+   }
+  ]
+ },
+ {
+  "n": 22,
+  "part": "Find Your Way Into The Real World",
+  "title": "Put Yourself Where Opportunity Can See You",
+  "kicker": "Opportunities (Job search, networking, resumes, interviews)",
+  "words": 247,
+  "blocks": [
+   {
+    "t": "h",
+    "x": "No One Knows Who You Are Yet"
+   },
+   {
+    "t": "p",
+    "x": "You can be talented and still invisible."
+   },
+   {
+    "t": "p",
+    "x": "That's one of the first hard lessons after school. You might have the skills. You might be serious. You might be ready. But if no one knows what you can do, the world doesn't come looking."
+   },
+   {
+    "t": "p",
+    "x": "I found that out applying for my first jobs."
+   },
+   {
+    "t": "p",
+    "x": "I send out applications. Then I wait. Nothing. No replies. No interviews. No calls."
+   },
+   {
+    "t": "p",
+    "x": "I'm checking my email constantly. Refreshing the inbox. Wondering what's wrong with me."
+   },
+   {
+    "t": "p",
+    "x": "Then it lands. No one knew who I was. There was no office somewhere with a person looking for Ham, going through CVs for my name."
+   },
+   {
+    "t": "p",
+    "x": "I was the one looking. Which meant I had to go and find them."
+   },
+   {
+    "t": "p",
+    "x": "You leave school thinking life keeps working the way school did. A teacher tells you what chapter is next. An exam tells you what to study. A timetable tells you where to be."
+   },
+   {
+    "t": "p",
+    "x": "Then it stops. No reminders. No instructions. No next chapter."
+   },
+   {
+    "t": "p",
+    "x": "You have to start looking. Introduce yourself. Send the application. Follow up. Keep going when no one replies."
+   },
+   {
+    "t": "p",
+    "x": "The world is full of opportunities. Opportunity just doesn't know your name yet."
+   },
+   {
+    "t": "p",
+    "x": "Learning a skill is one job. Getting someone to notice it is a different one."
+   },
+   {
+    "t": "p",
+    "x": "You can be hardworking and unknown at the same time. That doesn't mean you're not good enough. It means nobody has seen you work."
+   },
+   {
+    "t": "p",
+    "x": "So stop waiting for opportunity to find you. Put yourself where it can see you."
+   }
+  ]
+ },
+ {
+  "n": 23,
+  "part": "Find Your Way Into The Real World",
+  "title": "Stop Waiting Until You Feel Ready",
+  "kicker": "Working Toward Your Goals",
+  "words": 154,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"What experience do you have?\""
+   },
+   {
+    "t": "p",
+    "x": "That question scares people. They hear it and think: nothing. No real job. No company. No title."
+   },
+   {
+    "t": "p",
+    "x": "Then you start asking better questions."
+   },
+   {
+    "t": "p",
+    "x": "Have you worked on a school project? Organized something? Looked after younger siblings? Solved a problem at home? Worked with other people?"
+   },
+   {
+    "t": "p",
+    "x": "Suddenly the answer isn't nothing."
+   },
+   {
+    "t": "p",
+    "x": "Every year I hear the same sentence. \"Ham, I'm not ready.\" Not ready to apply. Not ready to start. Not ready to put myself out there."
+   },
+   {
+    "t": "p",
+    "x": "A few questions in, the conversation usually changes."
+   },
+   {
+    "t": "p",
+    "x": "Experience doesn't only come from a job. It comes from doing things. Solving problems. Taking responsibility. Trying something before you feel confident."
+   },
+   {
+    "t": "p",
+    "x": "Your life leaves clues about what you can do. The mistake is ignoring them."
+   },
+   {
+    "t": "p",
+    "x": "And you may never feel completely ready. Experience comes after trying. Confidence comes after action. You move forward by starting before you're prepared."
+   },
+   {
+    "t": "p",
+    "x": "Waiting doesn't create experience. Doing does."
+   }
+  ]
+ },
+ {
+  "n": 24,
+  "part": "Find Your Way Into The Real World",
+  "title": "Opportunities Rarely Arrive The Way You Expect",
+  "kicker": "Looking For A Job",
+  "words": 274,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"I can't find any jobs.\""
+   },
+   {
+    "t": "p",
+    "x": "Sometimes that's true. Sometimes the problem isn't that there are no jobs. It's that the search is too narrow."
+   },
+   {
+    "t": "p",
+    "x": "One job title. One search term. One version of what the thing is supposed to look like. And when that exact door stays shut, it feels like there are no doors left."
+   },
+   {
+    "t": "p",
+    "x": "So I ask: \"What are you searching for?\""
+   },
+   {
+    "t": "p",
+    "x": "Sometimes the answer is the problem."
+   },
+   {
+    "t": "p",
+    "x": "One student kept typing \"cybersecurity analyst.\" Nothing near him. Meanwhile \"IT support,\" \"help desk,\" \"junior security\" and \"SOC trainee\" were all sitting right there. Same skills he was building. Different labels."
+   },
+   {
+    "t": "p",
+    "x": "The chance isn't always missing. Sometimes the search is."
+   },
+   {
+    "t": "p",
+    "x": "It's easy to do this with more than jobs. You get attached to one version of success. One company. One career path. One door. And when it doesn't open, everything looks closed."
+   },
+   {
+    "t": "p",
+    "x": "Chances rarely arrive the way you pictured them. The internship becomes the full-time job. The side project becomes the business. A conversation becomes a way in."
+   },
+   {
+    "t": "p",
+    "x": "Most of them come through someone who remembers you. A friend hears about an opening. A former teacher remembers your name. Someone thinks of you when something appears."
+   },
+   {
+    "t": "p",
+    "x": "We're remembered for more than we think. Who showed up. Who worked hard. Who was easy to work with."
+   },
+   {
+    "t": "p",
+    "x": "That's why I've never liked the word networking. It sounds strategic. Too much like using people."
+   },
+   {
+    "t": "p",
+    "x": "It's simpler than that. Have real conversations. Stay in touch. Help when you can. Let people know what you're trying to do."
+   },
+   {
+    "t": "p",
+    "x": "Because the chance you need may not arrive wearing the name you expected."
+   },
+   {
+    "t": "p",
+    "x": "And that's exactly why you might miss it."
+   }
+  ]
+ },
+ {
+  "n": 25,
+  "part": "Find Your Way Into The Real World",
+  "title": "People Remember How You Show Up",
+  "kicker": "Opportunities",
+  "words": 224,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Your name means something before you walk into the room. To a teacher. A manager. A colleague."
+   },
+   {
+    "t": "p",
+    "x": "Someone hears it and quietly remembers what you were like to work with. Reliable. Careless. Helpful. Difficult. Easy to trust."
+   },
+   {
+    "t": "p",
+    "x": "That story gets written long before you need anyone to speak for you."
+   },
+   {
+    "t": "p",
+    "x": "A student once asked me to be a reference. I said yes straight away. I didn't have to think about it, because I already knew what I'd say."
+   },
+   {
+    "t": "p",
+    "x": "She showed up. She worked hard. When she said she'd do something, she did it. When she got something wrong, she owned it."
+   },
+   {
+    "t": "p",
+    "x": "That was enough."
+   },
+   {
+    "t": "p",
+    "x": "We spend a lot of time worrying about CVs. Certificates. Qualifications. Those matter. But your name carries more than what's printed on paper."
+   },
+   {
+    "t": "p",
+    "x": "Teachers remember. So do managers, friends and colleagues. They remember who followed through. Who kept their word. Who could be trusted."
+   },
+   {
+    "t": "p",
+    "x": "Sometimes a chance appears because of a skill. Sometimes because somebody remembered your name."
+   },
+   {
+    "t": "p",
+    "x": "Which is why reputation gets built long before you need it."
+   },
+   {
+    "t": "p",
+    "x": "People are always forming an opinion. Not loudly. Not officially. But they notice. How you work. How you speak. How you handle mistakes. How you treat people when nobody important is watching."
+   },
+   {
+    "t": "p",
+    "x": "None of it is complicated."
+   },
+   {
+    "t": "p",
+    "x": "Show up. Do your best. Keep your word. Treat people well."
+   },
+   {
+    "t": "p",
+    "x": "Someone will remember."
+   }
+  ]
+ },
+ {
+  "n": 26,
+  "part": "Find Your Way Into The Real World",
+  "title": "Interviews Are Not Traps",
+  "kicker": "(Preparing For An Interview)",
+  "words": 238,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Before one of my first interviews, I kept imagining the question that would destroy me."
+   },
+   {
+    "t": "p",
+    "x": "Something impossible. Something I'd never prepared for. Something that would make everyone in the room realize I didn't belong there."
+   },
+   {
+    "t": "p",
+    "x": "By the time I walk in, the interview has already beaten me in my head."
+   },
+   {
+    "t": "p",
+    "x": "Then it starts."
+   },
+   {
+    "t": "p",
+    "x": "Tell us about yourself. Why are you interested in this role? What have you worked on? What are you trying to learn?"
+   },
+   {
+    "t": "p",
+    "x": "I walk out thinking: that's what I was worried about?"
+   },
+   {
+    "t": "p",
+    "x": "We imagine interviews as traps. Someone sitting there waiting for us to fail. One bad answer, one awkward pause, and the whole thing is gone."
+   },
+   {
+    "t": "p",
+    "x": "Most interviews are built to understand you."
+   },
+   {
+    "t": "p",
+    "x": "Can you learn? Can you explain yourself? Can you be trusted with responsibility? Can you work with people without making things harder?"
+   },
+   {
+    "t": "p",
+    "x": "That's what the person across the table is trying to work out."
+   },
+   {
+    "t": "p",
+    "x": "The calm ones usually just did the homework. They thought about their experiences. Practiced talking about themselves. Learned about the company. Understood the role. Brought a few honest questions."
+   },
+   {
+    "t": "p",
+    "x": "You don't need to know everything. You don't need to perform as somebody else. You need to understand your own story well enough to explain it."
+   },
+   {
+    "t": "p",
+    "x": "What have you done? What did you learn? What are you trying to become? Why does this make sense for you?"
+   },
+   {
+    "t": "p",
+    "x": "Most interviewers are looking for a real person they can trust."
+   }
+  ]
+ },
+ {
+  "n": 27,
+  "part": "Find Your Way Into The Real World",
+  "title": "Your First Job Will Probably Suck",
+  "kicker": "(Workplace survival)",
+  "words": 244,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "The first job has a way of humbling you."
+   },
+   {
+    "t": "p",
+    "x": "Not dramatically. A long shift. A difficult customer. A task you've done forty times. A manager asking you to fix something that wasn't your fault."
+   },
+   {
+    "t": "p",
+    "x": "And suddenly work looks nothing like the version in your head."
+   },
+   {
+    "t": "p",
+    "x": "I remember one week at my first job that felt like the longest week of my life. Every day slow, the work repetitive, the customers difficult, the hours longer than anyone told me."
+   },
+   {
+    "t": "p",
+    "x": "I remember thinking: is this what working is?"
+   },
+   {
+    "t": "p",
+    "x": "Before you start, it's easy to picture the clean version. A career. Money. Interesting projects. A nice office. A title that sounds like something."
+   },
+   {
+    "t": "p",
+    "x": "Almost nobody pictures answering angry emails, or doing the same task over and over, or being tired before the day is finished."
+   },
+   {
+    "t": "p",
+    "x": "That's usually the first version of work you meet. And that's fine."
+   },
+   {
+    "t": "p",
+    "x": "Looking back, that job taught me things school couldn't. How to deal with people. How to show up when I didn't feel like it. How to stay professional while frustrated. How to keep going when the work wasn't exciting."
+   },
+   {
+    "t": "p",
+    "x": "At the time I thought I was just doing a job. Years later I realized I was collecting things I'd use in every job after it."
+   },
+   {
+    "t": "p",
+    "x": "Your first job may not be the one you wanted. It can still teach you what you'll need."
+   },
+   {
+    "t": "p",
+    "x": "The most valuable thing you take from a job is the person you become while doing it."
+   }
+  ]
+ },
+ {
+  "n": 28,
+  "part": "Find Your Way Into The Real World",
+  "title": "Pay Attention To How Things Work",
+  "kicker": "unwritten rules",
+  "words": 203,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Being new at work is strange."
+   },
+   {
+    "t": "p",
+    "x": "You're trying to do the job. You're also trying to read the room. Who needs to be told? Who decides? What matters here? What annoys people? What does everyone expect without ever saying it?"
+   },
+   {
+    "t": "p",
+    "x": "No one tells you. You have to notice."
+   },
+   {
+    "t": "p",
+    "x": "That was one of the first things work taught me."
+   },
+   {
+    "t": "p",
+    "x": "School explains its rules. A teacher gives instructions. A timetable says where to be. A test tells you what chapter matters."
+   },
+   {
+    "t": "p",
+    "x": "At work, some rules get said out loud. Most don't. You learn them by watching, by asking, and by seeing what happens when something goes wrong."
+   },
+   {
+    "t": "p",
+    "x": "Sometimes the mistake isn't that you were lazy or careless. You just didn't know yet what mattered here."
+   },
+   {
+    "t": "p",
+    "x": "But once you've noticed, it's yours to learn. Who should I tell before I leave? Who needs an update? What should I ask before deciding? What makes the work easier for everyone else?"
+   },
+   {
+    "t": "p",
+    "x": "That's the part people miss at first. Doing the job is one thing. Learning how the place works is another."
+   },
+   {
+    "t": "p",
+    "x": "The people who grow fastest are the ones paying attention."
+   },
+   {
+    "t": "p",
+    "x": "Looking back, my first job wasn't only teaching me tasks. It was teaching me how to notice."
+   }
+  ]
+ },
+ {
+  "n": 29,
+  "part": "Find Your Way Into The Real World",
+  "title": "The Way You Talk Matters",
+  "kicker": "Communicating On The Job",
+  "words": 222,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "The way you talk in a group chat can't always follow you into work."
+   },
+   {
+    "t": "p",
+    "x": "Same jokes. Same tone. Same careless replies."
+   },
+   {
+    "t": "p",
+    "x": "With friends, no one thinks much of it. At work, people notice."
+   },
+   {
+    "t": "p",
+    "x": "Not because they're waiting to judge you. Because how you talk tells people how you handle yourself."
+   },
+   {
+    "t": "p",
+    "x": "Most of us spend years surrounded by people our own age. Then suddenly there are managers. Customers. Clients. Older coworkers. People from completely different worlds."
+   },
+   {
+    "t": "p",
+    "x": "And we don't always notice that different rooms need different registers."
+   },
+   {
+    "t": "p",
+    "x": "I once watched a sharp young worker message a manager the way he'd text a friend, and watched it quietly change how the room saw him. The work was fine. The tone did the damage."
+   },
+   {
+    "t": "p",
+    "x": "The room pays attention even when nobody says so. Not just to your work. To how you speak. How you handle mistakes. How you respond under pressure. How you treat the person beside you."
+   },
+   {
+    "t": "p",
+    "x": "The impression you leave gets built in small pieces. A greeting. A message. Your reply when someone asks for help. Your tone when you're frustrated. Your words when you explain a mistake."
+   },
+   {
+    "t": "p",
+    "x": "They add up. And before you notice, someone has formed an opinion."
+   },
+   {
+    "t": "p",
+    "x": "Which is why communication stops being a skill and becomes part of your reputation."
+   },
+   {
+    "t": "p",
+    "x": "And that gets built one conversation at a time."
+   }
+  ]
+ },
+ {
+  "n": 30,
+  "part": "Find Your Way Into The Real World",
+  "title": "Don't Keep Everything In Your Head",
+  "kicker": "You Can't Remember Everything",
+  "words": 162,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Work teaches you fast that your brain isn't a storage room."
+   },
+   {
+    "t": "p",
+    "x": "You can try to keep it all in there. Tasks. Names. Deadlines. Messages. Promises. But the more you carry, the more starts falling off the shelf."
+   },
+   {
+    "t": "p",
+    "x": "One of my first jobs had far more moving parts than I expected. Calls. Messages. Deadlines. Requests."
+   },
+   {
+    "t": "p",
+    "x": "I tried remembering everything. That worked for about three days."
+   },
+   {
+    "t": "p",
+    "x": "Then things started slipping. A missed task here. A forgotten email there. Nothing dramatic, but enough to cause problems."
+   },
+   {
+    "t": "p",
+    "x": "That's when I understood it properly. Your brain is for thinking. Not for holding a hundred reminders."
+   },
+   {
+    "t": "p",
+    "x": "Which is why reliable people build systems. Notes. Calendars. Checklists."
+   },
+   {
+    "t": "p",
+    "x": "Not because their memory is bad. Because they don't want small promises to quietly disappear."
+   },
+   {
+    "t": "p",
+    "x": "You don't get trusted only for being talented. You get trusted because things don't get lost with you."
+   },
+   {
+    "t": "p",
+    "x": "People rely on the ones who write things down."
+   },
+   {
+    "t": "p",
+    "x": "Reliability is making sure the important things don't get lost."
+   }
+  ]
+ },
+ {
+  "n": 31,
+  "part": "Find Your Way Into The Real World",
+  "title": "Your Reputation Follows You",
+  "kicker": "career growth",
+  "words": 262,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Every job leaves something behind."
+   },
+   {
+    "t": "p",
+    "x": "Not just money. Not just another line on your CV. An impression. What your name means to someone. Whether you made things easier. Whether you'd be worth working with again."
+   },
+   {
+    "t": "p",
+    "x": "Two people can do the same job and leave completely different impressions. Both finish the task. Both hit the deadline. But one makes the work easier and the other does their part and disappears."
+   },
+   {
+    "t": "p",
+    "x": "Neither is terrible. Over time the difference gets impossible to ignore."
+   },
+   {
+    "t": "p",
+    "x": "I thought it came down to skill. Usually it doesn't."
+   },
+   {
+    "t": "p",
+    "x": "Potential means very little if no one has seen it. I've worked with smart people, talented people, people with great ideas. When chances appeared, they didn't always get them."
+   },
+   {
+    "t": "p",
+    "x": "I thought promotions went to the most talented person. Then I watched the most talented person get passed over."
+   },
+   {
+    "t": "p",
+    "x": "People promote who they trust. Can they rely on you? Can they hand you responsibility? Can they count on you when it gets difficult?"
+   },
+   {
+    "t": "p",
+    "x": "That's what they're actually watching."
+   },
+   {
+    "t": "p",
+    "x": "The manager you have today may be a reference tomorrow. The coworker beside you may be somewhere else next year. The person you help today may open a door in five."
+   },
+   {
+    "t": "p",
+    "x": "When you're young, jobs feel separate. Life doesn't work that way. Names come back."
+   },
+   {
+    "t": "p",
+    "x": "Every job gives you two things. Skills and a reputation. The skills help you do the next job. The reputation helps you get it."
+   },
+   {
+    "t": "p",
+    "x": "Years later someone may forget exactly what you worked on. They'll remember whether they trusted you."
+   },
+   {
+    "t": "p",
+    "x": "Trust keeps making chances long after the job is over."
+   }
+  ]
+ },
+ {
+  "n": 32,
+  "part": "Find Your Way Into The Real World",
+  "title": "The Problems Never Stop. They Change.",
+  "kicker": "(Problem solving)",
+  "words": 218,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "From the outside, adults look like they know what they're doing."
+   },
+   {
+    "t": "p",
+    "x": "They pay bills. Go to work. Make decisions. Talk like there's a plan."
+   },
+   {
+    "t": "p",
+    "x": "So when you're young it's easy to think adulthood means finally having life sorted."
+   },
+   {
+    "t": "p",
+    "x": "Then you grow up and find most adults are still working it out."
+   },
+   {
+    "t": "p",
+    "x": "I thought it would get easier eventually. I imagined a point where everything made sense. No more confusion, no more hard decisions, no more problems. Just confidence and stability."
+   },
+   {
+    "t": "p",
+    "x": "Then I got older."
+   },
+   {
+    "t": "p",
+    "x": "The problems never disappeared. They changed."
+   },
+   {
+    "t": "p",
+    "x": "As students we worry about exams. Then jobs. Then bills. Then relationships. Then responsibilities."
+   },
+   {
+    "t": "p",
+    "x": "I've known people with more money than they ever imagined and the problems were still there. People with great careers whose lives weren't suddenly simple. People who looked like they had everything together and were still carrying something."
+   },
+   {
+    "t": "p",
+    "x": "That was strangely comforting. Not because I wanted anyone struggling. Because it meant problems aren't a sign something has gone wrong. They're part of being alive."
+   },
+   {
+    "t": "p",
+    "x": "Looking back, a lot of what once felt overwhelming doesn't anymore. Not because life got easier. Because I got better at handling it."
+   },
+   {
+    "t": "p",
+    "x": "And maybe that's what growing up is. Not reaching a point with no problems. Reaching a point where they don't scare you the way they used to."
+   }
+  ]
+ },
+ {
+  "n": 33,
+  "part": "Find Your Way Into The Real World",
+  "title": "The Problems Get Better",
+  "kicker": "",
+  "words": 207,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "If problems never stop, maybe zero problems was never the goal."
+   },
+   {
+    "t": "p",
+    "x": "What if the goal is better ones?"
+   },
+   {
+    "t": "p",
+    "x": "Problems that come from growth. From responsibility. From building something. From becoming someone stronger than you were."
+   },
+   {
+    "t": "p",
+    "x": "That took me years to understand."
+   },
+   {
+    "t": "p",
+    "x": "When you're young it's easy to think successful people have fewer problems. The older you get, the less true that looks."
+   },
+   {
+    "t": "p",
+    "x": "No money comes with money problems. Money comes with different money problems. Looking for a job has job problems. Having a job has workplace problems. Managers have people problems. Business owners have business problems. Parents have parent problems."
+   },
+   {
+    "t": "p",
+    "x": "They don't disappear. They change."
+   },
+   {
+    "t": "p",
+    "x": "The goal was never zero problems. It's learning which ones are worth carrying."
+   },
+   {
+    "t": "p",
+    "x": "Some come from staying stuck. Some from avoiding responsibility. Some from refusing to grow."
+   },
+   {
+    "t": "p",
+    "x": "But some arrive because your life is expanding. You're carrying more. Building more. Responsible for more than yourself."
+   },
+   {
+    "t": "p",
+    "x": "Some of the hardest stretches of my life were the ones where I learned the most. Not because they were easy. Because they forced me to adapt."
+   },
+   {
+    "t": "p",
+    "x": "Problems are usually a sign something is changing."
+   },
+   {
+    "t": "p",
+    "x": "The goal is becoming the kind of person who can handle bigger ones."
+   },
+   {
+    "t": "p",
+    "x": "Success doesn't remove problems. It gives you better ones."
+   }
+  ]
+ },
+ {
+  "n": 34,
+  "part": "Find Your Way Into The Real World",
+  "title": "What If There's Another Way?",
+  "kicker": "Solution",
+  "words": 202,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"What if there's another way?\""
+   },
+   {
+    "t": "p",
+    "x": "That question has saved me more time than trying harder ever did."
+   },
+   {
+    "t": "p",
+    "x": "When something isn't working, my first instinct is to push. More effort. More time. More pressure."
+   },
+   {
+    "t": "p",
+    "x": "Sometimes more isn't the answer."
+   },
+   {
+    "t": "p",
+    "x": "I once spent hours attacking the same problem the same way. Again. And again. And again. Nothing moved."
+   },
+   {
+    "t": "p",
+    "x": "Then I searched online and found someone doing it completely differently. Ten minutes later it was fixed."
+   },
+   {
+    "t": "p",
+    "x": "That annoyed me. It also taught me something. The answer isn't always to push harder. Sometimes it's to step back and ask a better question."
+   },
+   {
+    "t": "p",
+    "x": "I see it everywhere. A student using a study method that isn't helping. Someone at work repeating the same mistake. A couple having the same argument. Someone trying to fix a money problem with the habit that caused it."
+   },
+   {
+    "t": "p",
+    "x": "Different situations, same pattern."
+   },
+   {
+    "t": "p",
+    "x": "They're not short on effort. They're short on a different approach. A different method. A different person to explain it. A different angle."
+   },
+   {
+    "t": "p",
+    "x": "That's not laziness. That's thinking."
+   },
+   {
+    "t": "p",
+    "x": "And thinking saves you months of pushing at the same wall."
+   },
+   {
+    "t": "p",
+    "x": "So before you push again, stop and ask: what if there's another way?"
+   },
+   {
+    "t": "p",
+    "x": "The best solution often looks strange until it works."
+   }
+  ]
+ },
+ {
+  "n": 35,
+  "part": "Find Your Way Into The Real World",
+  "title": "Don't Waste The Lesson.",
+  "kicker": "",
+  "words": 241,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"I failed.\""
+   },
+   {
+    "t": "p",
+    "x": "That's painful. It's still different from \"I am a failure.\""
+   },
+   {
+    "t": "p",
+    "x": "One describes what happened. The other tries to describe who you are."
+   },
+   {
+    "t": "p",
+    "x": "And if you're not careful, one bad afternoon starts pretending to be your whole identity."
+   },
+   {
+    "t": "p",
+    "x": "I've watched it after exams. After interviews. After rejected applications. After projects that went nowhere."
+   },
+   {
+    "t": "p",
+    "x": "The result hurts, so your mind explains it fast. Maybe I'm not good enough. Maybe this isn't for me."
+   },
+   {
+    "t": "p",
+    "x": "But failure doesn't tell you who you are. It tells you what happened."
+   },
+   {
+    "t": "p",
+    "x": "What went wrong? What did I miss? Where was I unprepared? What warning did I ignore?"
+   },
+   {
+    "t": "p",
+    "x": "Those aren't easy questions while you're disappointed. That's usually where the useful information is hiding."
+   },
+   {
+    "t": "p",
+    "x": "A failed interview shows you where you were unclear. A bad decision shows you what you rushed. A project falling apart shows you where you needed a system."
+   },
+   {
+    "t": "p",
+    "x": "The lesson isn't always obvious. Sometimes you only see it months later."
+   },
+   {
+    "t": "p",
+    "x": "Failure is feedback. The only question is whether you'll read it."
+   },
+   {
+    "t": "p",
+    "x": "Don't waste it."
+   },
+   {
+    "t": "h2",
+    "x": "End of Part 2"
+   },
+   {
+    "t": "p",
+    "x": "The first stretch of adult life is learning to stand on your own feet. Choosing a direction. Learning quickly. Creating chances. Making your name mean something."
+   },
+   {
+    "t": "p",
+    "x": "Then another question turns up. How do you turn work into freedom? How do you stop trading every hour just to survive?"
+   },
+   {
+    "t": "p",
+    "x": "That's where we're going next."
+   },
+   {
+    "t": "p",
+    "x": "Earning money and building wealth are two different things. That difference changes how you see your life."
+   }
+  ]
+ },
+ {
+  "n": 36,
+  "part": "Learn What Money Is Really Doing",
+  "title": "Where Did My Money Go?",
+  "kicker": "spending, buying",
+  "words": 183,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "The first salary feels bigger before you start spending it."
+   },
+   {
+    "t": "p",
+    "x": "Then the month moves. Food. Coffee. Taxi rides. Eating out. Small things you barely notice."
+   },
+   {
+    "t": "p",
+    "x": "And one day you check the account and think: wait. Where did it go?"
+   },
+   {
+    "t": "p",
+    "x": "I remember one of my first full-time jobs. Getting paid felt great. For the first time money was arriving regularly."
+   },
+   {
+    "t": "p",
+    "x": "A month later I check my balance and I've got one question."
+   },
+   {
+    "t": "p",
+    "x": "I wasn't broke. I just had noticeably less than I thought I should."
+   },
+   {
+    "t": "p",
+    "x": "So I went looking for it. Food, coffee, taxi rides, eating out, small purchases. Nothing expensive."
+   },
+   {
+    "t": "p",
+    "x": "That's what surprised me. I hadn't lost the money in one big decision. I'd lost it in dozens of small ones."
+   },
+   {
+    "t": "p",
+    "x": "We spend years at school learning mathematics and almost no time learning how money actually works. Then school ends, money starts moving in and out of your life, and you're expected to know what you're doing."
+   },
+   {
+    "t": "p",
+    "x": "I didn't. I knew exactly what I earned. I had no idea what I spent."
+   },
+   {
+    "t": "p",
+    "x": "Making money is one skill. Knowing where it goes is another."
+   }
+  ]
+ },
+ {
+  "n": 37,
+  "part": "Learn What Money Is Really Doing",
+  "title": "The Phone Was Fine Yesterday",
+  "kicker": "Spending",
+  "words": 256,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "You didn't need a new phone."
+   },
+   {
+    "t": "p",
+    "x": "Not at first."
+   },
+   {
+    "t": "p",
+    "x": "Then the world started showing you one. Again. And again. Better camera. Better screen. Better battery. Better everything."
+   },
+   {
+    "t": "p",
+    "x": "And before long your old phone started looking worse than it was."
+   },
+   {
+    "t": "p",
+    "x": "Nothing changed. It still worked. The battery still lasted. The screen still turned on."
+   },
+   {
+    "t": "p",
+    "x": "The only thing that changed was how you saw it."
+   },
+   {
+    "t": "p",
+    "x": "It isn't only phones. Clothes. Cars. Watches. Gadgets. Things you weren't thinking about ten minutes ago start feeling urgent."
+   },
+   {
+    "t": "p",
+    "x": "That's when I understood something about money. A purchase begins long before money leaves your account. It begins with attention."
+   },
+   {
+    "t": "p",
+    "x": "The more attention something gets, the more important it starts to feel."
+   },
+   {
+    "t": "p",
+    "x": "Which is why the world works so hard to get in front of your eyes. Advertisements. Notifications. Influencers. Emails. Recommendations."
+   },
+   {
+    "t": "p",
+    "x": "Somebody is always trying to win your attention. And eventually your wallet."
+   },
+   {
+    "t": "p",
+    "x": "There's nothing wrong with buying things you actually want. The trick is telling the difference between something you wanted and something you were persuaded to want."
+   },
+   {
+    "t": "p",
+    "x": "That one question has saved me a surprising amount of money. Do I actually want this? Or have I just looked at it enough times to start wanting it?"
+   },
+   {
+    "t": "p",
+    "x": "Expensive purchases tend to happen fast. Good financial decisions tend to happen slowly. A pause. A day. A week. Enough distance to see it clearly again."
+   },
+   {
+    "t": "p",
+    "x": "Because if you don't decide where your money goes, plenty of other people already have ideas for it."
+   },
+   {
+    "t": "p",
+    "x": "And most of them are very good at getting your attention."
+   }
+  ]
+ },
+ {
+  "n": 38,
+  "part": "Learn What Money Is Really Doing",
+  "title": "Every Dollar Needs A Job",
+  "kicker": "Budget",
+  "words": 255,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Money disappears faster when it has no job."
+   },
+   {
+    "t": "p",
+    "x": "I didn't get that at first. I thought the problem was earning it. Once money was coming in, I assumed life would settle by itself."
+   },
+   {
+    "t": "p",
+    "x": "But money without a plan leaves quietly."
+   },
+   {
+    "t": "p",
+    "x": "I wasn't buying anything crazy. Little things. Food. Coffee. New clothes. The occasional reward for working hard."
+   },
+   {
+    "t": "p",
+    "x": "Everything felt fine right up until something needed repairing, a bill turned up, an expense I hadn't planned for arrived. And the money that felt comfortable three weeks earlier was gone."
+   },
+   {
+    "t": "p",
+    "x": "Making money and managing money are different skills. I wish I'd known that sooner."
+   },
+   {
+    "t": "p",
+    "x": "It's easy to assume earning more fixes it. I've met people earning very little who had everything under control, and people on excellent salaries who were permanently stressed about money."
+   },
+   {
+    "t": "p",
+    "x": "The difference usually wasn't income. It was planning."
+   },
+   {
+    "t": "p",
+    "x": "A budget sounded like a restriction to me. A way of saying no. No fun, no freedom, no breathing room."
+   },
+   {
+    "t": "p",
+    "x": "Then the motorbike broke down in a month I hadn't planned for."
+   },
+   {
+    "t": "p",
+    "x": "A budget is just a plan. A way of telling your money where to go before it decides for you."
+   },
+   {
+    "t": "p",
+    "x": "The most useful money lesson I picked up, and I didn't invent it, is this: every dollar needs a job."
+   },
+   {
+    "t": "p",
+    "x": "Some pay today's bills. Some protect you from tomorrow's problems. Some create future chances."
+   },
+   {
+    "t": "p",
+    "x": "The trick is deciding before the money disappears."
+   },
+   {
+    "t": "p",
+    "x": "The people in control of their finances usually aren't the ones earning most. They're the ones who know where it goes."
+   }
+  ]
+ },
+ {
+  "n": 39,
+  "part": "Learn What Money Is Really Doing",
+  "title": "Money Creates Options",
+  "kicker": "Money",
+  "words": 198,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"What would you do if someone gave you a million dollars?\""
+   },
+   {
+    "t": "p",
+    "x": "I like asking students that. The room wakes up immediately. Travel. Buy a house. Help family. Start a business. Retire."
+   },
+   {
+    "t": "p",
+    "x": "The answers come fast."
+   },
+   {
+    "t": "p",
+    "x": "The interesting part is what they reveal."
+   },
+   {
+    "t": "p",
+    "x": "Nobody wants the paper. Nobody gets excited about a number sitting in an account."
+   },
+   {
+    "t": "p",
+    "x": "They want what the money does. Freedom. Security. Choices. Time."
+   },
+   {
+    "t": "p",
+    "x": "Money is a tool. A hammer is valuable because of what it helps you build, and money works the same way."
+   },
+   {
+    "t": "p",
+    "x": "The mistake is turning it into the destination. More. More. More. Without ever asking why."
+   },
+   {
+    "t": "p",
+    "x": "More for what? More freedom? More security? More time with family? More breathing room when things get hard?"
+   },
+   {
+    "t": "p",
+    "x": "Most people are chasing what money can provide. The ability to choose. The ability to say no. The ability to help the people they care about. The ability to sleep a little easier."
+   },
+   {
+    "t": "p",
+    "x": "Money creates options, and options create freedom."
+   },
+   {
+    "t": "p",
+    "x": "So the goal isn't worshipping it. The goal is learning to use it well. Money isn't good or bad by itself. Used badly it creates stress. Used well it creates options."
+   },
+   {
+    "t": "p",
+    "x": "Options are worth more than the money."
+   }
+  ]
+ },
+ {
+  "n": 40,
+  "part": "Learn What Money Is Really Doing",
+  "title": "People Pay To Make Problems Go Away",
+  "kicker": "(Entrepreneurship )",
+  "words": 205,
+  "blocks": [
+   {
+    "t": "h",
+    "x": "Money Follows Value"
+   },
+   {
+    "t": "p",
+    "x": "\"How do I make more money?\""
+   },
+   {
+    "t": "p",
+    "x": "Fair question. Most of us ask it."
+   },
+   {
+    "t": "p",
+    "x": "But there's a better one hiding underneath."
+   },
+   {
+    "t": "p",
+    "x": "I used to think successful people had something I didn't. A special brain. Better connections. Better luck. Some secret nobody had told me."
+   },
+   {
+    "t": "p",
+    "x": "Then I started spending time around people who were doing well, and the pattern got hard to miss."
+   },
+   {
+    "t": "p",
+    "x": "The ones earning more were solving problems for other people. A teacher helps someone understand. An engineer makes things work. A mechanic fixes what's broken. A developer builds a tool other people need."
+   },
+   {
+    "t": "p",
+    "x": "Different jobs. Different industries. Same pattern."
+   },
+   {
+    "t": "p",
+    "x": "The money wasn't the starting point. The problem was."
+   },
+   {
+    "t": "p",
+    "x": "I spent years asking how to earn more. The better question had been sitting underneath it the whole time."
+   },
+   {
+    "t": "p",
+    "x": "Because when someone hands you money, they're saying something simple. You helped me solve something I couldn't solve myself."
+   },
+   {
+    "t": "p",
+    "x": "That changed how I saw the whole thing. Wanting to earn more is normal. But money follows value. A solution. A result. A better situation than the one somebody had before."
+   },
+   {
+    "t": "p",
+    "x": "So you stop asking \"how do I make more money?\" and start asking \"what problem can I help solve?\""
+   },
+   {
+    "t": "p",
+    "x": "Money follows value. Value starts with a problem."
+   }
+  ]
+ },
+ {
+  "n": 41,
+  "part": "Learn What Money Is Really Doing",
+  "title": "The Problem Comes First",
+  "kicker": "",
+  "words": 215,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"This takes too long.\""
+   },
+   {
+    "t": "p",
+    "x": "That sounds like a complaint. So does \"why is this so complicated,\" and \"I wish there was an easier way.\""
+   },
+   {
+    "t": "p",
+    "x": "Sometimes a complaint is more than a complaint. Sometimes it's a problem waiting for someone to notice it."
+   },
+   {
+    "t": "p",
+    "x": "Spend time around business owners, freelancers, teachers, people building things, and you start hearing a different kind of conversation. They talk about problems. Not money. Problems."
+   },
+   {
+    "t": "p",
+    "x": "A customer struggling with something. A process taking too long. A task that keeps causing frustration."
+   },
+   {
+    "t": "p",
+    "x": "I didn't think much of it at first. Then the pattern got hard to ignore. The people creating the most value were paying attention to problems everyone else walked past."
+   },
+   {
+    "t": "p",
+    "x": "Once you see that, complaints sound different. To one person it's ordinary noise. To another it's a clue."
+   },
+   {
+    "t": "p",
+    "x": "That difference matters, because most successful businesses don't start with inspiration. They start with frustration. A problem that needs solving. A process that needs improving."
+   },
+   {
+    "t": "p",
+    "x": "Most chances start with listening closely. What annoys people? What slows them down? What wastes their time?"
+   },
+   {
+    "t": "p",
+    "x": "The problem comes first. The solution comes later."
+   },
+   {
+    "t": "p",
+    "x": "And once you look at the world that way you start seeing chances in places you'd never noticed. Not because they appeared. Because you finally started paying attention to what was already broken."
+   }
+  ]
+ },
+ {
+  "n": 42,
+  "part": "Learn What Money Is Really Doing",
+  "title": "Most Things Already Exist",
+  "kicker": "Idea",
+  "words": 240,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "You don't always need to be first."
+   },
+   {
+    "t": "p",
+    "x": "That took me a while. The first book isn't always the best book. The first course isn't the clearest. The first app isn't the easiest to use."
+   },
+   {
+    "t": "p",
+    "x": "The person who wins is usually the one who made it better."
+   },
+   {
+    "t": "p",
+    "x": "I've stopped myself starting things because somebody had already done them. The website existed. The course existed. The book existed. The business existed."
+   },
+   {
+    "t": "p",
+    "x": "So I assumed there was no point."
+   },
+   {
+    "t": "p",
+    "x": "But \"already done\" doesn't mean \"done well.\""
+   },
+   {
+    "t": "p",
+    "x": "The more I looked, the more obvious it got. A lot of successful work wasn't new. It was better in some specific way. A little clearer. A little faster. A little easier. A little more honest."
+   },
+   {
+    "t": "p",
+    "x": "For a long time I thought success came from having a brilliant idea. Now I think most of it comes from execution. Actually building the thing. Testing it. Improving it. Listening to feedback. Doing it again."
+   },
+   {
+    "t": "p",
+    "x": "The internet makes every idea feel taken. Search for anything and someone has done it. A course. A channel. A product. A book."
+   },
+   {
+    "t": "p",
+    "x": "That's discouraging until you notice what people are actually after. Not new. Useful. Something that solves a problem. Something that works. Something better than what they had."
+   },
+   {
+    "t": "p",
+    "x": "So I stopped asking \"has somebody done this before?\" and started asking \"can this be improved?\""
+   },
+   {
+    "t": "p",
+    "x": "Most chances don't come from inventing something new. They come from improving something that exists."
+   },
+   {
+    "t": "p",
+    "x": "Sometimes better is enough."
+   }
+  ]
+ },
+ {
+  "n": 43,
+  "part": "Learn What Money Is Really Doing",
+  "title": "The Result Is What Matters",
+  "kicker": "Selling",
+  "words": 262,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "The person buying doesn't care how hard you worked."
+   },
+   {
+    "t": "p",
+    "x": "That feels unfair. You spent months building it. Fixing it. Changing small details nobody will ever see."
+   },
+   {
+    "t": "p",
+    "x": "But the person on the other side is asking one question. What changes for me?"
+   },
+   {
+    "t": "p",
+    "x": "That took me time. When you build something, every detail starts feeling important. The website. The product. The course. You know what had to be fixed. You know what took three times longer than planned."
+   },
+   {
+    "t": "p",
+    "x": "The person using it cares about something else entirely. Not how it works. What it does for them. More time. Less stress. More customers. A problem finally gone."
+   },
+   {
+    "t": "p",
+    "x": "The product matters. The result matters more."
+   },
+   {
+    "t": "p",
+    "x": "When I finished writing a book I cared about every chapter I'd rewritten five times. The reader wanted to know one thing. Will this help me?"
+   },
+   {
+    "t": "p",
+    "x": "No one buys a drill because they love drills. They want a hole in the wall. People don't join a gym because they love gym memberships. They want to feel healthier. Nobody buys software for the software. They want their work to get easier."
+   },
+   {
+    "t": "p",
+    "x": "It goes beyond business. In your career, people don't care what skills you have. They care what those skills solve. At work, nobody cares how busy you are. They care what you deliver. In life, people don't remember what you said you'd do. They remember what changed because you showed up."
+   },
+   {
+    "t": "p",
+    "x": "It's easy to spend all your time explaining what something is. The features. The effort. The plan. The person listening is wondering what it changes."
+   },
+   {
+    "t": "p",
+    "x": "The result is the point."
+   }
+  ]
+ },
+ {
+  "n": 44,
+  "part": "Learn What Money Is Really Doing",
+  "title": "What Can I Create?",
+  "kicker": "Produce",
+  "words": 268,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "For most of your life you're trained to consume. Read the book. Watch the video. Use the app. Buy the thing. Scroll the feed."
+   },
+   {
+    "t": "p",
+    "x": "Then one day you try making something, and the world looks different."
+   },
+   {
+    "t": "p",
+    "x": "A book stops being a book. You start thinking about whoever wrote it. The structure. The decisions. The hours underneath it."
+   },
+   {
+    "t": "p",
+    "x": "A website stops being a website. You wonder how it was built. What it's trying to solve. What could be better."
+   },
+   {
+    "t": "p",
+    "x": "That's what creating does. It changes what you notice."
+   },
+   {
+    "t": "p",
+    "x": "The week after I started my first book, I couldn't read other books the same way. I kept seeing the choices. Why this chapter came first. Why that line got cut. All the work I'd never noticed as a reader."
+   },
+   {
+    "t": "p",
+    "x": "Ideas start turning up in ordinary places. A problem someone keeps complaining about. A tool that could work better. A question that keeps coming back."
+   },
+   {
+    "t": "p",
+    "x": "Things you'd have walked past start standing out."
+   },
+   {
+    "t": "p",
+    "x": "Behind every finished thing, someone made decisions. Made mistakes. Tried to solve something."
+   },
+   {
+    "t": "p",
+    "x": "The world stops looking like a shelf of products and starts looking like a pile of solutions."
+   },
+   {
+    "t": "p",
+    "x": "Every book exists because somebody decided to write it. Every tool because somebody saw a problem and had a go at it."
+   },
+   {
+    "t": "p",
+    "x": "Creating something changes how you think. You don't have to become an entrepreneur for that to be true."
+   },
+   {
+    "t": "p",
+    "x": "Instead of asking what can I get, you start asking what can I contribute."
+   },
+   {
+    "t": "p",
+    "x": "And that question opens doors you'd never noticed, because people who create value look at the world differently."
+   },
+   {
+    "t": "p",
+    "x": "They're looking for something to build."
+   }
+  ]
+ },
+ {
+  "n": 45,
+  "part": "Learn What Money Is Really Doing",
+  "title": "Make It Your Own",
+  "kicker": "Inspiration",
+  "words": 266,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "My notes are full of pieces. Lines from books. Questions from students. Mistakes from projects. Things I didn't understand at the time."
+   },
+   {
+    "t": "p",
+    "x": "Parts of this book started like that. A note. A thought. A question I almost forgot."
+   },
+   {
+    "t": "p",
+    "x": "Then one boring evening I'm going through my phone and two old notes collide."
+   },
+   {
+    "t": "p",
+    "x": "A lesson from teaching meets something I read years ago. A mistake from one project meets a conversation with a student. And something new shows up. Not from nowhere. From pieces that finally found each other."
+   },
+   {
+    "t": "p",
+    "x": "That bothered me at first. I thought originality meant making something from nothing. No influence. No borrowing."
+   },
+   {
+    "t": "p",
+    "x": "Creativity doesn't work like that. Every writer learns from other writers. Every teacher learns from other teachers."
+   },
+   {
+    "t": "p",
+    "x": "The people we admire were students long before they were creators."
+   },
+   {
+    "t": "p",
+    "x": "Once I understood that I stopped worrying about being original and started paying attention to learning."
+   },
+   {
+    "t": "p",
+    "x": "There's a difference between copying and learning. Copying says \"I want to be them.\" Learning says \"I want to understand what works.\""
+   },
+   {
+    "t": "p",
+    "x": "One keeps you stuck. The other moves you."
+   },
+   {
+    "t": "p",
+    "x": "Most of what I make doesn't come from waiting for inspiration. It comes from collecting pieces. Books. Conversations. Projects. Teaching. Then connecting them in a way that makes sense to me."
+   },
+   {
+    "t": "p",
+    "x": "That's why I keep notes. Ideas bump into each other, and something appears."
+   },
+   {
+    "t": "p",
+    "x": "Two people can learn from the same source and build completely different things. The difference is the person. Their experiences. Their questions. Their taste."
+   },
+   {
+    "t": "p",
+    "x": "That's where originality lives. Not in making something from nothing. In taking what you learned and making it yours."
+   }
+  ]
+ },
+ {
+  "n": 46,
+  "part": "Learn What Money Is Really Doing",
+  "title": "Every Path Has A Risk",
+  "kicker": "",
+  "words": 254,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"What if it fails?\""
+   },
+   {
+    "t": "p",
+    "x": "Fair question. You should ask it. But there's a second one that matters just as much."
+   },
+   {
+    "t": "p",
+    "x": "What happens if I never try?"
+   },
+   {
+    "t": "p",
+    "x": "That one is quieter. It's usually the one that changes things."
+   },
+   {
+    "t": "p",
+    "x": "I used to think successful people were simply better at taking risks. Bigger risks. Bolder ones."
+   },
+   {
+    "t": "p",
+    "x": "The more I watched people actually building something, the less true that looked. They weren't taking bigger risks. They were thinking about risk differently."
+   },
+   {
+    "t": "p",
+    "x": "Starting something new has risk. Changing careers has risk. Moving city has risk."
+   },
+   {
+    "t": "p",
+    "x": "That part's easy to see. Staying where you are has risk too. Staying in a job you dislike. Staying in a career that stopped fitting. Never learning anything new."
+   },
+   {
+    "t": "p",
+    "x": "Those choices have consequences as well. They just arrive slower."
+   },
+   {
+    "t": "p",
+    "x": "The goal was never avoiding risk. It's choosing which one you're willing to live with. Both paths cost something. The difference is that one risk is obvious and the other is hidden."
+   },
+   {
+    "t": "p",
+    "x": "That doesn't make every risk a good one. Borrowing money you can't repay. Ignoring reality. Deciding without preparing. Those create problems, not chances."
+   },
+   {
+    "t": "p",
+    "x": "But learning before you leap is different. Testing an idea before committing. Building something on the side. Those are thoughtful risks."
+   },
+   {
+    "t": "p",
+    "x": "No one feels completely ready. Most people who move forward are scared. They just learn while they move."
+   },
+   {
+    "t": "p",
+    "x": "Looking back, the decisions that changed my life came with no guarantees. Growth rarely does."
+   },
+   {
+    "t": "p",
+    "x": "Every path has a risk. The question isn't whether it exists. It's which one you're choosing."
+   }
+  ]
+ },
+ {
+  "n": 47,
+  "part": "Learn What Money Is Really Doing",
+  "title": "Freedom Is The Real Wealth",
+  "kicker": "Investing",
+  "words": 248,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Wealth doesn't look exciting while it's being built."
+   },
+   {
+    "t": "p",
+    "x": "Saving a little. Spending a little less. Investing consistently. Waiting. Repeating boring decisions for years."
+   },
+   {
+    "t": "p",
+    "x": "None of that looks impressive in the moment. Over time it builds something."
+   },
+   {
+    "t": "p",
+    "x": "From a distance wealth looks loud. The car. The watch. The house. The holiday. Up close it's quieter. More choices. More breathing room. More time. Less panic."
+   },
+   {
+    "t": "p",
+    "x": "That took me a while. I used to think wealth was mostly about having more money. More income. More expensive things. More visible success."
+   },
+   {
+    "t": "p",
+    "x": "The longer I paid attention, the more that picture changed."
+   },
+   {
+    "t": "p",
+    "x": "Money is usually buying something else. Options. The room to say yes and the room to say no. The chance to leave a job you hate, help family, take a risk, handle a problem without falling apart."
+   },
+   {
+    "t": "p",
+    "x": "Which is why two people can earn the same and feel completely different. One feels trapped. The other feels free. The difference isn't income. It's what happened to the money after it arrived."
+   },
+   {
+    "t": "p",
+    "x": "Saved money creates choices for whoever you're going to be later. Not immediately. Slowly."
+   },
+   {
+    "t": "p",
+    "x": "That's not what social media sells. Social media shows the visible parts. The car. The watch. The holiday."
+   },
+   {
+    "t": "p",
+    "x": "What it never shows is the freedom. The freedom to walk away. To wait. To choose. To handle a problem without panic."
+   },
+   {
+    "t": "p",
+    "x": "The more people I meet, the more I think real wealth is quieter than it looks."
+   },
+   {
+    "t": "p",
+    "x": "Wealth is freedom."
+   },
+   {
+    "t": "p",
+    "x": "What money lets you do is the goal."
+   }
+  ]
+ },
+ {
+  "n": 48,
+  "part": "Learn What Money Is Really Doing",
+  "title": "Leave Something Behind",
+  "kicker": "",
+  "words": 271,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "When you climb, reach back down."
+   },
+   {
+    "t": "p",
+    "x": "That sentence has stayed with me, because none of us gets anywhere alone. Someone taught you. Someone opened a door. Someone encouraged you while you were struggling."
+   },
+   {
+    "t": "p",
+    "x": "So success can't only be about reaching the top by yourself. At some point the question becomes: who did you help climb?"
+   },
+   {
+    "t": "p",
+    "x": "Some people look successful from outside. Money. A title. A business. Not all of them seem fulfilled."
+   },
+   {
+    "t": "p",
+    "x": "The ones who leave the biggest impression are building something that reaches past them. A family. A business. A school. A book. Something that keeps helping people once they've left the room."
+   },
+   {
+    "t": "p",
+    "x": "The people who left the biggest mark on my life weren't the richest people I knew. A teacher. A mentor. A coach. Someone who helped when they didn't have to."
+   },
+   {
+    "t": "p",
+    "x": "Years later I'm still living off things they gave me. That's a different kind of wealth."
+   },
+   {
+    "t": "p",
+    "x": "Eventually every job ends. Every title disappears. Every paycheck gets spent."
+   },
+   {
+    "t": "p",
+    "x": "Then the question gets simpler. What remains? What did you build? Who did you help? What's better because you were here?"
+   },
+   {
+    "t": "p",
+    "x": "Money creates options. Impact creates something that outlasts you."
+   },
+   {
+    "t": "p",
+    "x": "So when you climb, reach back down. Help somebody. Share what you've learned. Open a door when you can."
+   },
+   {
+    "t": "p",
+    "x": "None of us got here alone, and very little worth building gets built alone either."
+   },
+   {
+    "t": "h2",
+    "x": "End Of Part 3"
+   },
+   {
+    "t": "p",
+    "x": "Most people think wealth is money. Money is one part of it."
+   },
+   {
+    "t": "p",
+    "x": "Real wealth includes freedom. Purpose. And the people you share it with."
+   },
+   {
+    "t": "p",
+    "x": "Because success means a lot less if you have no one to celebrate it with."
+   },
+   {
+    "t": "p",
+    "x": "Which leads to the next part. Relationships."
+   }
+  ]
+ },
+ {
+  "n": 49,
+  "part": "Learn How To Deal With People",
+  "title": "People Want To Feel Heard",
+  "kicker": "(Communication)",
+  "words": 261,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Conversations go wrong when someone tries to fix the problem too early. Before they understand it. Before they've listened. Before the other person has finished explaining."
+   },
+   {
+    "t": "p",
+    "x": "Advice arrives. Connection doesn't."
+   },
+   {
+    "t": "p",
+    "x": "I know why it happens. We want to help. We want to sound useful. We think giving an answer is the same as caring."
+   },
+   {
+    "t": "p",
+    "x": "But sometimes advice isn't what the person needs first. They need to feel heard."
+   },
+   {
+    "t": "p",
+    "x": "You've had the conversation where someone was in the room but not really there. Checking their phone. Building their reply. Waiting for a gap."
+   },
+   {
+    "t": "p",
+    "x": "The conversation carries on. The connection quietly leaves."
+   },
+   {
+    "t": "p",
+    "x": "We spend our whole education learning to speak. To write. To answer. Almost nobody teaches us to listen. To pay attention. To understand somebody before responding to them."
+   },
+   {
+    "t": "p",
+    "x": "And those turn out to be the skills that shape everything after school. Friendships. Relationships. Work. Family. Trust."
+   },
+   {
+    "t": "p",
+    "x": "Teaching showed me this over and over. Students don't remember every word you say. They remember how they felt around you. Whether you listened. Whether you cared. Whether they felt respected."
+   },
+   {
+    "t": "p",
+    "x": "That's what stays."
+   },
+   {
+    "t": "p",
+    "x": "Communication is connection. Talking is easy. Connection takes attention, curiosity, patience, and actual interest in the person in front of you."
+   },
+   {
+    "t": "p",
+    "x": "Which is why some people build strong relationships everywhere they go. Not because they're the funniest or the loudest. Because people feel safe talking to them."
+   },
+   {
+    "t": "p",
+    "x": "In a world where everyone wants to be understood, that turns out to be worth a lot."
+   },
+   {
+    "t": "p",
+    "x": "Whatever career you choose, whatever you build, however much you earn, your life gets shaped by relationships."
+   }
+  ]
+ },
+ {
+  "n": 50,
+  "part": "Learn How To Deal With People",
+  "title": "Waiting For Your Turn Isn't Listening",
+  "kicker": "Listening",
+  "words": 205,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "I catch myself doing this."
+   },
+   {
+    "t": "p",
+    "x": "Someone is talking. I should be listening. Instead I'm already building my response. My opinion. My story. The thing I want to say next."
+   },
+   {
+    "t": "p",
+    "x": "The conversation is still going. The listening left a while ago."
+   },
+   {
+    "t": "p",
+    "x": "You can be completely present and not there at all. Nodding. Looking at them. Saying the small right words. \"Yeah.\" \"I understand.\""
+   },
+   {
+    "t": "p",
+    "x": "Inside you're somewhere else. Preparing. Comparing. Waiting."
+   },
+   {
+    "t": "p",
+    "x": "That isn't listening. That's just waiting for your turn."
+   },
+   {
+    "t": "p",
+    "x": "Speaking clearly is the easy half. Listening is the hard one."
+   },
+   {
+    "t": "p",
+    "x": "Hearing means the words reached your ears. Listening means you gave someone enough attention to understand what they actually meant."
+   },
+   {
+    "t": "p",
+    "x": "Sounds simple. It isn't, because we all want to be understood. So does the person opposite."
+   },
+   {
+    "t": "p",
+    "x": "Which is why good listeners stand out. They make people feel heard. They ask questions. They don't rush to make every conversation about themselves."
+   },
+   {
+    "t": "p",
+    "x": "Next time you're talking to someone, try one thing. Listen all the way to the end. Don't interrupt. Don't build your reply early. Don't pull it back to yourself."
+   },
+   {
+    "t": "p",
+    "x": "You might be surprised how much you hear when you stop waiting to speak."
+   },
+   {
+    "t": "p",
+    "x": "People rarely remember who talked most. They remember who made them feel understood."
+   }
+  ]
+ },
+ {
+  "n": 51,
+  "part": "Learn How To Deal With People",
+  "title": "People Notice More Than You Think",
+  "kicker": "Nonverbal Communication",
+  "words": 258,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Communication starts before the first sentence."
+   },
+   {
+    "t": "p",
+    "x": "Your face. Your tone. Your energy. The way you walk into a room. The way you look at someone while they're speaking."
+   },
+   {
+    "t": "p",
+    "x": "People are receiving a message before you've said much of anything."
+   },
+   {
+    "t": "p",
+    "x": "Teaching taught me that. At first I assumed students were listening to what I said. The explanation. The instructions. The lesson."
+   },
+   {
+    "t": "p",
+    "x": "They were watching everything else too. If I looked excited, they noticed. If I looked frustrated, they noticed. If I looked tired, they definitely noticed. Sometimes the mood of the room shifted before I'd finished my first sentence."
+   },
+   {
+    "t": "p",
+    "x": "You see it everywhere. At work. In interviews. On dates. In meetings."
+   },
+   {
+    "t": "p",
+    "x": "The person across from you is picking up things you're not thinking about. Your tone. Your attention. Your eye contact. Whether you seem interested. Whether you're actually listening."
+   },
+   {
+    "t": "p",
+    "x": "It's easy to focus only on what you're going to say. The message often arrives before the words."
+   },
+   {
+    "t": "p",
+    "x": "You might mean to be friendly, but if you're on your phone the whole time, that's not what lands. You might mean to sound confident, but if you keep undercutting yourself out loud, that sends its own message. You might mean to show interest, but if your attention drifts, people feel it."
+   },
+   {
+    "t": "p",
+    "x": "Communication is attention, presence, interest and respect. The signals people pick up from you."
+   },
+   {
+    "t": "p",
+    "x": "Which is why some people make a strong impression before saying much, and others say all the right things and still can't connect."
+   },
+   {
+    "t": "p",
+    "x": "People notice more than you think. And they remember longer than you'd expect."
+   }
+  ]
+ },
+ {
+  "n": 52,
+  "part": "Learn How To Deal With People",
+  "title": "Listen For What Is Under The Words",
+  "kicker": "Critical Listening",
+  "words": 254,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"I'm fine.\""
+   },
+   {
+    "t": "p",
+    "x": "That doesn't always mean fine. Sometimes it means \"I don't know how to explain this.\" \"I don't want to bother anyone.\" \"I'm embarrassed.\" \"I'm not ready to talk yet.\""
+   },
+   {
+    "t": "p",
+    "x": "The words are simple. What's underneath usually isn't."
+   },
+   {
+    "t": "p",
+    "x": "People don't always tell you what's wrong. Not because they're being dishonest. Sometimes they can't explain it. Sometimes they're embarrassed. Sometimes they don't want the conflict. Sometimes they haven't worked it out themselves."
+   },
+   {
+    "t": "p",
+    "x": "So instead of \"I'm overwhelmed,\" you get \"I'm just tired.\" Instead of \"I'm disappointed,\" they go quiet. Instead of \"I need help,\" they insist they're fine."
+   },
+   {
+    "t": "p",
+    "x": "The words tell part of it. Rarely all of it."
+   },
+   {
+    "t": "p",
+    "x": "Which is why good communication is more than hearing. It's staying curious. Changes in tone. Changes in behavior. Changes in energy. The things someone suddenly stops mentioning. The things they avoid. The things they keep coming back to."
+   },
+   {
+    "t": "p",
+    "x": "It's easy to assume too fast. They said tired, so we decide it's tiredness. They said fine, so we leave it."
+   },
+   {
+    "t": "p",
+    "x": "People respond better to curiosity than to assumptions. Ask gently. Listen a bit longer. Give them room to explain."
+   },
+   {
+    "t": "p",
+    "x": "Sometimes \"is everything okay?\" opens a whole conversation. Sometimes it doesn't. Either way, asking shows you noticed. And being noticed is often what someone needed first."
+   },
+   {
+    "t": "p",
+    "x": "Understanding somebody is rarely about finding the perfect words. It's about paying attention to the whole picture. What they say. What they do. What changed. What didn't."
+   },
+   {
+    "t": "p",
+    "x": "Communication is understanding the person behind the words. And those aren't always the same thing."
+   }
+  ]
+ },
+ {
+  "n": 53,
+  "part": "Learn How To Deal With People",
+  "title": "Words Last Longer Than The Moment",
+  "kicker": "Speaking Responsibly",
+  "words": 238,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "You still remember something someone said to you years ago. Something kind. Something cruel. Something that made you feel small."
+   },
+   {
+    "t": "p",
+    "x": "They may not remember saying it. You remember how it felt."
+   },
+   {
+    "t": "p",
+    "x": "That's the strange thing about words. The person saying them lives the moment once. The person hearing them can carry it for years."
+   },
+   {
+    "t": "p",
+    "x": "A teacher who believed in you. A friend who said the right thing at the right time. A parent whose advice you didn't appreciate until much later."
+   },
+   {
+    "t": "p",
+    "x": "The opposite is true too. A careless comment. Something said in anger. Something said as a joke that didn't land as one."
+   },
+   {
+    "t": "p",
+    "x": "Sometimes the person who said it forgets entirely. The person who heard it doesn't."
+   },
+   {
+    "t": "p",
+    "x": "That's what makes communication serious. Your words don't stop when the conversation does. They become part of how someone remembers you."
+   },
+   {
+    "t": "p",
+    "x": "Trust gets built in small conversations. Keeping your word. Admitting mistakes. Showing respect when it's inconvenient. None of those look like much on their own. Over time they become your reputation."
+   },
+   {
+    "t": "p",
+    "x": "More so now. Messages get saved. Screenshots exist. A comment written in four seconds can be read in four years."
+   },
+   {
+    "t": "p",
+    "x": "So I try to pause more than I used to. Especially when I'm angry. Not because I always get it right. I don't. Because words spoken in a moment outlast the feeling that produced them."
+   },
+   {
+    "t": "p",
+    "x": "And long after the conversation ends, people remember how your words made them feel."
+   }
+  ]
+ },
+ {
+  "n": 54,
+  "part": "Learn How To Deal With People",
+  "title": "Avoiding It Does Not Fix It",
+  "kicker": "Communicating Constructively",
+  "words": 279,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "\"I should probably say something.\""
+   },
+   {
+    "t": "p",
+    "x": "That sentence has weight in it. You know something's wrong. You know the conversation needs to happen. You also know it's going to be uncomfortable."
+   },
+   {
+    "t": "p",
+    "x": "So you wait."
+   },
+   {
+    "t": "p",
+    "x": "Waiting feels easier at first. No argument. No tension. No risk of saying it badly."
+   },
+   {
+    "t": "p",
+    "x": "But things don't disappear because nobody talks about them. They get heavier."
+   },
+   {
+    "t": "p",
+    "x": "The hardest conversations aren't with strangers. They're with people we care about. The ones closest to us are the hardest to be honest with."
+   },
+   {
+    "t": "p",
+    "x": "Every relationship that matters eventually meets a conversation nobody wants to have. Disappointment. Expectations. Boundaries. Mistakes."
+   },
+   {
+    "t": "p",
+    "x": "Nobody has to be in the wrong for it to happen. Sometimes two people just want different things. A life with no conflict would mean nobody cared enough about anything to speak up."
+   },
+   {
+    "t": "p",
+    "x": "The question isn't whether it happens. It's what happens next."
+   },
+   {
+    "t": "p",
+    "x": "Most people don't avoid these conversations because they don't care. They avoid them because they do. They don't want to upset anyone or damage anything, so they wait and hope it solves itself."
+   },
+   {
+    "t": "p",
+    "x": "Sometimes it does. Usually it doesn't. A small misunderstanding becomes frustration. Frustration becomes resentment. Resentment becomes distance."
+   },
+   {
+    "t": "p",
+    "x": "I watched a small disagreement between teammates turn cold. Not because of anything that got said. Because of the week of silence after it."
+   },
+   {
+    "t": "p",
+    "x": "I've watched two good friends lose most of a year the same way. It would have taken twenty minutes."
+   },
+   {
+    "t": "p",
+    "x": "Starting it sounds simple. It rarely feels simple when you're inside it."
+   },
+   {
+    "t": "p",
+    "x": "The strongest relationships I've seen let people disagree and still protect the relationship. Honestly, respectfully, without trying to destroy each other."
+   },
+   {
+    "t": "p",
+    "x": "Avoiding it doesn't fix it. Somebody carries the cost later."
+   }
+  ]
+ },
+ {
+  "n": 55,
+  "part": "Learn How To Deal With People",
+  "title": "You Don't Have To Win Every Argument",
+  "kicker": "",
+  "words": 272,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Disagreement isn't disrespect."
+   },
+   {
+    "t": "p",
+    "x": "Someone can see the world differently without being your enemy. Someone can challenge your opinion without attacking you. Someone can disagree and still care about you."
+   },
+   {
+    "t": "p",
+    "x": "Good people disagree. About money. Politics. Religion. Parenting. Almost everything."
+   },
+   {
+    "t": "p",
+    "x": "Two intelligent people can look at the same situation, reach opposite conclusions, and both make a reasonable case."
+   },
+   {
+    "t": "p",
+    "x": "That took me time to accept. I used to treat disagreement as a problem needing a solution. A winner. A loser. A correct answer."
+   },
+   {
+    "t": "p",
+    "x": "Most conversations aren't about winning. They're about understanding."
+   },
+   {
+    "t": "p",
+    "x": "The habit that changed mine was getting curious. Instead of defending my position immediately, I started asking. Why do you see it that way? What led you there? What am I missing?"
+   },
+   {
+    "t": "p",
+    "x": "Those questions don't mean I agree. They mean I'm trying to understand before I argue. Curiosity teaches you more than certainty does."
+   },
+   {
+    "t": "p",
+    "x": "Understanding someone doesn't require agreeing with them. And disagreeing doesn't make you disrespectful. Both are easy to forget once emotions are in the room."
+   },
+   {
+    "t": "p",
+    "x": "You don't need to win. You don't need to prove you're smarter. You don't need the last word. You certainly don't need everyone thinking the way you do."
+   },
+   {
+    "t": "p",
+    "x": "Some of the best conversations I've had ended in disagreement and respect at the same time. Both of us understood the other better than when we started. That's worth more than winning."
+   },
+   {
+    "t": "p",
+    "x": "The people I respect in a hard conversation stay calm when opinions collide. They listen without getting defensive. They disagree without getting hostile. They protect the relationship while arguing about the idea."
+   },
+   {
+    "t": "p",
+    "x": "Communication is learning to stay connected with people who don't think like you."
+   }
+  ]
+ },
+ {
+  "n": 56,
+  "part": "Learn How To Deal With People",
+  "title": "The Hardest Problems Involve People",
+  "kicker": "Boundaries",
+  "words": 240,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Most adult stress has a person attached to it. A difficult customer. An angry manager. An unreliable friend. A disappointed parent. A frustrated partner."
+   },
+   {
+    "t": "p",
+    "x": "The situation looks practical at first. Underneath, it's usually about people."
+   },
+   {
+    "t": "p",
+    "x": "That's what makes life complicated. A computer does what it's told. A person doesn't."
+   },
+   {
+    "t": "p",
+    "x": "A broken machine can be repaired. A broken relationship is harder. A maths problem has an answer. A conflict between two people can have several."
+   },
+   {
+    "t": "p",
+    "x": "The hardest problems in life are rarely technical. They're people problems."
+   },
+   {
+    "t": "p",
+    "x": "No one prepares us for that. School teaches maths, science, history and geography. Very little time goes on learning how to deal with people. Real people. Emotional, complicated, people who disappoint us and frustrate us. And sometimes people we care deeply about."
+   },
+   {
+    "t": "p",
+    "x": "Most arguments aren't about the thing on the surface. The dishes. The message that went unanswered. Who forgot what. Who didn't help."
+   },
+   {
+    "t": "p",
+    "x": "Those are part of the story. Underneath, something else is happening. Someone feels ignored. Disrespected. Unheard."
+   },
+   {
+    "t": "p",
+    "x": "That's what makes people problems hard. You're in two conversations at once. The one on the surface sounds practical. The one underneath is emotional."
+   },
+   {
+    "t": "p",
+    "x": "That doesn't mean feelings are always right. It means they're part of the problem. Ignore them and the problem doesn't go away. It just changes shape."
+   },
+   {
+    "t": "p",
+    "x": "Life gets easier when you learn to solve technical problems. Life gets better when you learn to understand people."
+   },
+   {
+    "t": "p",
+    "x": "And those aren't the same skill."
+   }
+  ]
+ },
+ {
+  "n": 57,
+  "part": "Learn How To Deal With People",
+  "title": "Friendships Don't Stay The Same",
+  "kicker": "Friendships",
+  "words": 274,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Not everyone who comes into your life stays there."
+   },
+   {
+    "t": "p",
+    "x": "That's hard to accept. Some people matter for a season. Some grow alongside you. Some drift. Some come back years later. Some become memories you're still glad about."
+   },
+   {
+    "t": "p",
+    "x": "Friendship is easy while life keeps putting you in the same room. Same class. Same school. Same neighborhood. Same faces every weekend. You barely have to think about it. Life does the work."
+   },
+   {
+    "t": "p",
+    "x": "Then it changes. People move. Change jobs. Start families. Get busy. And friendships that took no effort suddenly take effort. Not because anyone did anything wrong. Because life moved."
+   },
+   {
+    "t": "p",
+    "x": "Some grow stronger. Some fade. Some disappear. Some surprise you and become more important than they ever were."
+   },
+   {
+    "t": "p",
+    "x": "That can feel sad at first, especially when you realize caring about someone doesn't guarantee they stay close."
+   },
+   {
+    "t": "p",
+    "x": "People change. Circumstances change. You change."
+   },
+   {
+    "t": "p",
+    "x": "The friendships that survive are the ones somebody kept up. A message. A phone call. A visit. A small effort repeated over years."
+   },
+   {
+    "t": "p",
+    "x": "They don't usually end in one go. They fade. One missed message. One cancelled plan. One busy month. Then another."
+   },
+   {
+    "t": "p",
+    "x": "Nobody has to hate anybody. Life just pulls people in different directions. That doesn't mean the friendship wasn't real. It means relationships need care to keep growing."
+   },
+   {
+    "t": "p",
+    "x": "Small things matter. Checking in. Remembering. Showing up. Making time. Saying \"I still care.\""
+   },
+   {
+    "t": "p",
+    "x": "Friendships don't stay the same. They either grow or they drift, and the difference is usually in the things that look too small to matter."
+   },
+   {
+    "t": "p",
+    "x": "Then, before you notice, another kind of relationship walks in. One that teaches most of the same lessons in a completely different way."
+   },
+   {
+    "t": "p",
+    "x": "Love."
+   }
+  ]
+ },
+ {
+  "n": 58,
+  "part": "Learn How To Deal With People",
+  "title": "Love Is Not A Life Plan",
+  "kicker": "Build healthy romantic relationships.",
+  "words": 272,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Love can make one person feel like the whole world."
+   },
+   {
+    "t": "p",
+    "x": "One message changes your mood. One argument ruins your week. One breakup feels like everything ending."
+   },
+   {
+    "t": "p",
+    "x": "Nothing else feels as important. Your goals go quiet. Your standards get negotiable. Your whole life starts orbiting one person."
+   },
+   {
+    "t": "p",
+    "x": "I understand how it happens. When you care about someone that much they become your future. Your happiness. Your focus."
+   },
+   {
+    "t": "p",
+    "x": "But later you look back and see it. The relationship wasn't your whole life. It only felt that way at the time."
+   },
+   {
+    "t": "p",
+    "x": "You still had goals. Friends. Family. A future. An identity. You just couldn't see them from where you were standing."
+   },
+   {
+    "t": "p",
+    "x": "That's the dangerous thing about love. It makes one person feel like everything, and then it's easy to lose track of yourself."
+   },
+   {
+    "t": "p",
+    "x": "I've watched people put their dreams on hold for a relationship. Ignore warning signs because they were afraid of being alone. Stay somewhere unhappy because they'd confused love with sacrifice."
+   },
+   {
+    "t": "p",
+    "x": "Love is powerful. It makes people brave. It also makes people blind."
+   },
+   {
+    "t": "p",
+    "x": "Love can support your life. It can't do the work of building one. It can't fix a lack of direction. It can't solve money problems. It can't give you purpose you stopped looking for."
+   },
+   {
+    "t": "p",
+    "x": "The healthiest relationships are built by two people who are both trying to grow. Two people with goals. Standards. Lives of their own."
+   },
+   {
+    "t": "p",
+    "x": "Love should add to your life, not erase it."
+   },
+   {
+    "t": "p",
+    "x": "Because before you can build a life with someone else, you need enough of your own to know who you are when love walks in."
+   },
+   {
+    "t": "p",
+    "x": "Love is beautiful. It's just not a life plan."
+   }
+  ]
+ },
+ {
+  "n": 59,
+  "part": "Learn How To Deal With People",
+  "title": "Don't Lose Your Direction For Love",
+  "kicker": "",
+  "words": 251,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Rearranging your whole life for someone feels romantic at first. Like proof. That you care. That they matter."
+   },
+   {
+    "t": "p",
+    "x": "But not every sacrifice is love. Sometimes it's the start of losing yourself."
+   },
+   {
+    "t": "p",
+    "x": "Plans change. Goals slip. Studies get less important. Friendships get quieter. Standards get negotiable."
+   },
+   {
+    "t": "p",
+    "x": "And at the time it feels normal. Beautiful, even."
+   },
+   {
+    "t": "p",
+    "x": "It gets painful when the relationship becomes the whole plan."
+   },
+   {
+    "t": "p",
+    "x": "Because relationships change. Sometimes love gets stronger. Sometimes it ends. And when it ends, some people don't only lose the relationship. They find they lost the direction they used to have for themselves."
+   },
+   {
+    "t": "p",
+    "x": "I watched someone move cities, drop a course, and let a whole plan go quiet for a relationship, then rebuild all of it alone when it finished."
+   },
+   {
+    "t": "p",
+    "x": "That's a hard place to be."
+   },
+   {
+    "t": "p",
+    "x": "Love should influence your decisions. Of course it should. But there's a difference between love influencing your direction and love replacing it. One is connection. The other is disappearance."
+   },
+   {
+    "t": "p",
+    "x": "You still need your own foundation. Not because you love them less. Because a relationship gets too heavy when one person becomes the entire future."
+   },
+   {
+    "t": "p",
+    "x": "A healthy relationship doesn't ask anyone to abandon themselves so it can survive. It's two people walking the same way while still knowing who they are."
+   },
+   {
+    "t": "p",
+    "x": "Neither one has to disappear."
+   },
+   {
+    "t": "p",
+    "x": "Build your future around your values. Your character. Your direction. Then share it with someone who respects it."
+   },
+   {
+    "t": "p",
+    "x": "Because people can leave. Circumstances change. The person who has to live with your choices is still you."
+   }
+  ]
+ },
+ {
+  "n": 60,
+  "part": "Learn How To Deal With People",
+  "title": "Reality Is Where Love Lives",
+  "kicker": "Love makes you blind.",
+  "words": 239,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Some relationships spend too much time living in the future."
+   },
+   {
+    "t": "p",
+    "x": "Things will be better when we graduate. When we move. When we have more money. When they change."
+   },
+   {
+    "t": "p",
+    "x": "But the relationship is happening now, and now still counts."
+   },
+   {
+    "t": "p",
+    "x": "That's where people get stuck. They stop looking at what's in front of them and start building with what they hope arrives later."
+   },
+   {
+    "t": "p",
+    "x": "It's possible to fall in love with potential. Who someone could become. The future they keep describing. The version of them you keep waiting for."
+   },
+   {
+    "t": "p",
+    "x": "A relationship is built with the person standing in front of you. The one who keeps showing you patterns."
+   },
+   {
+    "t": "p",
+    "x": "Everybody makes mistakes. Everybody has bad days. That's normal. Patterns are different."
+   },
+   {
+    "t": "p",
+    "x": "How does this person treat you when they're frustrated? How do they handle responsibility? How do they respond when things don't go their way?"
+   },
+   {
+    "t": "p",
+    "x": "Character shows itself in patterns. Not speeches. Not apologies repeated every week. Not promises made after every argument."
+   },
+   {
+    "t": "p",
+    "x": "Which is why warning signs matter. Dishonesty. Disrespect. Manipulation. Controlling behavior."
+   },
+   {
+    "t": "p",
+    "x": "Most red flags don't look big at the start. They look small enough to explain away, so people explain them away. Ignored problems rarely shrink. They get more expensive."
+   },
+   {
+    "t": "p",
+    "x": "Love is what someone keeps showing you."
+   },
+   {
+    "t": "p",
+    "x": "Potential matters. Behavior matters more. Patterns matter more."
+   },
+   {
+    "t": "p",
+    "x": "Because the person you're with today is the one you're actually building with. Not the one you hope turns up eventually."
+   },
+   {
+    "t": "p",
+    "x": "Believe patterns. Not promises."
+   }
+  ]
+ },
+ {
+  "n": 61,
+  "part": "Learn How To Deal With People",
+  "title": "Love Should Feel Safe, Not Confusing",
+  "kicker": "Love",
+  "words": 303,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "Before you build a life with someone, one honest question. Do I feel safe here?"
+   },
+   {
+    "t": "p",
+    "x": "Not excited all the time. Not entertained. Safe. Respected. Steady. Able to be yourself without constantly feeling confused."
+   },
+   {
+    "t": "p",
+    "x": "That question matters because love and intensity are easy to mix up. Attraction. Drama. Jealousy. The disappearing and coming back. The need to keep proving yourself."
+   },
+   {
+    "t": "p",
+    "x": "It feels deep at first. It takes up so much space in your head that it must be important."
+   },
+   {
+    "t": "p",
+    "x": "Sometimes it isn't love. Sometimes it's exhaustion."
+   },
+   {
+    "t": "p",
+    "x": "The right person won't make your life perfect. No one can. They also shouldn't make it feel permanently unstable."
+   },
+   {
+    "t": "p",
+    "x": "You shouldn't spend every day wondering where you stand. You shouldn't have to beg for basic care. You shouldn't lose your peace to keep someone close."
+   },
+   {
+    "t": "p",
+    "x": "That doesn't mean healthy relationships have no problems. People disagree. Misunderstand each other. Get it wrong. But there's a difference between normal conflict and constant chaos. One helps two people understand each other. The other wears them down."
+   },
+   {
+    "t": "p",
+    "x": "Chemistry is exciting. Respect lasts longer. Attraction brings two people together. Character decides what happens next."
+   },
+   {
+    "t": "p",
+    "x": "Because eventually the excitement settles. Real life turns up. Stress. Money. Family. Work."
+   },
+   {
+    "t": "p",
+    "x": "That's when you see what the relationship is made of. Anybody can be sweet when life is easy."
+   },
+   {
+    "t": "p",
+    "x": "Watch how they handle pressure. How they speak when they're angry. Whether their actions match their words."
+   },
+   {
+    "t": "p",
+    "x": "Real love gets clearer with time. Fantasy gets weaker."
+   },
+   {
+    "t": "p",
+    "x": "So don't rush permanent decisions because emotions feel urgent. Feelings are powerful. They aren't always wise."
+   },
+   {
+    "t": "p",
+    "x": "Love is choosing someone you can build with. Someone whose character still makes sense once the excitement fades."
+   },
+   {
+    "t": "p",
+    "x": "Healthy love is respect, safety, patience, trust and effort. Two imperfect people learning how to choose each other well."
+   },
+   {
+    "t": "p",
+    "x": "Not only when it's exciting. When real life arrives."
+   }
+  ]
+ },
+ {
+  "n": 62,
+  "part": "Learn How To Deal With People",
+  "title": "Sometimes Letting Go Is Love Too",
+  "kicker": "Hold on and Let Go.",
+  "words": 333,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "The same conversation can wear you out."
+   },
+   {
+    "t": "p",
+    "x": "You talk. They promise. Things improve for a few days. Then the pattern comes back. So you talk again. Another apology. Another promise. Another chance."
+   },
+   {
+    "t": "p",
+    "x": "At some point the words start sounding better than the behavior."
+   },
+   {
+    "t": "p",
+    "x": "That's a painful place to be, because not every problem means a relationship is broken. And not every relationship can be saved. The hard part is telling which is which."
+   },
+   {
+    "t": "p",
+    "x": "No one gets everything right. Not you, not your partner, not anybody. If every mistake ended a relationship, none would survive."
+   },
+   {
+    "t": "p",
+    "x": "Healthy ones need forgiveness. Patience. The ability to see somebody else's side. Sometimes the goal isn't proving you're right. It's protecting what you're building."
+   },
+   {
+    "t": "p",
+    "x": "But forgiveness isn't the same as ignoring reality. There's a difference between a mistake and a pattern."
+   },
+   {
+    "t": "p",
+    "x": "Some relationships come out of a hard season stronger. Not because they avoided problems. Because both people faced them. Communication improved. Trust got rebuilt."
+   },
+   {
+    "t": "p",
+    "x": "Then there's the other reality. The conversation happens. Then it happens again. And again. The promises change. The behavior doesn't."
+   },
+   {
+    "t": "p",
+    "x": "Hope can keep you somewhere you already know is hurting you."
+   },
+   {
+    "t": "p",
+    "x": "Some people don't waste months on this. They waste years. The relationship ended emotionally long before it ended officially, and both of them can feel it. They stay anyway. Because it's familiar. Because they're scared. Because they've already put so much in."
+   },
+   {
+    "t": "p",
+    "x": "Time already spent is gone. You can't get it back by spending more."
+   },
+   {
+    "t": "p",
+    "x": "So before you hold on, ask honestly. Is trust being rebuilt, or broken again? Is the effort coming from both of us, or one? Am I staying because things are improving, or because leaving frightens me?"
+   },
+   {
+    "t": "p",
+    "x": "No relationship survives on effort from one person forever."
+   },
+   {
+    "t": "p",
+    "x": "Sometimes the healthiest decision is the most painful one. Not because it meant nothing. Not because you stopped caring. Because you finally accepted what was real."
+   },
+   {
+    "t": "p",
+    "x": "Knowing when to hold on takes wisdom. Knowing when to let go takes courage."
+   },
+   {
+    "t": "p",
+    "x": "Both are love."
+   }
+  ]
+ },
+ {
+  "n": 63,
+  "part": "Become Someone You Respect",
+  "title": "Who Are You Becoming?",
+  "kicker": "Character",
+  "words": 262,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "There's one person you take into every room. Every job. Every relationship. Every success. Every mistake. Every private decision no one else sees."
+   },
+   {
+    "t": "p",
+    "x": "You."
+   },
+   {
+    "t": "p",
+    "x": "Which is why who you're becoming matters more than most people notice."
+   },
+   {
+    "t": "p",
+    "x": "Plenty of questions follow you through life. What do you want to study? What job? How much do you want to earn? Where do you want to live?"
+   },
+   {
+    "t": "p",
+    "x": "They matter. They're not the whole question."
+   },
+   {
+    "t": "p",
+    "x": "Careers change. Money comes and goes. Relationships begin and end. Plans work and fail. Through all of it, one person is still there."
+   },
+   {
+    "t": "p",
+    "x": "You."
+   },
+   {
+    "t": "p",
+    "x": "So the question isn't only what do I want. It's who am I becoming while I chase it."
+   },
+   {
+    "t": "p",
+    "x": "You can get exactly what you wanted and not like who you became to get it. You can earn more and lose your peace. Build a career and lose your character. Be admired by everyone and still feel uncomfortable alone with yourself."
+   },
+   {
+    "t": "p",
+    "x": "Your habits. Your honesty. Your discipline. Your patience. Your kindness. Your ability to keep your word when no one is watching."
+   },
+   {
+    "t": "p",
+    "x": "None of that looks impressive early on. It doesn't get applause. Over time it becomes the foundation everything else stands on."
+   },
+   {
+    "t": "p",
+    "x": "Because the person you become is the one who has to live with your choices. Not for a day. Not for a season. For the rest of it."
+   },
+   {
+    "t": "p",
+    "x": "So don't only ask what you want to have. Ask what kind of person you're turning into."
+   },
+   {
+    "t": "p",
+    "x": "That question is heavier than the others, because it doesn't measure success. It measures the person success left behind."
+   },
+   {
+    "t": "p",
+    "x": "Character."
+   }
+  ]
+ },
+ {
+  "n": 64,
+  "part": "Become Someone You Respect",
+  "title": "Final Letter",
+  "kicker": "Author kayemba hamcodes hamiidu",
+  "words": 91,
+  "blocks": [
+   {
+    "t": "p",
+    "x": "If you made it this far, thank you. Not only for reading. For giving your time to someone you'll probably never meet."
+   },
+   {
+    "t": "p",
+    "x": "Years from now you won't remember every page of this. That's fine. I don't remember every lesson my own teachers taught me either. I remember how a few of them made me think. How a few of them made me believe I could be more than I'd assumed."
+   },
+   {
+    "t": "p",
+    "x": "If this did that for you even once, it did its job."
+   },
+   {
+    "t": "p",
+    "x": "Whatever you do next, make it count."
+   },
+   {
+    "t": "p",
+    "x": "@Hamcodes K.H"
+   }
+  ]
+ }
+]

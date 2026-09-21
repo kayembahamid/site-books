@@ -5,6 +5,10 @@
    maroon glow: a soft coloured shadow under buttons, cards and covers rather
    than a hard outline.
 
+   The page reads off-white. Maroon is the ink and the brand, not the floor.
+   Only three surfaces run deep: the header, the hero, and the Bro 2 Bro band
+   into the footer. Everything between them is paper.
+
    The layout in main.css is ported from netizen.hamcodes.com, so netizen's
    token names are kept as aliases at the bottom pointing at this palette.
    Author new rules against the names in the first block. */
@@ -14,19 +18,22 @@
   --ground:   #FAF7F5;   /* off-white page */
   --paper:    #FFFFFF;   /* cards */
   --paper-2:  #F3EBE8;   /* tinted band */
+  --paper-3:  #EFE3DF;   /* deepest paper, the audience strip */
 
   /* ---- Ink ---- */
   --ink:      #1E1013;
   --ink-2:    #5C4449;
-  --ink-3:    #8B6F75;
+  --ink-3:    #7A5F66;   /* meta. Darkened from #8B6F75 to clear 4.5:1 on paper */
 
   /* ---- Maroon ---- */
   --maroon:      #8C1C2F;   /* primary */
   --maroon-2:    #AE2739;   /* lighter, hover and second accent */
   --maroon-soft: #F6E7E9;   /* tint behind eyebrows */
+  --maroon-line: rgba(140,28,47,.22);
   --deep:        #45101C;   /* deepest maroon, dark surfaces */
-  --band:        #2A0C16;   /* the Bro 2 Bro band */
+  --band:        #2A0C16;   /* header, hero, the Bro 2 Bro band */
   --gold:        #C9962C;   /* the one warm accent that sits with maroon */
+  --gold-ink:    #7A5A12;   /* the gold, dark enough to be read on paper */
 
   --rule:     #E9DDD9;
 
@@ -42,6 +49,12 @@
   --on-dark:      #F6EDE9;
   --on-dark-mute: rgba(246,237,233,.74);
   --on-dark-line: rgba(246,237,233,.16);
+  --rose:         #E8A9B2;   /* the light maroon that reads on a dark band */
+
+  /* ---- Paper grain ----
+     One tile of fractal noise, laid over the whole page at a low opacity so
+     the off-white reads as paper rather than as flat #FAF7F5. */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
 
   --display: "Sora", system-ui, sans-serif;
   --body:    "Plus Jakarta Sans", system-ui, sans-serif;
