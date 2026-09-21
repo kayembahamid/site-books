@@ -20,6 +20,29 @@ Preview locally with a server, not by opening the file. `include.js` uses
 
     python3 -m http.server 8080
 
+## This site is a migration, not a rebuild
+
+The section layouts here are netizen.hamcodes.com's, moved across rather than
+reinvented: the alternating book rows, the three blog series with their cover
+art, the Bro 2 Bro band with its browser mockup, the mentorship features and
+flyer gallery, the workbook peek strip. `main.css` is ported from netizen's
+`styles.css` and keeps its class names, so a fix on one site can be carried to
+the other by hand without translation.
+
+The retheme happens in `tokens.css`. The Books palette is defined there under
+its own names, and netizen's token names are kept as aliases pointing at it.
+That alias block is what lets the ported rules work unchanged. Author new
+rules against the Books names.
+
+The one place the site goes dark is the Bro 2 Bro band, which matches
+brotobro.hamcodes.com's own wine-dark identity, and the mentorship band below
+it. Everything else is sunlit paper.
+
+`index.html` is hand-authored and is the source of truth for section markup.
+`scripts/gen_pages.py` lifts whole sections out of it to build /books/,
+/blog/, /resources.html, /mentorship.html and 404.html, so a page and the home
+page cannot drift apart.
+
 ## Palette
 
 Every colour on the site is a custom property in `assets/css/tokens.css`.
@@ -66,7 +89,7 @@ Loaded from Google Fonts in one `<link>` in every page head.
     bro/index.html          Bro 2 Bro table of contents
     bro/notes/NNN-slug.html one page per note, 62 of them
     bro/notes.json          generated index of the notes, for future tooling
-    blog/index.html         three verticals as tabs, linking out to hamcodes.com
+    blog/index.html         the three series, lifted from the home page
     resources.html          the workbook and five worksheets
     mentorship.html         Private Tech Mentorship pitch and apply
     404.html
@@ -80,6 +103,7 @@ Loaded from Google Fonts in one `<link>` in every page head.
     assets/img/books/       the four cover mockups, png and webp
     assets/og/              per-page social cards, 11 of them
     scripts/gen_books.py    regenerates the book pages from one data table
+    scripts/gen_pages.py    builds the other pages from the home page sections
     scripts/gen_bro.py      regenerates the Bro notes from the book source
     scripts/gen_og.py       regenerates the OG cards
     assets/workbook/        the six PDF downloads

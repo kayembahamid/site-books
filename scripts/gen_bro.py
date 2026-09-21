@@ -52,6 +52,7 @@ HEAD = '''<!doctype html>
 <body data-page="bro">
 
 <a class="skip" href="#main">Skip to content</a>
+<div data-include="/partials/icons.html" hidden></div>
 <header class="site-header" data-include="/partials/header.html"></header>
 
 <main id="main">
@@ -96,14 +97,14 @@ toc = HEAD.format(
 ) + '''
   <section class="hero">
     <div class="wrap">
-      <p class="eyebrow">Bro 2 Bro · Free to read</p>
+      <span class="eyebrow r">Bro 2 Bro &middot; Free to read</span>
       <h1>Bro, nobody told me.</h1>
-      <p class="sub">Life after school, one note at a time. The stuff nobody explains before you have to figure it out the hard way. {count} notes, free, no sign-up.</p>
+      <p class="lead">Life after school, one note at a time. The stuff nobody explains before you have to figure it out the hard way. {count} notes, free, no sign-up.</p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="/bro/notes/{first}.html">Start at the beginning</a>
-        <a class="btn btn-ghost" href="#contents">Jump to a note</a>
+        <a class="btn btn-primary btn-lg" href="/bro/notes/{first}.html">Start at the beginning <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+        <a class="btn btn-ghost btn-lg" href="#contents">Jump to a note</a>
       </div>
-      <div class="trust">
+      <div class="trust" style="margin-top:2rem">
         <span><strong>{count} notes</strong>Read one, or read it all</span>
         <span><strong>{parts} parts</strong>Yourself, work, money, people</span>
         <span><strong>Free</strong>No sign-up, no paywall</span>
@@ -111,10 +112,10 @@ toc = HEAD.format(
     </div>
   </section>
 
-  <section class="tint" id="contents">
+  <section class="downloads" id="contents">
     <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Contents</p>
+      <div class="sec-head">
+        <span class="eyebrow g">Contents</span>
         <h2>Everything in the book.</h2>
       </div>
       <div class="bro-toc">
@@ -123,17 +124,13 @@ toc = HEAD.format(
     </div>
   </section>
 
-  <section class="tight">
-    <div class="wrap">
-      <div class="workbook-band">
-        <div>
-          <p class="eyebrow">More from Hamcodes</p>
-          <h2>Books that teach code and safety.</h2>
-          <p>Four beginner books for kids, teens and the teachers who guide them.</p>
-        </div>
-        <div>
-          <a class="btn btn-primary" href="/books/">See the books</a>
-        </div>
+  <section class="books">
+    <div class="wrap sec-head center">
+      <span class="eyebrow g">More from Hamcodes</span>
+      <h2>Books that teach code and safety.</h2>
+      <p class="lead">Beginner-friendly coding and robotics books, written so anyone can teach and anyone can learn.</p>
+      <div class="cta-row" style="justify-content:center">
+        <a class="btn btn-primary btn-lg" href="/books/">See the books <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
       </div>
     </div>
   </section>
@@ -182,9 +179,9 @@ for i, x in enumerate(NOTES):
   </div>
 
   <div class="reader reader-head">
-    <p class="eyebrow">{kicker}</p>
+    <span class="eyebrow r">{kicker}</span>
     <h1>{title}</h1>
-    <p class="meta" style="margin-top:16px">Note {n:03d} of {total} · {words} words · {part}</p>
+    <p class="note" style="margin-top:14px;font-family:var(--mono);font-size:.76rem;letter-spacing:.08em;text-transform:uppercase">Note {n:03d} of {total} &middot; {words} words &middot; {part}</p>
   </div>
 
   <article class="reader reader-body">
@@ -195,17 +192,13 @@ for i, x in enumerate(NOTES):
 {nav}
   </div>
 
-  <section class="tight">
-    <div class="wrap">
-      <div class="workbook-band">
-        <div>
-          <p class="eyebrow">Bro 2 Bro</p>
-          <h2>Read the whole thing.</h2>
-          <p>All {total} notes, free, in order or in any order you like.</p>
-        </div>
-        <div>
-          <a class="btn btn-primary" href="/bro/">All notes</a>
-        </div>
+  <section class="downloads">
+    <div class="wrap sec-head center">
+      <span class="eyebrow g">Bro 2 Bro</span>
+      <h2>Read the whole thing.</h2>
+      <p class="lead">All {total} notes, free, in order or in any order you like.</p>
+      <div class="cta-row" style="justify-content:center">
+        <a class="btn btn-primary btn-lg" href="/bro/">All notes <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
       </div>
     </div>
   </section>

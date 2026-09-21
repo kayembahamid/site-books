@@ -1,41 +1,69 @@
 /* books.hamcodes.com — design tokens
-   The Books palette. Every colour used anywhere on this site comes from
-   this file. No other hex values in main.css or in any page. */
+
+   The Books palette. Sunlit paper: warm cream ground, Hamcodes red as the
+   primary, gold and library teal for depth, bookshelf brown for the dark
+   band. Bright the way a well-lit indie bookshop is bright, not the way a
+   neon sign is bright.
+
+   The layout CSS in main.css is ported from netizen.hamcodes.com so the two
+   sites share the same structure. Netizen's token names are kept below as
+   aliases pointing at the Books palette, which is what makes that port work
+   without rewriting every rule. Author new rules against the Books names. */
 
 :root{
-  /* Ground */
+  /* ---- Books palette: the canonical names ---- */
   --ground:   #FFF8EC;
   --paper:    #FFFFFF;
   --paper-2:  #F5EDD9;
 
-  /* Ink */
   --ink:      #1A1108;
   --ink-2:    #5C4A38;
   --ink-3:    #8B7355;
 
-  /* Accents */
   --brand:    #E63946;   /* Hamcodes red, primary, everywhere */
-  --gold:     #FFB627;   /* chapter numbers, badges, foil */
-  --teal:     #0F766E;   /* secondary CTA, links */
-  --deep:     #5C3D2E;   /* headers on light, book spines */
+  --gold:     #FFB627;   /* badges, foil, per-book accent */
+  --teal:     #0F766E;   /* secondary, links, per-book accent */
+  --deep:     #5C3D2E;   /* bookshelf brown, dark band */
 
-  /* Rules and depth */
   --rule:     #E5DCC5;
-  --shadow:   0 1px 0 rgba(26,17,8,0.04), 0 12px 32px -18px rgba(26,17,8,0.15);
-  --shadow-lift: 0 2px 0 rgba(26,17,8,0.05), 0 24px 48px -24px rgba(26,17,8,0.25);
 
-  /* Type */
-  --display: "Sora", ui-sans-serif, system-ui, sans-serif;
-  --body:    "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
-  --mono:    "JetBrains Mono", ui-monospace, monospace;
+  /* Dark band (Bro 2 Bro). The one place the site goes dark, to match
+     brotobro.hamcodes.com, which has its own wine-dark identity. */
+  --band:       #241109;
+  --band-2:     #3A1A10;
+  --on-dark:      #F5EDD9;
+  --on-dark-mute: rgba(245,237,217,.74);
+  --on-dark-line: rgba(245,237,217,.16);
 
-  /* Layout */
-  --measure:  66ch;
-  --wrap:     1120px;
-  --wrap-narrow: 760px;
-  --gutter:   20px;
-  --radius:   6px;
-  --radius-sm: 3px;
+  --shadow:       0 8px 24px rgba(26,17,8,.07);
+  --shadow-lg:    0 22px 52px rgba(26,17,8,.14);
+  --shadow-color: 0 14px 28px rgba(230,57,70,.26);
+
+  --display: "Sora", system-ui, sans-serif;
+  --body:    "Plus Jakarta Sans", system-ui, sans-serif;
+  --mono:    "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --radius:    16px;
+  --radius-sm: 11px;
+  --maxw:      1120px;
+
+  /* ---- Aliases, so the ported netizen rules resolve ---- */
+  --purple:      var(--brand);
+  --purple-2:    var(--brand);
+  --purple-soft: var(--paper-2);
+  --yellow:      var(--gold);
+  --yellow-soft: var(--paper-2);
+  --orange:      var(--brand);
+  --orange-soft: var(--paper-2);
+  --teal-soft:   var(--paper-2);
+  --blue:        var(--teal);
+  --midnight:    var(--deep);
+  --mascot:      var(--teal);
+  --mascot-lit:  var(--gold);
+  --bg:          var(--ground);
+  --surface:     var(--paper);
+  --muted:       var(--ink-2);
+  --line:        var(--rule);
 
   color-scheme: light;
 }

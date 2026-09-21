@@ -24,6 +24,7 @@
 <body data-page="books">
 
 <a class="skip" href="#main">Skip to content</a>
+<div data-include="/partials/icons.html" hidden></div>
 <header class="site-header" data-include="/partials/header.html"></header>
 
 <main id="main">
@@ -32,85 +33,88 @@
     <p class="crumbs"><a href="/books/">All books</a> / Coding for Teens</p>
   </div>
 
-  <section class="hero">
-    <div class="wrap book-detail">
-      <div class="cover-col">
-        <span class="book-cover">
-            <picture>
-              <source type="image/webp" srcset="/assets/img/books/coding-for-teens.webp">
-              <img src="/assets/img/books/coding-for-teens.png" width="500" height="500" alt="Coding for Teens, My First Code" loading="eager" decoding="async">
-            </picture>
-          </span>
-      </div>
-
-      <div>
-        <p class="eyebrow">My First Code</p>
-        <h1>Coding for Teens</h1>
-        <p class="sub">The next level up, with real projects, deeper logic, and the confidence to build. From Scratch to bots and beyond.</p>
-
-        <div class="facts">
-          <div><strong>Ages 9+</strong>Reading level</div>
-          <div><strong>My First Code</strong>Series</div>
-          <div><strong>Book 02</strong>In the Hamcodes series</div>
-        </div>
-
-        <div class="cta-row">
-          <a class="btn btn-primary" href="https://www.amazon.com/gp/product/B0DGLP5JFM?ref_=dbs_mng_crcw_0&storeType=ebooks" rel="noopener">View on Amazon</a>
-          <a class="btn btn-ghost" href="/resources.html">Free workbook &rarr;</a>
+  <section class="books">
+    <div class="wrap">
+      <div class="book-row">
+        <div class="book-media"><div class="panel teens"><picture>
+            <source type="image/webp" srcset="/assets/img/books/coding-for-teens.webp">
+            <img src="/assets/img/books/coding-for-teens.png" width="500" height="500" alt="Coding for Teens, Coding for Teens" fetchpriority="high" decoding="async">
+          </picture></div></div>
+        <div class="book-info">
+          <span class="tag teens">Coding for Teens</span>
+          <h1>My First Code</h1>
+          <span class="age-badge">Ages 9+</span>
+          <p>The next level up, with real projects, deeper logic, and the confidence to build. From Scratch to bots and beyond.</p>
+          <div class="cta-row">
+            <a class="btn btn-teal btn-lg" href="https://www.amazon.com/gp/product/B0DGLP5JFM?ref_=dbs_mng_crcw_0&amp;storeType=ebooks" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+            <a class="btn btn-ghost" href="/books/coding-for-teens.html">Read more</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="paper">
-    <div class="wrap-narrow">
-      <h2>The rest of the series</h2>
-      <p style="margin-top:12px;color:var(--ink-2)">Beginner-friendly coding and robotics books, written so anyone can teach and anyone can learn.</p>
-      <div class="grid grid-3" style="margin-top:24px">
-        <a class="book-card" href="/books/coding-for-kids.html">
-          <span class="book-cover">
-            <picture>
-              <source type="image/webp" srcset="/assets/img/books/coding-for-kids.webp">
-              <img src="/assets/img/books/coding-for-kids.png" width="500" height="500" alt="Coding for Kids, My First Code" loading="lazy" decoding="async">
-            </picture>
-          </span>
-          <div class="body">
-            <p class="age">My First Code · Ages 5+</p>
-            <h3>Coding for Kids</h3>
-            <p>A playful first step into code, from Scratch to friendly bots with code.org. Big pictures, simple steps, zero jargon.</p>
-            <p class="more">Read more</p>
-          </div>
-        </a>
+  <section class="downloads">
+    <div class="wrap">
+      <div class="sec-head center">
+        <span class="eyebrow g">The Hamcodes Book Series</span>
+        <h2>The rest of the series</h2>
+        <p class="lead">Beginner-friendly coding and robotics books, written so anyone can teach and anyone can learn.</p>
+      </div>
+    </div>
+  </section>
 
-        <a class="book-card" href="/books/build-a-bot.html">
-          <span class="book-cover">
-            <picture>
-              <source type="image/webp" srcset="/assets/img/books/build-a-bot.webp">
-              <img src="/assets/img/books/build-a-bot.png" width="500" height="500" alt="Build-A-Bot, Robotics · STEAM" loading="lazy" decoding="async">
-            </picture>
-          </span>
-          <div class="body">
-            <p class="age">Robotics · STEAM · Ages 7 to 15</p>
-            <h3>Build-A-Bot</h3>
-            <p>Hands-on robotics for young makers, with 3D design, coding, and Arduino projects that actually move, light up, and beep.</p>
-            <p class="more">Read more</p>
+  <section class="books">
+    <div class="wrap">
+      <div class="book-row">
+        <div class="book-media"><div class="panel kids"><picture>
+            <source type="image/webp" srcset="/assets/img/books/coding-for-kids.webp">
+            <img src="/assets/img/books/coding-for-kids.png" width="500" height="500" alt="Coding for Kids, Coding for Kids" loading="lazy" decoding="async">
+          </picture></div></div>
+        <div class="book-info">
+          <span class="tag kids">Coding for Kids</span>
+          <h3>My First Code</h3>
+          <span class="age-badge">Ages 5+</span>
+          <p>A playful first step into code, from Scratch to friendly bots with code.org. Big pictures, simple steps, zero jargon.</p>
+          <div class="cta-row">
+            <a class="btn btn-gold btn-lg" href="https://www.amazon.com/dp/B0DFX4L8B5/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+            <a class="btn btn-ghost" href="/books/coding-for-kids.html">Read more</a>
           </div>
-        </a>
+        </div>
+      </div>
 
-        <a class="book-card" href="/books/teachers-edition.html">
-          <span class="book-cover">
-            <picture>
-              <source type="image/webp" srcset="/assets/img/books/teachers-edition.webp">
-              <img src="/assets/img/books/teachers-edition.png" width="500" height="500" alt="Teacher's Edition, Coding for Educators" loading="lazy" decoding="async">
-            </picture>
-          </span>
-          <div class="body">
-            <p class="age">Coding for Educators · For teachers</p>
-            <h3>Teacher's Edition</h3>
-            <p>Never coded before? Teach it anyway. Lesson plans, classroom activities, and everything you need to lead CS with confidence.</p>
-            <p class="more">Read more</p>
+      <div class="book-row">
+        <div class="book-media"><div class="panel bot"><picture>
+            <source type="image/webp" srcset="/assets/img/books/build-a-bot.webp">
+            <img src="/assets/img/books/build-a-bot.png" width="500" height="500" alt="Build-A-Bot, Robotics &middot; STEAM" loading="lazy" decoding="async">
+          </picture></div></div>
+        <div class="book-info">
+          <span class="tag bot">Robotics &middot; STEAM</span>
+          <h3>Build-A-Bot</h3>
+          <span class="age-badge">Ages 7 to 15</span>
+          <p>Hands-on robotics for young makers, with 3D design, coding, and Arduino projects that actually move, light up, and beep.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary btn-lg" href="https://www.amazon.com/Build-Bot-Robotics-Projects-Beginners-ebook/dp/B0FMKJT73Y/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+            <a class="btn btn-ghost" href="/books/build-a-bot.html">Read more</a>
           </div>
-        </a>
+        </div>
+      </div>
+
+      <div class="book-row">
+        <div class="book-media"><div class="panel educators"><picture>
+            <source type="image/webp" srcset="/assets/img/books/teachers-edition.webp">
+            <img src="/assets/img/books/teachers-edition.png" width="500" height="500" alt="Teacher's Edition, Coding for Educators" loading="lazy" decoding="async">
+          </picture></div></div>
+        <div class="book-info">
+          <span class="tag educators">Coding for Educators</span>
+          <h3>Teacher's Edition</h3>
+          <span class="age-badge">For teachers</span>
+          <p>Never coded before? Teach it anyway. Lesson plans, classroom activities, and everything you need to lead CS with confidence.</p>
+          <div class="cta-row">
+            <a class="btn btn-deep btn-lg" href="https://www.amazon.com/Coding-Educators-First-Code-Teachers-ebook/dp/B0F6VR4F5L/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+            <a class="btn btn-ghost" href="/books/teachers-edition.html">Read more</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -120,20 +124,6 @@
     <a href="/books/build-a-bot.html"><span>Next book</span>Build-A-Bot</a>
   </div>
 
-  <section class="tight">
-    <div class="wrap">
-      <div class="workbook-band">
-        <div>
-          <p class="eyebrow">Free, no sign-up</p>
-          <h2>The workbook, plus five worksheets.</h2>
-          <p>Printable pages that work next to this book, or on their own in a classroom.</p>
-        </div>
-        <div>
-          <a class="btn btn-primary" href="/resources.html">Get the workbook</a>
-        </div>
-      </div>
-    </div>
-  </section>
 </main>
 
 <footer class="site-footer" data-include="/partials/footer.html"></footer>

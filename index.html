@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Hamcodes Books | Beginner books that teach code, safety and growing up</title>
-<meta name="description" content="Beginner-friendly coding and robotics books, written so anyone can teach and anyone can learn. Free workbook, free blog, books on Amazon.">
+<meta name="description" content="Beginner-friendly coding and robotics books, written so anyone can teach and anyone can learn. Free workbook, free blog, Bro 2 Bro, and private tech mentorship.">
 <link rel="canonical" href="https://books.hamcodes.com/">
 <meta name="theme-color" content="#FFF8EC">
 <meta property="og:type" content="website">
@@ -24,23 +24,24 @@
 <body data-page="home">
 
 <a class="skip" href="#main">Skip to content</a>
+<div data-include="/partials/icons.html" hidden></div>
 <header class="site-header" data-include="/partials/header.html"></header>
 
 <main id="main">
 
-  <!-- HERO -->
+  <!-- ================= HERO ================= -->
   <section class="hero">
     <div class="wrap hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">Books, blog, and free workbooks · By Hamcodes</p>
-        <h1>Beginner books that teach code, safety, and <em>growing up</em>.</h1>
-        <p class="sub">Four books for kids, teens and the teachers who guide them. One book for the years right after school. Free workbook and blog while you decide.</p>
+        <span class="eyebrow r">Books, blog and free workbooks</span>
+        <h1>Beginner books that teach code, safety and <em>growing up</em>.</h1>
+        <p class="lead">Four books for kids, teens and the teachers who guide them. One book for the years right after school. Free workbook and blog while you decide.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="/books/">See the books</a>
-          <a class="btn btn-ghost" href="/resources.html">Free workbook &rarr;</a>
+          <a class="btn btn-primary btn-lg" href="#books">See the books <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+          <a class="btn btn-ghost btn-lg" href="/resources.html">Free workbook</a>
         </div>
         <div class="trust">
-          <span><strong>4 books</strong>Kids, Teens, Robotics, Educators</span>
+          <span><strong>4 books</strong>Kids, teens, robotics, educators</span>
           <span><strong>Free workbook</strong>Workbook + 5 worksheets</span>
           <span><strong>54 articles</strong>Netizenship, coding, money</span>
         </div>
@@ -48,7 +49,7 @@
 
       <div class="mascot-slot">
         <picture>
-          <source type="image/webp" srcset="/assets/img/mascot@1x.webp 380w, /assets/img/mascot.webp 760w" sizes="(max-width:760px) 130px, 230px">
+          <source type="image/webp" srcset="/assets/img/mascot@1x.webp 380w, /assets/img/mascot.webp 760w" sizes="(max-width:860px) 170px, 300px">
           <img class="ham" src="/assets/img/mascot.png" width="380" height="508" alt="Ham the robot, waving" fetchpriority="high" decoding="async">
         </picture>
         <p class="bubble">Hi. Let's read something.</p>
@@ -56,175 +57,295 @@
     </div>
   </section>
 
-  <!-- BOOK SERIES -->
-  <section class="paper">
+  <!-- ================= BOOKS ================= -->
+  <section class="books" id="books">
     <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">The Hamcodes series</p>
+      <div class="sec-head center">
+        <span class="eyebrow g">On Amazon</span>
         <h2>The Hamcodes Book Series</h2>
         <p class="lead">Beginner-friendly coding and robotics books, written so anyone can teach and anyone can learn.</p>
       </div>
 
-      <div class="grid grid-4">
-        <a class="book-card" href="/books/coding-for-kids.html">
-          <span class="book-cover">
-            <picture>
-              <source type="image/webp" srcset="/assets/img/books/coding-for-kids.webp">
-              <img src="/assets/img/books/coding-for-kids.png" width="500" height="500" alt="Coding for Kids, My First Code" loading="lazy" decoding="async">
-            </picture>
-          </span>
-          <div class="body">
-            <p class="age">My First Code · Ages 5+</p>
-            <h3>Coding for Kids</h3>
-            <p>A playful first step into code, from Scratch to friendly bots with code.org. Big pictures, simple steps, zero jargon.</p>
-            <p class="more">Read more</p>
+      <div class="book-row">
+        <div class="book-media"><div class="panel kids"><a href="/books/coding-for-kids.html"><img src="/assets/img/books/coding-for-kids.png" width="500" height="500" alt="Coding for Kids, My First Code" loading="lazy" decoding="async"></a></div></div>
+        <div class="book-info">
+          <span class="tag kids">Coding for Kids</span>
+          <h3>My First Code</h3>
+          <span class="age-badge">Ages 5+</span>
+          <p>A playful first step into code, from Scratch to friendly bots with code.org. Big pictures, simple steps, zero jargon.</p>
+          <div class="cta-row">
+            <a class="btn btn-gold btn-lg" href="https://www.amazon.com/dp/B0DFX4L8B5/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+            <a class="btn btn-ghost" href="/books/coding-for-kids.html">Read more</a>
           </div>
-        </a>
+        </div>
+      </div>
 
-        <a class="book-card" href="/books/coding-for-teens.html">
-          <span class="book-cover">
-            <picture>
-              <source type="image/webp" srcset="/assets/img/books/coding-for-teens.webp">
-              <img src="/assets/img/books/coding-for-teens.png" width="500" height="500" alt="Coding for Teens, My First Code" loading="lazy" decoding="async">
-            </picture>
-          </span>
-          <div class="body">
-            <p class="age">My First Code · Ages 9+</p>
-            <h3>Coding for Teens</h3>
-            <p>The next level up, with real projects, deeper logic, and the confidence to build. From Scratch to bots and beyond.</p>
-            <p class="more">Read more</p>
+      <div class="book-row">
+        <div class="book-media"><div class="panel teens"><a href="/books/coding-for-teens.html"><img src="/assets/img/books/coding-for-teens.png" width="500" height="500" alt="Coding for Teens, My First Code" loading="lazy" decoding="async"></a></div></div>
+        <div class="book-info">
+          <span class="tag teens">Coding for Teens</span>
+          <h3>My First Code</h3>
+          <span class="age-badge">Ages 9+</span>
+          <p>The next level up, with real projects, deeper logic, and the confidence to build. From Scratch to bots and beyond.</p>
+          <div class="cta-row">
+            <a class="btn btn-teal btn-lg" href="https://www.amazon.com/gp/product/B0DGLP5JFM?ref_=dbs_mng_crcw_0&amp;storeType=ebooks" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+            <a class="btn btn-ghost" href="/books/coding-for-teens.html">Read more</a>
           </div>
-        </a>
+        </div>
+      </div>
 
-        <a class="book-card" href="/books/build-a-bot.html">
-          <span class="book-cover">
-            <picture>
-              <source type="image/webp" srcset="/assets/img/books/build-a-bot.webp">
-              <img src="/assets/img/books/build-a-bot.png" width="500" height="500" alt="Build-A-Bot, Robotics · STEAM" loading="lazy" decoding="async">
-            </picture>
-          </span>
-          <div class="body">
-            <p class="age">Robotics · STEAM · Ages 7 to 15</p>
-            <h3>Build-A-Bot</h3>
-            <p>Hands-on robotics for young makers, with 3D design, coding, and Arduino projects that actually move, light up, and beep.</p>
-            <p class="more">Read more</p>
+      <div class="book-row">
+        <div class="book-media"><div class="panel bot"><a href="/books/build-a-bot.html"><img src="/assets/img/books/build-a-bot.png" width="500" height="500" alt="Build-A-Bot, Robotics STEAM Projects" loading="lazy" decoding="async"></a></div></div>
+        <div class="book-info">
+          <span class="tag bot">Robotics &middot; STEAM</span>
+          <h3>Build-A-Bot</h3>
+          <span class="age-badge">Ages 7 to 15</span>
+          <p>Hands-on robotics for young makers, with 3D design, coding, and Arduino projects that actually move, light up, and beep.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary btn-lg" href="https://www.amazon.com/Build-Bot-Robotics-Projects-Beginners-ebook/dp/B0FMKJT73Y/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+            <a class="btn btn-ghost" href="/books/build-a-bot.html">Read more</a>
           </div>
-        </a>
+        </div>
+      </div>
 
-        <a class="book-card" href="/books/teachers-edition.html">
-          <span class="book-cover">
-            <picture>
-              <source type="image/webp" srcset="/assets/img/books/teachers-edition.webp">
-              <img src="/assets/img/books/teachers-edition.png" width="500" height="500" alt="Teacher's Edition, Coding for Educators" loading="lazy" decoding="async">
-            </picture>
-          </span>
-          <div class="body">
-            <p class="age">Coding for Educators · For teachers</p>
-            <h3>Teacher's Edition</h3>
-            <p>Never coded before? Teach it anyway. Lesson plans, classroom activities, and everything you need to lead CS with confidence.</p>
-            <p class="more">Read more</p>
+      <div class="book-row">
+        <div class="book-media"><div class="panel educators"><a href="/books/teachers-edition.html"><img src="/assets/img/books/teachers-edition.png" width="500" height="500" alt="Coding for Educators, Teacher's Edition" loading="lazy" decoding="async"></a></div></div>
+        <div class="book-info">
+          <span class="tag educators">Coding for Educators</span>
+          <h3>Teacher's Edition</h3>
+          <span class="age-badge">For teachers</span>
+          <p>Never coded before? Teach it anyway. Lesson plans, classroom activities, and everything you need to lead CS with confidence.</p>
+          <div class="cta-row">
+            <a class="btn btn-deep btn-lg" href="https://www.amazon.com/Coding-Educators-First-Code-Teachers-ebook/dp/B0F6VR4F5L/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+            <a class="btn btn-ghost" href="/books/teachers-edition.html">Read more</a>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- BRO 2 BRO -->
-  <section>
+  <!-- ================= WORKBOOK ================= -->
+  <section class="downloads" id="workbook">
     <div class="wrap">
-      <div class="strip accent">
+      <div class="sec-head center">
+        <span class="eyebrow r">Free &middot; Print and teach</span>
+        <h2>The Digital Netizenship Workbook</h2>
+        <p class="lead">A complete internet-safety workbook plus 5 classroom-ready worksheets. Peek inside below, then take it. No sign-up.</p>
+      </div>
+
+      <div class="dl-grid">
+        <div class="dl-visual">
+          <div class="dl-cover"><img src="/assets/img/ebook/cover-01.png" alt="The Digital Netizenship Workbook cover" loading="lazy" decoding="async"></div>
+          <div class="dl-peek">
+            <img src="/assets/img/ebook/page-02.png" alt="Workbook page" loading="lazy" decoding="async">
+            <img src="/assets/img/ebook/page-03.png" alt="Workbook page" loading="lazy" decoding="async">
+            <img src="/assets/img/ebook/page-04.png" alt="Workbook page" loading="lazy" decoding="async">
+            <img src="/assets/img/ebook/page-05.png" alt="Workbook page" loading="lazy" decoding="async">
+          </div>
+          <span class="dl-peek-label"><svg class="ic"><use href="#i-image"/></svg> Swipe to peek inside the workbook</span>
+        </div>
+
         <div>
-          <p class="eyebrow">Bro Nobody Told Me</p>
-          <h2>The book for the years right after school.</h2>
-          <p>Sixty two notes on money, work, people and figuring yourself out. Written for the student who closed the door and asked the question nobody answers in class. Free to read in full, note by note.</p>
+          <ul class="dl-list">
+            <li>
+              <span class="dl-name"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span> Digital Netizenship Workbook</span>
+              <a class="dl-get" href="/assets/workbook/digital-netizenship-workbook.pdf" download>PDF <svg class="ic"><use href="#i-download"/></svg></a>
+            </li>
+            <li>
+              <span class="dl-name"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span> Clickbait and Phishing worksheet</span>
+              <a class="dl-get" href="/assets/workbook/worksheet-clickbait-phishing.pdf" download>PDF <svg class="ic"><use href="#i-download"/></svg></a>
+            </li>
+            <li>
+              <span class="dl-name"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span> Recognizing and Avoiding Scams worksheet</span>
+              <a class="dl-get" href="/assets/workbook/worksheet-scams.pdf" download>PDF <svg class="ic"><use href="#i-download"/></svg></a>
+            </li>
+            <li>
+              <span class="dl-name"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span> Scenario-Sorting worksheet</span>
+              <a class="dl-get" href="/assets/workbook/worksheet-scenario-sorting.pdf" download>PDF <svg class="ic"><use href="#i-download"/></svg></a>
+            </li>
+            <li>
+              <span class="dl-name"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span> Internet-Safety Crossword</span>
+              <a class="dl-get" href="/assets/workbook/worksheet-crossword.pdf" download>PDF <svg class="ic"><use href="#i-download"/></svg></a>
+            </li>
+            <li>
+              <span class="dl-name"><span class="tick"><svg class="ic"><use href="#i-check"/></svg></span> Course-Review sheet</span>
+              <a class="dl-get" href="/assets/workbook/worksheet-course-review.png" download>PNG <svg class="ic"><use href="#i-download"/></svg></a>
+            </li>
+          </ul>
           <div class="cta-row">
-            <a class="btn btn-primary" href="/bro/">Read the notes</a>
+            <a class="btn btn-primary btn-lg" href="/resources.html">All the resources <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
           </div>
         </div>
-        <div class="aside">
-          <ul>
-            <li><strong>Start with yourself</strong>You don't need to know everything yet.</li>
-            <li><strong>Find your way in</strong>Your first job will probably suck.</li>
-            <li><strong>What money is doing</strong>Every dollar needs a job.</li>
-            <li><strong>How to deal with people</strong>People want to feel heard.</li>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BLOG ================= -->
+  <section class="blog" id="blog">
+    <div class="wrap">
+      <div class="sec-head center">
+        <span class="eyebrow r">From the Hamcodes blog</span>
+        <h2>Read up before you teach it</h2>
+        <p class="lead">Plain-English guides on online safety, computer science and money, written for students, parents and teachers starting from zero.</p>
+      </div>
+
+      <div class="blog-feed">
+
+        <div class="blog-row net">
+          <div class="blog-row-head">
+            <div>
+              <span class="kicker">Digital Netizenship</span>
+              <h3>Staying safe, private and decent online.</h3>
+            </div>
+            <a class="see-all" href="https://hamcodes.com/blogs/financial-literacy-1" rel="noopener">See all 6 posts <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+          </div>
+          <div class="blog-grid">
+            <a class="post" href="https://hamcodes.com/blogs/financial-literacy-1/digital-netizenship-skills" rel="noopener">
+              <span class="post-thumb"><span class="post-latest">Latest</span><img src="/assets/img/blog/net-1.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="post-body"><span class="post-date">7 Dec 2025</span><b>Digital Netizenship: 11 Skills for Staying Safe and Smart Online</b><p>The eleven habits that separate a good netizen from an easy target, from privacy settings to spotting manipulation.</p><span class="post-go">Read the post <svg class="ic"><use href="#i-arrow-forward"/></svg></span></span>
+            </a>
+            <a class="post" href="https://hamcodes.com/blogs/financial-literacy-1/recognize-and-avoid-scams-guide" rel="noopener">
+              <span class="post-thumb"><img src="/assets/img/blog/net-2.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="post-body"><span class="post-date">25 Oct 2025</span><b>Recognize and Avoid Scams</b><p>The red flags that give a scam away, what counts as sensitive data, and what to do when a message feels off.</p><span class="post-go">Read the post <svg class="ic"><use href="#i-arrow-forward"/></svg></span></span>
+            </a>
+            <a class="post" href="https://hamcodes.com/blogs/financial-literacy-1/cybersecurity-tips-stay-safe-online" rel="noopener">
+              <span class="post-thumb"><img src="/assets/img/blog/net-3.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="post-body"><span class="post-date">25 Oct 2025</span><b>Improve Your Cybersecurity</b><p>Small daily habits that keep a phone and a laptop out of trouble, explained without a single piece of jargon.</p><span class="post-go">Read the post <svg class="ic"><use href="#i-arrow-forward"/></svg></span></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="blog-row code">
+          <div class="blog-row-head">
+            <div>
+              <span class="kicker">Hacking &amp; Coding</span>
+              <h3>Computer science made teachable, from blocks to functions.</h3>
+            </div>
+            <a class="see-all" href="https://hamcodes.com/blogs/hacking_coding" rel="noopener">See all 18 posts <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+          </div>
+          <div class="blog-grid">
+            <a class="post" href="https://hamcodes.com/blogs/hacking_coding/functions-in-coding-a-beginner-friendly-guide-for-teachers" rel="noopener">
+              <span class="post-thumb"><span class="post-latest">Latest</span><img src="/assets/img/blog/code-1.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="post-body"><span class="post-date">6 Apr 2025</span><b>Functions in Coding. A Beginner-Friendly Guide for Teachers</b><p>What a function actually is, why it makes code shorter, and how to teach it using Minecraft and Scratch.</p><span class="post-go">Read the post <svg class="ic"><use href="#i-arrow-forward"/></svg></span></span>
+            </a>
+            <a class="post" href="https://hamcodes.com/blogs/hacking_coding/teaching-conditionals-in-coding-educators" rel="noopener">
+              <span class="post-thumb"><img src="/assets/img/blog/code-2.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="post-body"><span class="post-date">25 Mar 2025</span><b>Teaching Conditionals in Coding: A Guide for Educators</b><p>How to explain if and else to a class that has never coded, using the choices students already make every day.</p><span class="post-go">Read the post <svg class="ic"><use href="#i-arrow-forward"/></svg></span></span>
+            </a>
+            <a class="post" href="https://hamcodes.com/blogs/hacking_coding/teaching-loops-in-coding-for-educators" rel="noopener">
+              <span class="post-thumb"><img src="/assets/img/blog/code-3.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="post-body"><span class="post-date">20 Mar 2025</span><b>Teaching Loops in Coding: A Guide for Educators</b><p>Loops turn twenty blocks into three. A classroom-ready way to show students why repetition is so powerful.</p><span class="post-go">Read the post <svg class="ic"><use href="#i-arrow-forward"/></svg></span></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="blog-row money">
+          <div class="blog-row-head">
+            <div>
+              <span class="kicker">Financial Literacy</span>
+              <h3>Money skills every young person leaves school needing.</h3>
+            </div>
+            <a class="see-all" href="https://hamcodes.com/blogs/financial-literacy" rel="noopener">See all 30 posts <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+          </div>
+          <div class="blog-grid">
+            <a class="post" href="https://hamcodes.com/blogs/financial-literacy/frugal-living-time-value-of-money" rel="noopener">
+              <span class="post-thumb"><span class="post-latest">Latest</span><img src="/assets/img/blog/money-1.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="post-body"><span class="post-date">7 Dec 2025</span><b>The Upside of Frugality: How Small Savings Become Big Gains</b><p>A penny saved can be worth far more than a penny earned once you understand the time value of money.</p><span class="post-go">Read the post <svg class="ic"><use href="#i-arrow-forward"/></svg></span></span>
+            </a>
+            <a class="post" href="https://hamcodes.com/blogs/financial-literacy/bull-vs-bear-market-basics" rel="noopener">
+              <span class="post-thumb"><img src="/assets/img/blog/money-2.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="post-body"><span class="post-date">30 Nov 2025</span><b>Bull vs Bear Markets: Stock Market Terms Every Investor Should Know</b><p>Bull, bear, correction, index. The stock-market vocabulary to learn before putting in a single dollar.</p><span class="post-go">Read the post <svg class="ic"><use href="#i-arrow-forward"/></svg></span></span>
+            </a>
+            <a class="post" href="https://hamcodes.com/blogs/financial-literacy/what-is-a-credit-score" rel="noopener">
+              <span class="post-thumb"><img src="/assets/img/blog/money-3.jpg" alt="" loading="lazy" decoding="async"></span>
+              <span class="post-body"><span class="post-date">30 Nov 2025</span><b>What Is a Credit Score? How It Works, Ranges, and Why It Matters</b><p>What the number actually means, what pushes it up and down, and why it decides the price of borrowing.</p><span class="post-go">Read the post <svg class="ic"><use href="#i-arrow-forward"/></svg></span></span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="blog-foot">
+        <a class="btn btn-ghost btn-lg" href="https://hamcodes.com/blogs/financial-literacy-1" rel="noopener"><svg class="ic"><use href="#i-menu-book"/></svg> Browse every article on hamcodes.com</a>
+        <p class="note">New articles are published on hamcodes.com. These are the three most recent from each series.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BRO 2 BRO ================= -->
+  <section class="brobook" id="brotobro">
+    <div class="wrap brobook-grid">
+      <div>
+        <span class="eyebrow bb">New &middot; For the years after school</span>
+        <h2>Bro, nobody told me.</h2>
+        <p class="lead">A book for students who just left school and are working out what happens next. Money, first jobs, picking a direction, dealing with people. Written as a conversation, because that is how it started.</p>
+        <ul class="brobook-points">
+          <li><svg class="ic"><use href="#i-check"/></svg> 62 notes, read one at a time or straight through</li>
+          <li><svg class="ic"><use href="#i-check"/></svg> Free to read, nothing to sign up for</li>
+          <li><svg class="ic"><use href="#i-check"/></svg> Works in your language with your browser's translate</li>
+        </ul>
+        <div class="cta-row">
+          <a class="btn btn-primary btn-lg" href="/bro/">Read the whole thing <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+        </div>
+        <p class="note">books.hamcodes.com/bro</p>
+      </div>
+
+      <a class="brobook-frame" href="/bro/" aria-label="Read Bro, nobody told me">
+        <span class="brobook-bar">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="brobook-url">books.hamcodes.com/bro</span>
+        </span>
+        <img src="/assets/img/brotobro-sneak.jpg" alt="The Bro 2 Bro reader" loading="lazy" decoding="async">
+      </a>
+    </div>
+  </section>
+
+  <!-- ================= MENTORSHIP ================= -->
+  <section class="mentor" id="mentorship">
+    <div class="wrap">
+      <div class="mentor-grid">
+        <div>
+          <span class="eyebrow bb">Private &middot; By application</span>
+          <h2>Private Tech Mentorship</h2>
+          <p class="lead">One-on-one guidance for young coders and the educators who teach them. A personal path from the first line of code to real, finished projects.</p>
+          <ul class="mentor-features">
+            <li>
+              <span class="ic-box"><svg class="ic"><use href="#i-route"/></svg></span>
+              <span><b>Personalised roadmap</b><span>Built around each learner's age, goals, and pace.</span></span>
+            </li>
+            <li>
+              <span class="ic-box"><svg class="ic"><use href="#i-smart-toy"/></svg></span>
+              <span><b>Real projects</b><span>From Scratch and code.org to robotics and Arduino builds.</span></span>
+            </li>
+            <li>
+              <span class="ic-box"><svg class="ic"><use href="#i-shield"/></svg></span>
+              <span><b>Safety-first mindset</b><span>Digital citizenship woven into every session.</span></span>
+            </li>
           </ul>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- BLOG -->
-  <section class="tint">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">From the blog</p>
-        <h2>Read up before you teach it.</h2>
-        <p class="lead">Plain-English guides on online safety, computer science and money. 54 articles across three verticals, free to read.</p>
-      </div>
-
-      <div class="grid grid-3">
-        <a class="post-card" href="https://hamcodes.com/blogs/financial-literacy-1/digital-netizenship-skills" rel="noopener">
-          <span class="tag netizenship">Digital Netizenship</span>
-          <h3>Digital Netizenship: 11 Skills for Staying Safe and Smart Online</h3>
-          <p>The eleven habits that separate a good netizen from an easy target, from privacy settings to spotting manipulation.</p>
-          <p class="meta">7 Dec 2025 · On hamcodes.com</p>
-        </a>
-
-        <a class="post-card" href="https://hamcodes.com/blogs/hacking_coding/teaching-loops-in-coding-for-educators" rel="noopener">
-          <span class="tag hacking">Hacking &amp; Coding</span>
-          <h3>Teaching Loops in Coding: A Guide for Educators</h3>
-          <p>Loops turn twenty blocks into three. A classroom-ready way to show students why repetition is so powerful.</p>
-          <p class="meta">20 Mar 2025 · On hamcodes.com</p>
-        </a>
-
-        <a class="post-card" href="https://hamcodes.com/blogs/financial-literacy/what-is-a-credit-score" rel="noopener">
-          <span class="tag money">Financial Literacy</span>
-          <h3>What Is a Credit Score? How It Works, Ranges, and Why It Matters</h3>
-          <p>What the number actually means, what pushes it up and down, and why it decides the price of borrowing.</p>
-          <p class="meta">30 Nov 2025 · On hamcodes.com</p>
-        </a>
-      </div>
-
-      <div class="cta-row">
-        <a class="btn btn-ghost" href="/blog/">All articles &rarr;</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- MENTORSHIP -->
-  <section>
-    <div class="wrap">
-      <div class="strip reverse">
-        <div class="aside">
-          <ul>
-            <li><strong>Personalised roadmap</strong>Built around where the student actually is.</li>
-            <li><strong>Real projects</strong>Something that works by the end of it.</li>
-            <li><strong>Safety-first mindset</strong>Security taught alongside the code.</li>
-          </ul>
-        </div>
-        <div>
-          <p class="eyebrow">Private Tech Mentorship</p>
-          <h2>One-on-one guidance for young coders and the educators who teach them.</h2>
-          <p>Ages 8 to 16. Spots limited to 5 students, taken by application, so every student gets real attention.</p>
-          <div class="cta-row">
-            <a class="btn btn-teal" href="/mentorship.html">Learn more</a>
-          </div>
+        <div class="mentor-card">
+          <span class="ic-badge"><svg class="ic"><use href="#i-rocket-launch"/></svg></span>
+          <h3>Apply for mentorship</h3>
+          <p>Spots are limited to 5 students and taken by application. Tell us about the learner and we'll be in touch.</p>
+          <a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLScNJ9Ry-ul7LWuBziJR_wOSmRr9I8jx1idgwrA0Hn0-GV1BBw/viewform" target="_blank" rel="noopener">Start your application <svg class="ic"><use href="#i-arrow-forward"/></svg></a>
+          <p class="note">You'll be taken to a short Google Form. No payment required to apply.</p>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- WORKBOOK CTA -->
-  <section class="tight">
-    <div class="wrap">
-      <div class="workbook-band">
-        <div>
-          <p class="eyebrow">Free, no sign-up</p>
-          <h2>The workbook, plus five worksheets.</h2>
-          <p>A complete internet-safety workbook and 5 classroom-ready worksheets. Printable, downloaded directly, nothing to subscribe to.</p>
+      <div class="mentor-gallery">
+        <div class="mentor-gallery-head">
+          <h3>Inside the program</h3>
+          <span class="mentor-hint"><svg class="ic"><use href="#i-arrow-forward"/></svg> Scroll to explore</span>
         </div>
-        <div>
-          <a class="btn btn-primary" href="/resources.html">Get the workbook</a>
+        <div class="mentor-strip">
+          <img src="/assets/img/mentorship/slide-1.png" alt="Future Technology Innovators, private technology mentorship" loading="lazy" decoding="async">
+          <img src="/assets/img/mentorship/slide-3.png" alt="Mentorship programme slide" loading="lazy" decoding="async">
+          <img src="/assets/img/mentorship/slide-4.png" alt="Mentorship programme slide" loading="lazy" decoding="async">
+          <img src="/assets/img/mentorship/slide-5.png" alt="Mentorship programme slide" loading="lazy" decoding="async">
+          <img src="/assets/img/mentorship/slide-6.png" alt="Mentorship programme slide" loading="lazy" decoding="async">
+          <img src="/assets/img/mentorship/slide-7.png" alt="Mentorship programme slide" loading="lazy" decoding="async">
+          <img src="/assets/img/mentorship/slide-9.png" alt="Mentorship programme slide" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
