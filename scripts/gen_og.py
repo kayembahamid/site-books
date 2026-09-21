@@ -113,15 +113,14 @@ def card(path, eyebrow, headline, meta, cover=None, cover_label=None, mascot=Fal
 
 cards = [
     ("home.png", "Books, blog and free workbooks", "Beginner books that teach code, safety, and growing up.", "books.hamcodes.com", None, None, True),
-    ("books.png", "Hamcodes / Books", "Every book we have written, in one place.", "Four books, plus Bro Nobody Told Me", None, None, False),
-    ("coding-for-kids.png", "Book 01 of the Hamcodes series", "Coding for Kids", "Ages 8 to 12 · 148 pages · 24 lessons", GOLD, "Coding for Kids", False),
-    ("coding-for-teens.png", "Book 02 of the Hamcodes series", "Coding for Teens", "Ages 13 to 17 · 216 pages · 30 lessons", TEAL, "Coding for Teens", False),
-    ("build-a-bot.png", "Book 03 of the Hamcodes series", "Build-A-Bot", "Ages 10 to 16 · 192 pages · 18 builds", BRAND, "Build-A-Bot", False),
-    ("teachers-edition.png", "Book 04 of the Hamcodes series", "Teacher's Edition", "For educators · 240 pages · Full scope and sequence", DEEP, "Teacher's Edition", False),
+    ("books.png", "Hamcodes / Books", "The Hamcodes Book Series", "Coding, robotics and the teacher's edition", None, None, False),
+    ("coding-for-kids.png", "My First Code", "Coding for Kids", "Ages 5+ · From Scratch to friendly bots", GOLD, "Coding for Kids", False),
+    ("coding-for-teens.png", "My First Code", "Coding for Teens", "Ages 9+ · Real projects, deeper logic", TEAL, "Coding for Teens", False),
+    ("build-a-bot.png", "Robotics · STEAM", "Build-A-Bot", "Ages 7 to 15 · 3D design, coding, Arduino", BRAND, "Build-A-Bot", False),
+    ("teachers-edition.png", "Coding for Educators", "Teacher's Edition", "For teachers · Never coded before? Teach it anyway", DEEP, "Teacher's Edition", False),
     ("bro.png", "Bro 2 Bro · Free to read", "Bro, nobody told me.", "62 notes on life after school", None, None, False),
-    ("blog.png", "Hamcodes / Blog", "Three things worth knowing.", "Netizenship · Coding · Money", None, None, False),
-    ("blog-four-skills.png", "Digital Netizenship", "The four skills every young person online actually needs", "7 min read · books.hamcodes.com/blog", None, None, False),
-    ("resources.png", "Free · No sign-up", "The workbook, plus five worksheets.", "6 PDFs · Print at home or in class", None, None, False),
+    ("blog.png", "From the Hamcodes blog", "Read up before you teach it.", "54 articles · Netizenship, coding, money", None, None, False),
+    ("resources.png", "Free · No sign-up", "The Digital Netizenship Workbook.", "Workbook + 5 worksheets · Print and teach", None, None, False),
     ("mentorship.png", "Private Tech Mentorship", "One-on-one guidance for young coders.", "Ages 8 to 16 · 5 spots · By application", None, None, False),
 ]
 

@@ -66,8 +66,7 @@ Loaded from Google Fonts in one `<link>` in every page head.
     bro/index.html          Bro 2 Bro table of contents
     bro/notes/NNN-slug.html one page per note, 62 of them
     bro/notes.json          generated index of the notes, for future tooling
-    blog/index.html         three verticals as tabs
-    blog/posts/<slug>.html  article reader
+    blog/index.html         three verticals as tabs, linking out to hamcodes.com
     resources.html          the workbook and five worksheets
     mentorship.html         Private Tech Mentorship pitch and apply
     404.html
@@ -78,7 +77,9 @@ Loaded from Google Fonts in one `<link>` in every page head.
     assets/js/include.js    fetches and injects the partials
     assets/js/main.js       blog tabs, small interactions
     assets/img/mascot.*     Ham the robot: webp at two sizes, png fallback
+    assets/img/books/       the four cover mockups, png and webp
     assets/og/              per-page social cards, 11 of them
+    scripts/gen_books.py    regenerates the book pages from one data table
     scripts/gen_bro.py      regenerates the Bro notes from the book source
     scripts/gen_og.py       regenerates the OG cards
     assets/workbook/        the six PDF downloads
@@ -138,27 +139,40 @@ The speech bubble stays HTML, so the line changes without touching the art.
 `assets/img/mascot.svg` is the earlier flat placeholder, kept only as a
 fallback sketch. Nothing references it.
 
-## What still needs real assets
+## Where the content came from
 
-The scaffold is complete and every page renders. These are content drops, not
-code changes:
+Everything on this site is real. The book copy, ages, cover art, Amazon links,
+workbook files, blog posts and the mentorship form URL were all taken from the
+live netizen.hamcodes.com repo (`site-digital-netizenship`) on 21 Sep 2026,
+which is where they lived before the split.
 
-- `assets/workbook/*.pdf`: the six PDFs are linked and named, files not present.
-  This is the only thing on the site that 404s.
-- `assets/img/books/`: real cover art. Covers are currently drawn in CSS from
-  the palette, which looks deliberate rather than unfinished, so this is an
-  upgrade and not a gap.
-- Book descriptions, page counts and chapter lists in `books/*.html` are
-  written to the right shape and need the author's final numbers.
-- The blog has one full article. The rest of the 60+ posts migrate from
-  hamcodes.com in build order step 2.
-- The Amazon links on the book pages point at a search, not at an ASIN.
-- The mentorship apply button points at `https://forms.gle/`, needs the real
-  form URL.
+`scripts/gen_books.py` holds the book data as one table. If a fact is not in
+that table it does not appear on the page, which is the rule that keeps the
+book pages honest. Page counts, lesson counts and chapter lists are not in it
+because netizen never published them.
+
+The blog is an aggregator, not a host. The 54 posts still live on
+hamcodes.com and the cards link out to them. Moving the bodies here is build
+order step 2 and needs the Shopify export.
+
+Nothing on the site 404s.
+
+### Still open
+
+- The workbook on netizen sits behind an email gate. Here it downloads
+  directly, because the split spec says "free workbook, no sign-up". If the
+  gate is meant to follow it here, that is a deliberate change, not an
+  oversight.
+
+## Book covers
+
+The four covers are 500x500 product mockups, not flat cover art, so
+`.book-cover` is a 1:1 image box rather than a drawn block. Served as webp
+with a png fallback. Source files are `assets/books/*.png` in the netizen repo.
 
 ## OG cards
 
-Eleven cards in `assets/og/`, 1200x630, generated in the Books palette with the
+Ten cards in `assets/og/`, 1200x630, generated in the Books palette with the
 real Sora and JetBrains Mono. Regenerate after a copy change:
 
     python3 scripts/gen_og.py

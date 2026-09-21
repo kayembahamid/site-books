@@ -357,47 +357,18 @@ code{
   .book-card:hover{ transform:none; }
 }
 .book-cover{
-  aspect-ratio:3/4;
+  /* The covers are square product mockups, not flat art. */
+  display:block;
+  aspect-ratio:1/1;
   background:var(--paper-2);
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-end;
-  padding:20px;
-  position:relative;
+  overflow:hidden;
 }
-.book-cover .spine{
-  position:absolute;
-  left:0; top:0; bottom:0;
-  width:9px;
-  background:var(--ink);
-  opacity:0.28;
+.book-cover img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
 }
-.book-cover.kids{ background:var(--gold); }
-.book-cover.teens{ background:var(--teal); }
-.book-cover.bot{ background:var(--brand); }
-.book-cover.teachers{ background:var(--deep); }
-.book-cover .cover-kicker{
-  font-family:var(--mono);
-  font-size:10px;
-  letter-spacing:0.16em;
-  text-transform:uppercase;
-  margin-bottom:8px;
-}
-.book-cover .cover-title{
-  font-family:var(--display);
-  font-weight:700;
-  font-size:23px;
-  line-height:1.1;
-  letter-spacing:-0.025em;
-}
-.book-cover.kids .cover-kicker{ color:var(--deep); }
-.book-cover.kids .cover-title{ color:var(--ink); }
-.book-cover.teens .cover-kicker,
-.book-cover.bot .cover-kicker,
-.book-cover.teachers .cover-kicker{ color:var(--paper-2); }
-.book-cover.teens .cover-title,
-.book-cover.bot .cover-title,
-.book-cover.teachers .cover-title{ color:var(--paper); }
 
 .book-card .body{ padding:20px 22px 24px; display:flex; flex-direction:column; gap:8px; flex:1; }
 .book-card .age{
@@ -548,7 +519,7 @@ code{
 
 .book-detail{
   display:grid;
-  grid-template-columns:300px 1fr;
+  grid-template-columns:340px 1fr;
   gap:48px;
   align-items:start;
 }
