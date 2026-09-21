@@ -1,0 +1,41 @@
+/* books.hamcodes.com — design tokens
+   The Books palette. Every colour used anywhere on this site comes from
+   this file. No other hex values in main.css or in any page. */
+
+:root{
+  /* Ground */
+  --ground:   #FFF8EC;
+  --paper:    #FFFFFF;
+  --paper-2:  #F5EDD9;
+
+  /* Ink */
+  --ink:      #1A1108;
+  --ink-2:    #5C4A38;
+  --ink-3:    #8B7355;
+
+  /* Accents */
+  --brand:    #E63946;   /* Hamcodes red, primary, everywhere */
+  --gold:     #FFB627;   /* chapter numbers, badges, foil */
+  --teal:     #0F766E;   /* secondary CTA, links */
+  --deep:     #5C3D2E;   /* headers on light, book spines */
+
+  /* Rules and depth */
+  --rule:     #E5DCC5;
+  --shadow:   0 1px 0 rgba(26,17,8,0.04), 0 12px 32px -18px rgba(26,17,8,0.15);
+  --shadow-lift: 0 2px 0 rgba(26,17,8,0.05), 0 24px 48px -24px rgba(26,17,8,0.25);
+
+  /* Type */
+  --display: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --body:    "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --mono:    "JetBrains Mono", ui-monospace, monospace;
+
+  /* Layout */
+  --measure:  66ch;
+  --wrap:     1120px;
+  --wrap-narrow: 760px;
+  --gutter:   20px;
+  --radius:   6px;
+  --radius-sm: 3px;
+
+  color-scheme: light;
+}
