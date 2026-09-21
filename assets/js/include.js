@@ -47,7 +47,6 @@
       .then(function (html) {
         host.innerHTML = html;
         runScripts(host);
-        markCurrent(host);
         wireNav(host);
       })
       .catch(function (err) {
@@ -56,6 +55,9 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('[data-include]').forEach(load);
+    var hosts = Array.prototype.slice.call(document.querySelectorAll('[data-include]'));
+    Promise.all(hosts.map(load)).then(function () {
+      document.dispatchEvent(new CustomEvent('hamcodes:includes-done'));
+    });
   });
 })();

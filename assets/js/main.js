@@ -1,36 +1,59 @@
-/* main.js
-   Small page interactions. Nothing here is required for a page to render. */
+/* main.js — small page behaviour. Nothing here is needed for a page to render. */
 
 (function () {
-  /* Blog vertical tabs. Buttons carry data-filter, cards carry data-vertical. */
-  function wireTabs() {
-    var tabs = document.querySelectorAll('[data-filter]');
-    if (!tabs.length) return;
-    var cards = document.querySelectorAll('[data-vertical]');
+  var STORAGE_KEY = "hamcodes-books-unlocked";
 
-    tabs.forEach(function (tab) {
-      tab.addEventListener('click', function () {
-        var want = tab.getAttribute('data-filter');
-        tabs.forEach(function (t) {
-          t.setAttribute('aria-selected', String(t === tab));
-        });
-        cards.forEach(function (card) {
-          var show = want === 'all' || card.getAttribute('data-vertical') === want;
-          card.classList.toggle('hidden', !show);
-        });
-      });
+  /* The workbook gate. Same behaviour as netizen: an email unlocks the
+     download rows, and the unlock is remembered so a returning visitor is
+     not asked twice. The address is kept locally; wire the form to a list
+     provider when there is one. */
+  function reveal() {
+    var ok = document.getElementById("gateSuccess");
+    var links = document.getElementById("unlockedLinks");
+    var form = document.getElementById("gateForm");
+    if (ok) ok.classList.add("show");
+    if (links) links.classList.add("show");
+    if (form) form.style.display = "none";
+  }
+
+  function wireGate() {
+    var form = document.getElementById("gateForm");
+    if (!form) return;
+
+    try {
+      if (localStorage.getItem(STORAGE_KEY) === "1") reveal();
+    } catch (e) { /* private mode, blocked storage: show the form */ }
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = document.getElementById("gateEmail");
+      if (email && !email.checkValidity()) { email.reportValidity(); return; }
+      try { localStorage.setItem(STORAGE_KEY, "1"); } catch (e2) { /* fine */ }
+      reveal();
     });
   }
 
-  /* Current year in any element with data-year. */
   function wireYear() {
-    document.querySelectorAll('[data-year]').forEach(function (el) {
+    document.querySelectorAll("[data-year]").forEach(function (el) {
       el.textContent = String(new Date().getFullYear());
     });
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    wireTabs();
+  function wireCurrent() {
+    var here = document.body.getAttribute("data-page");
+    if (!here) return;
+    var link = document.querySelector('.nav-links [data-nav="' + here + '"]');
+    if (link) link.setAttribute("aria-current", "page");
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    wireGate();
+    wireYear();
+  });
+
+  /* The header arrives after the partial is injected. */
+  document.addEventListener("hamcodes:includes-done", function () {
+    wireCurrent();
     wireYear();
   });
 })();

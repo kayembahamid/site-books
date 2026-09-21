@@ -34,7 +34,7 @@ HEAD = '''<!doctype html>
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="https://books.hamcodes.com{canon}">
-<meta name="theme-color" content="#FFF8EC">
+<meta name="theme-color" content="#2A0C16">
 <meta property="og:type" content="{ogtype}">
 <meta property="og:site_name" content="Hamcodes Books">
 <meta property="og:title" content="{title}">
@@ -97,7 +97,7 @@ toc = HEAD.format(
 ) + '''
   <section class="hero">
     <div class="wrap">
-      <span class="eyebrow r">Bro 2 Bro &middot; Free to read</span>
+      <span class="eyebrow">Bro 2 Bro &middot; Free to read</span>
       <h1>Bro, nobody told me.</h1>
       <p class="lead">Life after school, one note at a time. The stuff nobody explains before you have to figure it out the hard way. {count} notes, free, no sign-up.</p>
       <div class="cta-row">
@@ -115,7 +115,7 @@ toc = HEAD.format(
   <section class="downloads" id="contents">
     <div class="wrap">
       <div class="sec-head">
-        <span class="eyebrow g">Contents</span>
+        <span class="eyebrow o">Contents</span>
         <h2>Everything in the book.</h2>
       </div>
       <div class="bro-toc">
@@ -126,7 +126,7 @@ toc = HEAD.format(
 
   <section class="books">
     <div class="wrap sec-head center">
-      <span class="eyebrow g">More from Hamcodes</span>
+      <span class="eyebrow o">More from Hamcodes</span>
       <h2>Books that teach code and safety.</h2>
       <p class="lead">Beginner-friendly coding and robotics books, written so anyone can teach and anyone can learn.</p>
       <div class="cta-row" style="justify-content:center">
@@ -179,7 +179,7 @@ for i, x in enumerate(NOTES):
   </div>
 
   <div class="reader reader-head">
-    <span class="eyebrow r">{kicker}</span>
+    <span class="eyebrow">{kicker}</span>
     <h1>{title}</h1>
     <p class="note" style="margin-top:14px;font-family:var(--mono);font-size:.76rem;letter-spacing:.08em;text-transform:uppercase">Note {n:03d} of {total} &middot; {words} words &middot; {part}</p>
   </div>
@@ -194,7 +194,7 @@ for i, x in enumerate(NOTES):
 
   <section class="downloads">
     <div class="wrap sec-head center">
-      <span class="eyebrow g">Bro 2 Bro</span>
+      <span class="eyebrow o">Bro 2 Bro</span>
       <h2>Read the whole thing.</h2>
       <p class="lead">All {total} notes, free, in order or in any order you like.</p>
       <div class="cta-row" style="justify-content:center">

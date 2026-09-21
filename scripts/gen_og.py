@@ -4,12 +4,12 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 FONTS = "/private/tmp/claude-501/-Users-macbook-Documents-1-Project/26ebaf17-3aca-4d17-8d06-c36f8a4d99ee/scratchpad/fonts"
-OUT = "/Users/macbook/Documents/1.Project/Site-books/assets/og"
-MASCOT = "/Users/macbook/Documents/1.Project/Site-books/assets/img/mascot.webp"
+OUT = "/Users/macbook/Documents/1.Project/site-books/assets/og"
+MASCOT = "/Users/macbook/Documents/1.Project/site-books/assets/img/hero-bot.png"
 
-GROUND, PAPER, PAPER2 = "#FFF8EC", "#FFFFFF", "#F5EDD9"
-INK, INK2, INK3 = "#1A1108", "#5C4A38", "#8B7355"
-BRAND, GOLD, TEAL, DEEP = "#E63946", "#FFB627", "#0F766E", "#5C3D2E"
+GROUND, PAPER, PAPER2 = "#FAF7F5", "#FFFFFF", "#F3EBE8"
+INK, INK2, INK3 = "#1E1013", "#5C4449", "#8B6F75"
+BRAND, GOLD, TEAL, DEEP = "#8C1C2F", "#C9962C", "#AE2739", "#45101C"
 
 W, H, PAD = 1200, 630, 72
 
@@ -112,7 +112,7 @@ def card(path, eyebrow, headline, meta, cover=None, cover_label=None, mascot=Fal
 
 
 cards = [
-    ("home.png", "Books, blog and free workbooks", "Beginner books that teach code, safety, and growing up.", "books.hamcodes.com", None, None, True),
+    ("home.png", "By Hamcodes", "Code with confidence. Stay safe online.", "books.hamcodes.com", None, None, True),
     ("books.png", "Hamcodes / Books", "The Hamcodes Book Series", "Coding, robotics and the teacher's edition", None, None, False),
     ("coding-for-kids.png", "My First Code", "Coding for Kids", "Ages 5+ · From Scratch to friendly bots", GOLD, "Coding for Kids", False),
     ("coding-for-teens.png", "My First Code", "Coding for Teens", "Ages 9+ · Real projects, deeper logic", TEAL, "Coding for Teens", False),

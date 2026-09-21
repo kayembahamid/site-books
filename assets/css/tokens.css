@@ -1,43 +1,47 @@
 /* books.hamcodes.com — design tokens
 
-   The Books palette. Sunlit paper: warm cream ground, Hamcodes red as the
-   primary, gold and library teal for depth, bookshelf brown for the dark
-   band. Bright the way a well-lit indie bookshop is bright, not the way a
-   neon sign is bright.
+   Off-white and maroon. The ground is warm off-white, the primary is a deep
+   maroon, and the accent that carries the brand through the page is the
+   maroon glow: a soft coloured shadow under buttons, cards and covers rather
+   than a hard outline.
 
-   The layout CSS in main.css is ported from netizen.hamcodes.com so the two
-   sites share the same structure. Netizen's token names are kept below as
-   aliases pointing at the Books palette, which is what makes that port work
-   without rewriting every rule. Author new rules against the Books names. */
+   The layout in main.css is ported from netizen.hamcodes.com, so netizen's
+   token names are kept as aliases at the bottom pointing at this palette.
+   Author new rules against the names in the first block. */
 
 :root{
-  /* ---- Books palette: the canonical names ---- */
-  --ground:   #FFF8EC;
-  --paper:    #FFFFFF;
-  --paper-2:  #F5EDD9;
+  /* ---- Ground ---- */
+  --ground:   #FAF7F5;   /* off-white page */
+  --paper:    #FFFFFF;   /* cards */
+  --paper-2:  #F3EBE8;   /* tinted band */
 
-  --ink:      #1A1108;
-  --ink-2:    #5C4A38;
-  --ink-3:    #8B7355;
+  /* ---- Ink ---- */
+  --ink:      #1E1013;
+  --ink-2:    #5C4449;
+  --ink-3:    #8B6F75;
 
-  --brand:    #E63946;   /* Hamcodes red, primary, everywhere */
-  --gold:     #FFB627;   /* badges, foil, per-book accent */
-  --teal:     #0F766E;   /* secondary, links, per-book accent */
-  --deep:     #5C3D2E;   /* bookshelf brown, dark band */
+  /* ---- Maroon ---- */
+  --maroon:      #8C1C2F;   /* primary */
+  --maroon-2:    #AE2739;   /* lighter, hover and second accent */
+  --maroon-soft: #F6E7E9;   /* tint behind eyebrows */
+  --deep:        #45101C;   /* deepest maroon, dark surfaces */
+  --band:        #2A0C16;   /* the Bro 2 Bro band */
+  --gold:        #C9962C;   /* the one warm accent that sits with maroon */
 
-  --rule:     #E5DCC5;
+  --rule:     #E9DDD9;
 
-  /* Dark band (Bro 2 Bro). The one place the site goes dark, to match
-     brotobro.hamcodes.com, which has its own wine-dark identity. */
-  --band:       #241109;
-  --band-2:     #3A1A10;
-  --on-dark:      #F5EDD9;
-  --on-dark-mute: rgba(245,237,217,.74);
-  --on-dark-line: rgba(245,237,217,.16);
+  /* ---- The maroon glow ---- */
+  --glow:      0 14px 34px -10px rgba(140,28,47,.45);
+  --glow-lg:   0 26px 60px -18px rgba(140,28,47,.42);
+  --glow-soft: 0 10px 30px -14px rgba(140,28,47,.30);
 
-  --shadow:       0 8px 24px rgba(26,17,8,.07);
-  --shadow-lg:    0 22px 52px rgba(26,17,8,.14);
-  --shadow-color: 0 14px 28px rgba(230,57,70,.26);
+  --shadow:    0 8px 24px rgba(30,16,19,.07);
+  --shadow-lg: 0 22px 52px rgba(30,16,19,.14);
+
+  /* ---- On dark ---- */
+  --on-dark:      #F6EDE9;
+  --on-dark-mute: rgba(246,237,233,.74);
+  --on-dark-line: rgba(246,237,233,.16);
 
   --display: "Sora", system-ui, sans-serif;
   --body:    "Plus Jakarta Sans", system-ui, sans-serif;
@@ -48,22 +52,16 @@
   --maxw:      1120px;
 
   /* ---- Aliases, so the ported netizen rules resolve ---- */
-  --purple:      var(--brand);
-  --purple-2:    var(--brand);
-  --purple-soft: var(--paper-2);
+  --purple:      var(--maroon);
+  --purple-soft: var(--maroon-soft);
+  --orange:      var(--maroon-2);
   --yellow:      var(--gold);
-  --yellow-soft: var(--paper-2);
-  --orange:      var(--brand);
-  --orange-soft: var(--paper-2);
-  --teal-soft:   var(--paper-2);
-  --blue:        var(--teal);
-  --midnight:    var(--deep);
-  --mascot:      var(--teal);
-  --mascot-lit:  var(--gold);
+  --teal:        var(--deep);
   --bg:          var(--ground);
   --surface:     var(--paper);
   --muted:       var(--ink-2);
   --line:        var(--rule);
+  --shadow-color: var(--glow);
 
   color-scheme: light;
 }

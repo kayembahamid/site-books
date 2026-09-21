@@ -1,69 +1,67 @@
 # books.hamcodes.com
 
-The reading side of the Hamcodes family. Books, the blog, the free workbooks,
-Bro 2 Bro, and the mentorship pitch. Audience is adults and educators.
-
-The play side lives on netizen.hamcodes.com: games, the Backchannel comic, and
-the Digital Citizen course. Nothing on this site belongs there and nothing
-there belongs here.
-
-## Stack
-
-Plain HTML5, vanilla CSS with custom-property tokens, vanilla JavaScript.
-No framework, no build step, no bundler, no TypeScript, no preprocessor.
-
-One `.html` file per route. Vercel and Cloudflare Pages serve these directly
-with no build command and the repo root as the publish directory.
-
-Preview locally with a server, not by opening the file. `include.js` uses
-`fetch()`, which does not work over `file://`:
-
-    python3 -m http.server 8080
+The reading side of the Hamcodes family: the books, the free workbook, the
+blog, Bro 2 Bro and the mentorship pitch. netizen.hamcodes.com keeps the
+games, the comic and the Digital Citizen course.
 
 ## This site is a migration, not a rebuild
 
-The section layouts here are netizen.hamcodes.com's, moved across rather than
-reinvented: the alternating book rows, the three blog series with their cover
-art, the Bro 2 Bro band with its browser mockup, the mentorship features and
-flyer gallery, the workbook peek strip. `main.css` is ported from netizen's
-`styles.css` and keeps its class names, so a fix on one site can be carried to
-the other by hand without translation.
+Every section here was moved across from netizen.hamcodes.com rather than
+reinvented: the header, the hero with the walking bot and the book shelf, the
+audience strip, the workbook with its email gate, the alternating book rows,
+the three blog series, the Bro 2 Bro band and the mentorship gallery.
 
-The retheme happens in `tokens.css`. The Books palette is defined there under
-its own names, and netizen's token names are kept as aliases pointing at it.
-That alias block is what lets the ported rules work unchanged. Author new
-rules against the Books names.
-
-The one place the site goes dark is the Bro 2 Bro band, which matches
-brotobro.hamcodes.com's own wine-dark identity, and the mentorship band below
-it. Everything else is sunlit paper.
+`main.css` is ported from netizen's `styles.css` and keeps its class names, so
+a fix on one site can be carried to the other by hand. The retheme happens in
+`tokens.css`: the palette is defined under its own names and netizen's token
+names are kept as aliases pointing at it. That alias block is what lets the
+ported rules work unchanged.
 
 `index.html` is hand-authored and is the source of truth for section markup.
 `scripts/gen_pages.py` lifts whole sections out of it to build /books/,
 /blog/, /resources.html, /mentorship.html and 404.html, so a page and the home
 page cannot drift apart.
 
-## Palette
+## Palette: off-white and maroon
 
-Every colour on the site is a custom property in `assets/css/tokens.css`.
-No other hex values anywhere, including inside page files.
+Off-white ground, white cards, deep maroon primary. The thing that carries the
+brand is the maroon glow: a soft coloured shadow under buttons, covers and
+cards rather than a hard border.
 
-| Token      | Hex       | Role                                |
-| ---------- | --------- | ----------------------------------- |
-| `--ground` | `#FFF8EC` | warm cream page ground              |
-| `--paper`  | `#FFFFFF` | card surface                        |
-| `--paper-2`| `#F5EDD9` | tinted section, aside               |
-| `--ink`    | `#1A1108` | espresso, primary text              |
-| `--ink-2`  | `#5C4A38` | secondary text                      |
-| `--ink-3`  | `#8B7355` | warm khaki, meta                    |
-| `--brand`  | `#E63946` | Hamcodes red, primary, everywhere   |
-| `--gold`   | `#FFB627` | chapter numbers, badges, foil       |
-| `--teal`   | `#0F766E` | secondary CTA, links                |
-| `--deep`   | `#5C3D2E` | book spines, dark strips            |
-| `--rule`   | `#E5DCC5` | borders                             |
+| Token           | Hex       | Role                                  |
+| --------------- | --------- | ------------------------------------- |
+| `--ground`      | `#FAF7F5` | off-white page                        |
+| `--paper`       | `#FFFFFF` | cards                                 |
+| `--paper-2`     | `#F3EBE8` | tinted band                           |
+| `--ink`         | `#1E1013` | primary text                          |
+| `--ink-2`       | `#5C4449` | secondary text                        |
+| `--ink-3`       | `#8B6F75` | meta                                  |
+| `--maroon`      | `#8C1C2F` | primary                               |
+| `--maroon-2`    | `#AE2739` | hover and second accent               |
+| `--maroon-soft` | `#F6E7E9` | tint behind eyebrows and badges       |
+| `--deep`        | `#45101C` | dark surfaces                         |
+| `--band`        | `#2A0C16` | header, audience, Bro 2 Bro band      |
+| `--gold`        | `#C9962C` | the one warm accent that sits with it |
+| `--rule`        | `#E9DDD9` | borders                               |
 
-Bright the way a well-lit indie bookshop is bright, not the way a neon sign
-is bright. The neon palette belongs to Netizen.
+`--glow`, `--glow-lg` and `--glow-soft` are the maroon shadows. Use those in
+preference to a neutral shadow anywhere something lifts off the page.
+
+The page runs dark at the top and bottom and light in the middle, the same
+rhythm netizen uses: maroon header and hero, dark audience strip, off-white
+workbook, white books, off-white blog, then the dark Bro 2 Bro and mentorship
+bands into the footer.
+
+## The workbook gate
+
+The downloads sit behind an email capture, the same as netizen. `main.js`
+reveals the six download rows on submit and remembers the unlock in
+`localStorage` under `hamcodes-books-unlocked`, so a returning visitor is not
+asked twice. Every storage call is wrapped, so a blocked or private-mode
+browser just sees the form.
+
+The address is not sent anywhere yet. Wire the form to a list provider when
+there is one; the submit handler is the only place to change.
 
 ## Type
 
