@@ -1,3 +1,8 @@
 .DS_Store
 node_modules/
 .vercel
+
+# Stray duplicates of assets/hero-bot.png and assets/logo.png, dropped at
+# the repo root during the migration. Nothing references them. Safe to delete.
+/hero-bot.png
+/logo.png

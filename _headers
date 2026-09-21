@@ -4,25 +4,19 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
 
-# Art and social cards change rarely and are never edited in place.
-/assets/img/*
-  Cache-Control: public, max-age=2592000
+# Art, the covers and the downloads. The filenames are stable and carry no
+# content hash, so a month of cache would serve a stale cover for a month
+# after a swap. A week is the compromise.
+/assets/*
+  Cache-Control: public, max-age=604800
 
-/assets/og/*
-  Cache-Control: public, max-age=2592000
-
-/assets/workbook/*
-  Cache-Control: public, max-age=86400
-
-# No content hashing on these filenames, so a long max-age would serve a stale
-# stylesheet for as long as it lasted. One hour.
-/assets/css/*
+# Not hashed either, and these three are the ones that actually change, so a
+# long max-age would pin a stale stylesheet or a stale script. One hour.
+/styles.css
   Cache-Control: public, max-age=3600
 
-/assets/js/*
+/app.js
   Cache-Control: public, max-age=3600
 
-# include.js fetches these on every page load, and they carry the nav, so a
-# stale copy is a stale header across the whole site.
-/partials/*
-  Cache-Control: public, max-age=300
+/bg.js
+  Cache-Control: public, max-age=3600

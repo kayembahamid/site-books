@@ -1,6 +1,37 @@
 # Cloudflare Pages: everything listed here stays out of the deployment.
-# The build tooling and the notes on the repo are for the repo, not the site.
-scripts
-CLAUDE.md
+# Nothing the site actually requests may appear in this file.
+
+# Repo tooling, not site
 deploy.sh
 .assetsignore
+README.md
+
+# Search Console token for the netizen property, meaningless on this domain
+google899f11d067b3a9d8.html
+
+# Left over from the netizen migration and no longer referenced by any page.
+# Every one of these still exists in ../site-digital-netizenship, so they are
+# safe to delete outright whenever you want the folder physically clean.
+assets/covers
+assets/hero.png
+assets/hero-books
+assets/build-a-bot.png
+
+# Superseded. The favicon is now assets/favicon-512.png, rendered from the
+# logo, and the covers are the transparent art in assets/books/cover.
+assets/favicon.svg
+assets/books/flat
+
+# Source art the site never serves: the logo the favicon was rendered from,
+# the old product-photo mockups, and the transparent covers as supplied
+# before they were trimmed.
+assets/logo.png
+assets/books/source
+assets/books/kids.png
+assets/books/teens.png
+assets/books/robot.png
+assets/books/educators.png
+
+# Byte-identical duplicates of the assets/ copies, sitting loose at the root
+hero-bot.png
+logo.png

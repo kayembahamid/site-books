@@ -1,49 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Page not found | Hamcodes Books</title>
-<meta name="description" content="That page is not here. Try the books, the notes, or the free workbook.">
-<link rel="canonical" href="https://books.hamcodes.com/404.html">
-<meta name="theme-color" content="#2A0C16">
-<meta name="robots" content="noindex">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Hamcodes Books">
-<meta property="og:title" content="Page not found | Hamcodes Books">
-<meta property="og:description" content="That page is not here. Try the books, the notes, or the free workbook.">
-<meta property="og:url" content="https://books.hamcodes.com/404.html">
-<meta property="og:image" content="https://books.hamcodes.com/assets/og/home.png">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/tokens.css">
-<link rel="stylesheet" href="/assets/css/main.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex" />
+<title>Page not found &middot; Hamcodes Books</title>
+<link rel="icon" href="assets/favicon-512.png" sizes="512x512" type="image/png" />
+<link rel="apple-touch-icon" href="assets/favicon-512.png" />
+<meta name="theme-color" content="#100409" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Newsreader:opsz,wght@6..72,300..500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    background: #100409; color: #f4ebdc; text-align: center; padding: 24px;
+    font-family: "Newsreader", Georgia, serif;
+  }
+  body::before {
+    content: ""; position: fixed; inset: -10vh -10vw; z-index: -1;
+    background:
+      radial-gradient(70% 48% at 50% 0%, rgba(150,30,55,.40) 0%, transparent 62%),
+      radial-gradient(60% 50% at 12% 70%, rgba(67,16,31,.42) 0%, transparent 64%),
+      linear-gradient(180deg, #1a0710 0%, #100409 55%, #0b0307 100%);
+  }
+  .code {
+    font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px;
+    letter-spacing: .24em; text-transform: uppercase; color: #e0687a; margin-bottom: 1.4rem;
+  }
+  h1 {
+    font-family: "Fraunces", Georgia, serif; font-weight: 600;
+    font-size: clamp(2rem, 6vw, 3.2rem); margin: 0 0 .5rem;
+    letter-spacing: -.024em; line-height: 1.05; color: #fff;
+  }
+  p { color: rgba(244,235,220,.70); margin: 0 0 2rem; max-width: 44ch; line-height: 1.6; }
+  a {
+    display: inline-flex; align-items: center; gap: .6em;
+    font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12px;
+    letter-spacing: .16em; text-transform: uppercase; text-decoration: none;
+    background: #f4ebdc; color: #1b0810; padding: 1.08em 1.9em; border-radius: 999px;
+    transition: transform .18s ease, background-color .18s ease;
+  }
+  a:hover { background: #fff; transform: translateY(-2px); }
+</style>
 </head>
-<body data-page="404">
-
-<a class="skip" href="#main">Skip to content</a>
-<div data-include="/partials/icons.html" hidden></div>
-<header class="site-header" data-include="/partials/header.html"></header>
-
-<main id="main">
-
-  <section class="hero">
-    <div class="wrap">
-      <span class="eyebrow">404</span>
-      <h1>That page is not here.</h1>
-      <p class="lead">It may have moved when the site split in two. The books, the notes and the workbook are all still where you would expect.</p>
-      <div class="hero-cta" style="margin-top:1.8rem"><a class="btn btn-primary btn-lg" href="/books/">See the books <svg class="ic"><use href="#i-arrow-forward"/></svg></a> <a class="btn btn-ghost btn-lg" href="/">Go home</a></div>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site-footer" data-include="/partials/footer.html"></footer>
-
-<script src="/assets/js/include.js"></script>
-<script src="/assets/js/main.js"></script>
+<body>
+  <main>
+    <div class="code">404 &middot; Not found</div>
+    <h1>That page isn't on the shelf.</h1>
+    <p>The link may be out of date, or the page may have moved. Head back and start from the books.</p>
+    <a href="/">Back to Hamcodes Books</a>
+  </main>
 </body>
 </html>

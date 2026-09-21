@@ -1,5 +1,5 @@
-# The workbook lived at /workbook on netizen.hamcodes.com before the split on
-# 21 Sep 2026. That route 301s from netizen, but it is short enough that people
-# type it directly, so honour it here too.
-/workbook    /resources.html  301
-/workbook/*  /resources.html  301
+# /workbook was the route on netizen.hamcodes.com before the split on
+# 21 Sep 2026, and it is short enough that people type it directly. The
+# workbook is a section of the one page here, so send them to it.
+/workbook    /#workbook  301
+/workbook/*  /#workbook  301
