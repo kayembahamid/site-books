@@ -18,6 +18,17 @@
   var still = window.matchMedia
     && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  /* Calm mode: phones and anything without a real pointer.
+     Two things go wrong on a phone otherwise. The parallax is driven from a
+     scroll listener while the page itself is scrolled by the compositor, so
+     the fixed layer always arrives a frame late and the background appears
+     to shudder against the page. And the field is sized from innerHeight,
+     which changes every time the URL bar hides, so the wrap point moves
+     mid-scroll. Neither is worth a parallax nobody asked for, so on a phone
+     the covers keep their slow bob and stop reacting to scroll at all. */
+  var calm = window.matchMedia
+    && window.matchMedia("(hover: none), (pointer: coarse), (max-width: 760px)").matches;
+
   var ghosts = [], field = 0, raf = 0, scroll = 0, t0 = 0;
 
   function rand(a, b) { return a + Math.random() * (b - a); }
@@ -28,7 +39,7 @@
 
     var vw = window.innerWidth;
     var n = vw < 700 ? 7 : vw < 1200 ? 11 : 15;
-    field = window.innerHeight * 2;
+    field = window.innerHeight * (calm ? 1 : 2);
 
     for (var i = 0; i < n; i++) {
       var cover = COVERS[i % COVERS.length];
@@ -63,7 +74,7 @@
     for (var i = 0; i < ghosts.length; i++) {
       var g = ghosts[i];
       var bob = still ? 0 : Math.sin(time * g.freq + g.phase) * g.amp;
-      var y = g.y - scroll * g.speed + bob;
+      var y = g.y - (calm ? 0 : scroll * g.speed) + bob;
       y = ((y % field) + field) % field;          // wrap, so they keep coming
       g.el.style.transform =
         "translate3d(0," + (y - field * 0.25).toFixed(1) + "px,0) rotate(var(--rot))";
@@ -92,8 +103,14 @@
     }
   }, { passive: true });
 
-  var t;
+  /* A phone fires resize every time the URL bar slides away, with a new
+     height and the same width. Rebuilding there would re-randomise every
+     cover mid-scroll, which is the jump you see. Only a width change, a
+     rotation or a real window resize, is worth rebuilding for. */
+  var t, lastW = window.innerWidth;
   window.addEventListener("resize", function () {
+    if (window.innerWidth === lastW) return;
+    lastW = window.innerWidth;
     clearTimeout(t);
     t = setTimeout(function () { build(); start(); }, 200);
   });
