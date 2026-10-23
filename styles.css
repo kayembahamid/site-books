@@ -744,6 +744,7 @@ a  { color: var(--rose); }
 /* -------------------------------------------------------------------------
    Bro 2 Bro
    ------------------------------------------------------------------------- */
+.puzzle { border-top: 1px solid var(--on-dark-line); }
 .bro { border-top: 1px solid var(--on-dark-line); }
 .bro-grid {
   display: grid;
