@@ -744,6 +744,7 @@ a  { color: var(--rose); }
 /* -------------------------------------------------------------------------
    Bro 2 Bro
    ------------------------------------------------------------------------- */
+.puzzle-teaser { padding: 0 0 clamp(44px, 6vw, 80px); }
 .bro { border-top: 1px solid var(--on-dark-line); }
 .bro-grid {
   display: grid;
