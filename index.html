@@ -114,7 +114,7 @@
           <span class="tag">Scratch</span>
           <span class="tag">code.org</span>
         </div>
-        <a class="btn btn-paper" href="https://www.amazon.com/dp/B0DFX4L8B5/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-paper" data-track="book_clicked" data-track-id="kids" href="https://www.amazon.com/dp/B0DFX4L8B5/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow"/></svg></a>
       </div>
     </div>
   </section>
@@ -140,7 +140,7 @@
           <span class="tag">Project-based</span>
           <span class="tag">Self-paced</span>
         </div>
-        <a class="btn btn-paper" href="https://www.amazon.com/gp/product/B0DGLP5JFM?ref_=dbs_mng_crcw_0&storeType=ebooks" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-paper" data-track="book_clicked" data-track-id="teens" href="https://www.amazon.com/gp/product/B0DGLP5JFM?ref_=dbs_mng_crcw_0&storeType=ebooks" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow"/></svg></a>
       </div>
     </div>
   </section>
@@ -166,7 +166,7 @@
           <span class="tag">Arduino</span>
           <span class="tag">3D design</span>
         </div>
-        <a class="btn btn-paper" href="https://www.amazon.com/Build-Bot-Robotics-Projects-Beginners-ebook/dp/B0FMKJT73Y/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-paper" data-track="book_clicked" data-track-id="bot" href="https://www.amazon.com/Build-Bot-Robotics-Projects-Beginners-ebook/dp/B0FMKJT73Y/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow"/></svg></a>
       </div>
     </div>
   </section>
@@ -192,7 +192,7 @@
           <span class="tag">Lesson plans</span>
           <span class="tag">No CS degree</span>
         </div>
-        <a class="btn btn-paper" href="https://www.amazon.com/Coding-Educators-First-Code-Teachers-ebook/dp/B0F6VR4F5L/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-paper" data-track="book_clicked" data-track-id="educators" href="https://www.amazon.com/Coding-Educators-First-Code-Teachers-ebook/dp/B0F6VR4F5L/" target="_blank" rel="noopener">View on Amazon <svg class="ic"><use href="#i-arrow"/></svg></a>
       </div>
     </div>
   </section>
@@ -229,7 +229,7 @@
 
           <div class="gate">
             <div class="gate-done" id="gateDone">Unlocked. Your downloads are below.</div>
-            <form id="gateForm">
+            <form id="gateForm" data-track-submit="workbook_opened">
               <label for="gateEmail">Your email, and the whole set is yours</label>
               <input type="email" id="gateEmail" name="email" placeholder="you@example.com" autocomplete="email" required />
               <button type="submit" class="btn btn-paper">Unlock the downloads <svg class="ic"><use href="#i-arrow"/></svg></button>
@@ -237,12 +237,12 @@
             </form>
 
             <div class="dl-rows" id="dlRows">
-              <div class="row"><span>The workbook</span><a href="assets/downloads/digital-netizenship-workbook.pdf" download><svg class="ic"><use href="#i-download"/></svg> PDF</a></div>
-              <div class="row"><span>Clickbait and phishing</span><a href="assets/downloads/worksheet-clickbait-phishing.pdf" download><svg class="ic"><use href="#i-download"/></svg> PDF</a></div>
-              <div class="row"><span>Avoiding scams</span><a href="assets/downloads/worksheet-scams.pdf" download><svg class="ic"><use href="#i-download"/></svg> PDF</a></div>
-              <div class="row"><span>Scenario sorting</span><a href="assets/downloads/worksheet-scenario-sorting.pdf" download><svg class="ic"><use href="#i-download"/></svg> PDF</a></div>
-              <div class="row"><span>Crossword</span><a href="assets/downloads/worksheet-crossword.pdf" download><svg class="ic"><use href="#i-download"/></svg> PDF</a></div>
-              <div class="row"><span>Course review</span><a href="assets/downloads/worksheet-course-review.png" download><svg class="ic"><use href="#i-download"/></svg> PNG</a></div>
+              <div class="row"><span>The workbook</span><a href="assets/downloads/digital-netizenship-workbook.pdf" data-track="workbook_opened" data-track-id="digital-netizenship-workbook" download><svg class="ic"><use href="#i-download"/></svg> PDF</a></div>
+              <div class="row"><span>Clickbait and phishing</span><a href="assets/downloads/worksheet-clickbait-phishing.pdf" data-track="workbook_opened" data-track-id="worksheet-clickbait-phishing" download><svg class="ic"><use href="#i-download"/></svg> PDF</a></div>
+              <div class="row"><span>Avoiding scams</span><a href="assets/downloads/worksheet-scams.pdf" data-track="workbook_opened" data-track-id="worksheet-scams" download><svg class="ic"><use href="#i-download"/></svg> PDF</a></div>
+              <div class="row"><span>Scenario sorting</span><a href="assets/downloads/worksheet-scenario-sorting.pdf" data-track="workbook_opened" data-track-id="worksheet-scenario-sorting" download><svg class="ic"><use href="#i-download"/></svg> PDF</a></div>
+              <div class="row"><span>Crossword</span><a href="assets/downloads/worksheet-crossword.pdf" data-track="workbook_opened" data-track-id="worksheet-crossword" download><svg class="ic"><use href="#i-download"/></svg> PDF</a></div>
+              <div class="row"><span>Course review</span><a href="assets/downloads/worksheet-course-review.png" data-track="workbook_opened" data-track-id="worksheet-course-review" download><svg class="ic"><use href="#i-download"/></svg> PNG</a></div>
             </div>
           </div>
         </div>
@@ -303,7 +303,7 @@
           <span class="mentor-seats">Five seats</span>
           <h3>Apply for mentorship</h3>
           <p>Places are limited to five students and taken by application. Tell us about the learner and we will be in touch.</p>
-          <a class="btn btn-paper" href="https://docs.google.com/forms/d/e/1FAIpQLScNJ9Ry-ul7LWuBziJR_wOSmRr9I8jx1idgwrA0Hn0-GV1BBw/viewform" target="_blank" rel="noopener">Start your application <svg class="ic"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-paper" data-track="mentorship_clicked" href="https://docs.google.com/forms/d/e/1FAIpQLScNJ9Ry-ul7LWuBziJR_wOSmRr9I8jx1idgwrA0Hn0-GV1BBw/viewform" target="_blank" rel="noopener">Start your application <svg class="ic"><use href="#i-arrow"/></svg></a>
           <p class="note">A short Google Form. No payment to apply.</p>
         </div>
       </div>
@@ -499,10 +499,14 @@
         <a href="https://books.hamcodes.com" aria-current="page">books.hamcodes.com</a>
       </div>
 
+      <div id="visitors" hidden data-site="books" data-label="People who explored the books" data-min="0"></div>
+
       <div class="foot-end">&copy; <span id="year">2026</span> Hamcodes (K.H). All rights reserved.</div>
     </div>
   </footer>
 
+  <script src="track.js" defer></script>
+  <script src="visitors.js" defer></script>
   <script src="bg.js"></script>
   <script src="app.js"></script>
 </body>

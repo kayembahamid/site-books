@@ -1094,3 +1094,6 @@ a  { color: var(--rose); }
   transition: opacity .7s ease, transform .7s ease;
 }
 .js-reveal [data-reveal].in { opacity: 1; transform: none; }
+
+/* the footer counter takes the room's own colours */
+#visitors { --brand: var(--rose); --muted: var(--on-dark-mute); }
